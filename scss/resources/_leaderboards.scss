@@ -52,7 +52,7 @@
 			.#{$wrs-lb-controller} {
 				font-size: 16px;
 
-				@media (min-width: 400px) {
+				@media (max-width: 320px) {
 					font-size: 12px;
 				}
 			}
@@ -105,7 +105,7 @@ $divlist: 1, 2, 3, 4;
 $divclass: "Gold", "Silver", "Bronze";
 
 [class*="div-"]{
-	@media (min-width: 320px) {
+	@media (max-width: 320px) {
 		display: none;
 	}
 }
@@ -136,7 +136,7 @@ $divclass: "Gold", "Silver", "Bronze";
     color: #19AA00;
 }
 
-.#{$wrs-lb-controller-h}, .#{$wrs-lb-controller}, .#{$wrs-lb-split-h}, .#{$wrs-lb-split}, .#{$wrs-lb-gap-h}, .#{$wrs-lb-gap} {
+.#{$wrs-lb-controller-h}, .#{$wrs-lb-controller}, .#{$wrs-lb-division-h}, .#{$wrs-lb-division},.#{$wrs-lb-split-h}, .#{$wrs-lb-split}, .#{$wrs-lb-gap-h}, .#{$wrs-lb-gap} {
     @media (max-width: 320px) {
         display: none;
     }

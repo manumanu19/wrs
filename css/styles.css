@@ -4050,7 +4050,7 @@ select .wrs-week-menu {
 .wrs-lb table tbody .wrs-lb-controller, .wrs-lb table a .wrs-lb-controller {
   font-size: 16px;
 }
-@media (min-width: 400px) {
+@media (max-width: 320px) {
   .wrs-lb table tbody .wrs-lb-controller, .wrs-lb table a .wrs-lb-controller {
     font-size: 12px;
   }
@@ -4086,7 +4086,7 @@ select .wrs-week-menu {
   background: #e5e5e5 !important;
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   [class*="div-"] {
     display: none;
   }
@@ -4227,7 +4227,7 @@ select .wrs-week-menu {
 }
 
 @media (max-width: 320px) {
-  .wrs-lb-controller-h, .wrs-lb-controller, .wrs-lb-split-h, .wrs-lb-split, .wrs-lb-gap-h, .wrs-lb-gap {
+  .wrs-lb-controller-h, .wrs-lb-controller, .wrs-lb-division-h, .wrs-lb-division, .wrs-lb-split-h, .wrs-lb-split, .wrs-lb-gap-h, .wrs-lb-gap {
     display: none;
   }
 }
