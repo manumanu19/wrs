@@ -4,7 +4,7 @@
 		{
 			position: "1", 
 			region: "uk", 
-			controller: "g27", 
+			controller: "csr-elite", 
 			driver: "GTP_Twissy",	
 			division: "1",	
 			divClass: "Gold",	
@@ -18,7 +18,7 @@
 		{
 			position: "2", 
 			region: "us", 
-			controller: "g27", 
+			controller: "fanatec-clubsport-formula", 
 			driver: "doodlemonoply",	
 			division: "1",	
 			divClass: "Gold",	
@@ -31,7 +31,7 @@
 		{
 			position: "3", 
 			region: "ca", 
-			controller: "g27", 
+			controller: "t500rs-gte-f458", 
 			driver: "Mike_Peperni",	
 			division: "1",	
 			divClass: "Gold",	
@@ -44,7 +44,7 @@
 		{	
 			position: "4",
 			region: "de",
-			controller: "",
+			controller: "t500rs-ferrari-f1",
 			driver: "RS__96__oO",	
 			division: "2",	
 			divClass: "Gold",	
@@ -58,7 +58,7 @@
 		{
 			position: "5", 
 			region: "nl", 
-			controller: "g25", 
+			controller: "fanatec-formula", 
 			driver: "GTP_PASM",	
 			division: "1",	
 			divClass: "Silver",	

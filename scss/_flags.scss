@@ -161,7 +161,7 @@ $flag-background-small: 18px 18px;
 
 @each $non-iso in $non-iso {
   .#{$non-iso} {
-    background: url('#{$flag-path}/_#{$non-iso}.#{$flag-extension}') no-repeat; 
+    background: url('#{$flag-path}/#{$non-iso}.#{$flag-extension}') no-repeat; 
     background-size: $flag-background;
 
     @media screen and (max-width: 700px ) {

@@ -3,11 +3,11 @@ $font-path: "../fonts/wrs";
 
 @font-face {
 	font-family: 'wrs';
-	src:url('#{$font-path}/wrs.eot?-x1scux');
-	src:url('#{$font-path}/wrs.eot?#iefix-x1scux') format('embedded-opentype'),
-		url('#{$font-path}/wrs.woff?-x1scux') format('woff'),
-		url('#{$font-path}/wrs.ttf?-x1scux') format('truetype'),
-		url('#{$font-path}/wrs.svg?-x1scux#wrs') format('svg');
+	src:url('#{$font-path}/wrs.eot?4omjz5');
+	src:url('#{$font-path}/wrs.eot?#iefix4omjz5') format('embedded-opentype'),
+		url('#{$font-path}/wrs.woff?4omjz5') format('woff'),
+		url('#{$font-path}/wrs.ttf?4omjz5') format('truetype'),
+		url('#{$font-path}/wrs.svg?4omjz5#wrs') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -61,6 +61,9 @@ $font-path: "../fonts/wrs";
 }
 .icon-t500rs-no-shifter:before {
 	content: "\e605";
+}
+.icon-csr-elite:before {
+	content: "\e60c";
 }
 .icon-user:before {
 	content: "\e60e";

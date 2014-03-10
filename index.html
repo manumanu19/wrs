@@ -77,7 +77,25 @@
           <!-- event information-->
           <div class="wrs-event-info">
             <div class="wrs-event-regs">
-              <ul>
+              <dl>
+                <dt>Make</dt>
+                <dd>UK > Light Car Company</dd>
+                <dt>Model</dt>
+                <dd>Rocket '07</dd>
+                <dt>Track</dt>
+                <dd>Côte d'Azure</dd>
+                <dt>Mode</dt>
+                <dd>Arcade Mode > Single Player > Time Trial</dd>
+                <dt>Deadline</dt>
+                <dd><time datetime="2014-03-10 23:59Z" data-localtime-format>March 10th 2014 11:59pm <small>GMT</small></time></dd>
+                <dt>Links</dt>
+                <dd>
+                  <a href="http://www.gtplanet.net/forum/threads/304304">Thread</a>
+                  <a href="http://www.gtplanet.net/forum/threads/304304">Results</a>
+                </dd>
+              </dl>
+
+              <!-- <ul>
                 <li>
                   <h4>Make</h4>
                   <p>UK > Light Car Company</p>
@@ -97,8 +115,8 @@
                 <li>
                   <h4>Deadline</h4>
                   <p>
-                    <!--  <time>March 10th, 2014 11:59pm <small>(GMT)</small></time> -->
-                    <time datetime="2014-03-10 23:59Z" data-localtime-format>March 10th 2014 11:59pm</time> <!--time automatically converted to local-->
+                     <time>March 10th, 2014 11:59pm <small>(GMT)</small></time>
+                    <time datetime="2014-03-10 23:59Z" data-localtime-format>March 10th 2014 11:59pm</time> 
                   </p>
                 </li>
                 <li>
@@ -108,7 +126,7 @@
                       <a href="http://www.gtplanet.net/forum/threads/304304">Results</a>
                   </p>
                 </li>
-              </ul>
+              </ul> -->
             </div>
             <div class='wrs-event-car'><img src='http://wrs.gtplanet.net/images/cars/car_light_car_company_rocket_07.jpg'></div>
             <div class='wrs-event-track'><img src='http://wrs.gtplanet.net/images/tracks/track_cote_d_azur.jpg'></div>
@@ -123,7 +141,7 @@
               <th class="wrs-lb-region-h" width="1%"><i class="fa fa-globe"></i></th>
               <th class="wrs-lb-controller-h" width="1%"><i class="icon-ds4"></i></th>
               <th class="wrs-lb-driver-h" width="35%">Driver PSN</th>
-              <th class="wrs-lb-division-h" width="10" colspan="2">Division</th>
+              <th class="wrs-lb-division-h" width="10">Division</th>
               <!-- <th class="wrs-lb-div-h-class" width="5"></th> -->
               <th class="wrs-lb-split-h">Split 1</th>
               <th class="wrs-lb-split-h">Split 2</th>
@@ -137,11 +155,11 @@
                 <tr>
                   <td class="wrs-lb-position lb-tb-header" width="2%">{{position}}</td>
                   <td class="lb-tb-header"><i class="wrs-region {{region}}">{{region}}</i></td>
-                  <td class="lb-tb-header"width="20">
+                  <td class="wrs-lb-controller"width="20">
                     {{#if controller}}
-                      <i class="wrs-lb-controller icon-{{controller}}"></i>
+                      <i class="icon-{{controller}}"></i>
                     {{else}}
-                      <i class="wrs-lb-controller fa fa-question-circle"></i>
+                      <i class="fa fa-question-circle"></i>
                     {{/if}}
                   </td>
                   <td class='wrs-lb-driver lb-tb-header'>

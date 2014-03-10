@@ -3470,7 +3470,7 @@ th {
 
 /*==========  Unknown and non ISO countries  ==========*/
 .unknown {
-  background: url("../img/flags_f/_unknown.png") no-repeat;
+  background: url("../img/flags_f/unknown.png") no-repeat;
   background-size: 24px 24px;
 }
 @media screen and (max-width: 700px) {
@@ -3480,7 +3480,7 @@ th {
 }
 
 .abkhazia {
-  background: url("../img/flags_f/_abkhazia.png") no-repeat;
+  background: url("../img/flags_f/abkhazia.png") no-repeat;
   background-size: 24px 24px;
 }
 @media screen and (max-width: 700px) {
@@ -3490,7 +3490,7 @@ th {
 }
 
 .kosovo {
-  background: url("../img/flags_f/_kosovo.png") no-repeat;
+  background: url("../img/flags_f/kosovo.png") no-repeat;
   background-size: 24px 24px;
 }
 @media screen and (max-width: 700px) {
@@ -3500,7 +3500,7 @@ th {
 }
 
 .northern-cyprus {
-  background: url("../img/flags_f/_northern-cyprus.png") no-repeat;
+  background: url("../img/flags_f/northern-cyprus.png") no-repeat;
   background-size: 24px 24px;
 }
 @media screen and (max-width: 700px) {
@@ -3510,7 +3510,7 @@ th {
 }
 
 .northern-ireland {
-  background: url("../img/flags_f/_northern-ireland.png") no-repeat;
+  background: url("../img/flags_f/northern-ireland.png") no-repeat;
   background-size: 24px 24px;
 }
 @media screen and (max-width: 700px) {
@@ -3520,7 +3520,7 @@ th {
 }
 
 .somaliland {
-  background: url("../img/flags_f/_somaliland.png") no-repeat;
+  background: url("../img/flags_f/somaliland.png") no-repeat;
   background-size: 24px 24px;
 }
 @media screen and (max-width: 700px) {
@@ -3530,7 +3530,7 @@ th {
 }
 
 .wales {
-  background: url("../img/flags_f/_wales.png") no-repeat;
+  background: url("../img/flags_f/wales.png") no-repeat;
   background-size: 24px 24px;
 }
 @media screen and (max-width: 700px) {
@@ -3540,7 +3540,7 @@ th {
 }
 
 .scotland {
-  background: url("../img/flags_f/_scotland.png") no-repeat;
+  background: url("../img/flags_f/scotland.png") no-repeat;
   background-size: 24px 24px;
 }
 @media screen and (max-width: 700px) {
@@ -3550,7 +3550,7 @@ th {
 }
 
 .england {
-  background: url("../img/flags_f/_england.png") no-repeat;
+  background: url("../img/flags_f/england.png") no-repeat;
   background-size: 24px 24px;
 }
 @media screen and (max-width: 700px) {
@@ -3562,8 +3562,8 @@ th {
 /*-----  End of Region Flags  ------*/
 @font-face {
   font-family: 'wrs';
-  src: url("../fonts/wrs/wrs.eot?-x1scux");
-  src: url("../fonts/wrs/wrs.eot?#iefix-x1scux") format("embedded-opentype"), url("../fonts/wrs/wrs.woff?-x1scux") format("woff"), url("../fonts/wrs/wrs.ttf?-x1scux") format("truetype"), url("../fonts/wrs/wrs.svg?-x1scux#wrs") format("svg");
+  src: url("../fonts/wrs/wrs.eot?4omjz5");
+  src: url("../fonts/wrs/wrs.eot?#iefix4omjz5") format("embedded-opentype"), url("../fonts/wrs/wrs.woff?4omjz5") format("woff"), url("../fonts/wrs/wrs.ttf?4omjz5") format("truetype"), url("../fonts/wrs/wrs.svg?4omjz5#wrs") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -3626,6 +3626,10 @@ th {
 
 .icon-t500rs-no-shifter:before {
   content: "\e605";
+}
+
+.icon-csr-elite:before {
+  content: "\e60c";
 }
 
 .icon-user:before {
@@ -3943,6 +3947,38 @@ select .wrs-week-menu {
   float: left;
   overflow: hidden;
 }
+.wrs-event-regs dl dd, .wrs-event-car dl dd, .wrs-event-track dl dd, .wrs-event-regs dl a, .wrs-event-car dl a, .wrs-event-track dl a {
+  list-style: none;
+  color: white;
+  text-align: left;
+  font-size: 85%;
+}
+.wrs-event-regs dl dt, .wrs-event-car dl dt, .wrs-event-track dl dt, .wrs-event-regs dl dd, .wrs-event-car dl dd, .wrs-event-track dl dd {
+  float: left;
+  line-height: 22px;
+  margin: 0;
+}
+.wrs-event-regs dl a, .wrs-event-car dl a, .wrs-event-track dl a {
+  color: orange;
+  margin-right: 5px;
+  font: bold 100% helvetica neue;
+}
+.wrs-event-regs dl a:hover, .wrs-event-car dl a:hover, .wrs-event-track dl a:hover {
+  color: #9999ff;
+}
+.wrs-event-regs dt, .wrs-event-car dt, .wrs-event-track dt {
+  width: 20%;
+  overflow: hidden;
+  color: #999;
+  font-size: 95%;
+  font-weight: bold;
+}
+.wrs-event-regs dd, .wrs-event-car dd, .wrs-event-track dd {
+  width: 80%;
+  line-height: 20px;
+  float: left;
+  overflow: hidden;
+}
 
 .wrs-event-car, .wrs-event-track {
   padding: 0;
@@ -4014,6 +4050,11 @@ select .wrs-week-menu {
 .wrs-lb table tbody .wrs-lb-controller, .wrs-lb table a .wrs-lb-controller {
   font-size: 16px;
 }
+@media (min-width: 400px) {
+  .wrs-lb table tbody .wrs-lb-controller, .wrs-lb table a .wrs-lb-controller {
+    font-size: 12px;
+  }
+}
 .wrs-lb table tbody [class^="icon-"], .wrs-lb table a [class^="icon-"], .wrs-lb table tbody [class*=" icon-"], .wrs-lb table a [class*=" icon-"], .wrs-lb table tbody .fa-question-circle, .wrs-lb table a .fa-question-circle {
   color: #777;
   text-align: center;
@@ -4041,8 +4082,14 @@ select .wrs-week-menu {
 .wrs-lb table tbody .fa-question-circle:hover, .wrs-lb table a .fa-question-circle:hover {
   color: #449FDB;
 }
-.wrs-lb table tr:nth-child(2n-1) {
+.wrs-lb table tr:nth-child(2n+1) {
   background: #e5e5e5 !important;
+}
+
+@media (min-width: 320px) {
+  [class*="div-"] {
+    display: none;
+  }
 }
 
 .div-1 {
@@ -4180,7 +4227,7 @@ select .wrs-week-menu {
 }
 
 @media (max-width: 320px) {
-  .wrs-lb-split-h, .wrs-lb-split, .wrs-lb-gap-h, .wrs-lb-gap {
+  .wrs-lb-controller-h, .wrs-lb-controller, .wrs-lb-split-h, .wrs-lb-split, .wrs-lb-gap-h, .wrs-lb-gap {
     display: none;
   }
 }

@@ -78,7 +78,7 @@ $ipad-landscape: 1024px;
 	        }
 	    }
 	}
-	h4 {
+	   h4 {
 	    	width: 20%;
 	    	overflow: hidden;
 	    	color: #999;
@@ -93,8 +93,49 @@ $ipad-landscape: 1024px;
 			overflow: hidden;
 		}
 
-	
+        // 
 
+        dl { 
+
+        dd, a {
+            list-style: none;
+            color: white;
+            text-align: left;
+            font-size: 85%;
+
+            @media (max-width: 400px) {
+                // font-size: 80%; 480px or 568px;
+            }
+        }
+        dt, dd {
+            float: left;
+            line-height: 22px;
+            margin: 0;
+        }
+        a{
+            color: orange;
+            margin-right: 5px;
+            font: bold 100% helvetica neue;
+
+            &:hover{
+                color: lighten(blue, 30%);
+            }
+        }
+    }
+       dt {
+            width: 20%;
+            overflow: hidden;
+            color: #999;
+            font-size: 95%;
+            font-weight: bold;
+        }
+
+        dd {
+            width: 80%;
+            line-height: 20px;
+            float: left;
+            overflow: hidden;
+        }
 }
 
 .#{$wrs-event-car} {

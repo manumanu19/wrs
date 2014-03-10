@@ -51,6 +51,10 @@
 			}
 			.#{$wrs-lb-controller} {
 				font-size: 16px;
+
+				@media (min-width: 400px) {
+					font-size: 12px;
+				}
 			}
 
 			[class^="icon-"], [class*=" icon-"], .fa-question-circle{
@@ -91,7 +95,7 @@
 			@extend tbody;
 		}
 
-		tr:nth-child(2n-1) {
+		tr:nth-child(2n+1) {
 			background: #e5e5e5 !important;
 		}
 	}
@@ -100,6 +104,11 @@
 $divlist: 1, 2, 3, 4;
 $divclass: "Gold", "Silver", "Bronze";
 
+[class*="div-"]{
+	@media (min-width: 320px) {
+		display: none;
+	}
+}
 @each $division in $divlist {
 	.div-#{$division} {
 		background: url(http://wrs.gtplanet.net/images/badge_division_#{$division}.png) no-repeat;
@@ -127,11 +136,13 @@ $divclass: "Gold", "Silver", "Bronze";
     color: #19AA00;
 }
 
-.#{$wrs-lb-split-h}, .#{$wrs-lb-split}, .#{$wrs-lb-gap-h}, .#{$wrs-lb-gap} {
+.#{$wrs-lb-controller-h}, .#{$wrs-lb-controller}, .#{$wrs-lb-split-h}, .#{$wrs-lb-split}, .#{$wrs-lb-gap-h}, .#{$wrs-lb-gap} {
     @media (max-width: 320px) {
         display: none;
     }
 }
+
+
 
 
 /*-----  End of Leaderboards  ------*/
