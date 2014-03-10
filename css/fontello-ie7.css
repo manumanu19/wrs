@@ -1,0 +1,330 @@
+/* line 2, ../scss/fontello/_fontello-ie7.scss */
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'fontello';
+  font-style: normal;
+  font-weight: normal;
+  /* fix buttons height */
+  line-height: 1em;
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+}
+
+/* line 14, ../scss/fontello/_fontello-ie7.scss */
+.icon-ds3 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe81e;&nbsp;');
+}
+
+/* line 15, ../scss/fontello/_fontello-ie7.scss */
+.icon-cog-2 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe81d;&nbsp;');
+}
+
+/* line 16, ../scss/fontello/_fontello-ie7.scss */
+.icon-xbox {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe810;&nbsp;');
+}
+
+/* line 17, ../scss/fontello/_fontello-ie7.scss */
+.icon-g27 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe819;&nbsp;');
+}
+
+/* line 18, ../scss/fontello/_fontello-ie7.scss */
+.icon-edit-1 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe81a;&nbsp;');
+}
+
+/* line 19, ../scss/fontello/_fontello-ie7.scss */
+.icon-gamepad {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe801;&nbsp;');
+}
+
+/* line 20, ../scss/fontello/_fontello-ie7.scss */
+.icon-cog {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe81b;&nbsp;');
+}
+
+/* line 21, ../scss/fontello/_fontello-ie7.scss */
+.icon-cog-1 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe81c;&nbsp;');
+}
+
+/* line 22, ../scss/fontello/_fontello-ie7.scss */
+.icon-wheel {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe800;&nbsp;');
+}
+
+/* line 23, ../scss/fontello/_fontello-ie7.scss */
+.icon-fanatec-clubsport-formula {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe81f;&nbsp;');
+}
+
+/* line 24, ../scss/fontello/_fontello-ie7.scss */
+.icon-facebook {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe818;&nbsp;');
+}
+
+/* line 25, ../scss/fontello/_fontello-ie7.scss */
+.icon-facebook-rect {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe817;&nbsp;');
+}
+
+/* line 26, ../scss/fontello/_fontello-ie7.scss */
+.icon-twitter {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe816;&nbsp;');
+}
+
+/* line 27, ../scss/fontello/_fontello-ie7.scss */
+.icon-twitter-bird {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe815;&nbsp;');
+}
+
+/* line 28, ../scss/fontello/_fontello-ie7.scss */
+.icon-video-1 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80e;&nbsp;');
+}
+
+/* line 29, ../scss/fontello/_fontello-ie7.scss */
+.icon-video-alt {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80f;&nbsp;');
+}
+
+/* line 30, ../scss/fontello/_fontello-ie7.scss */
+.icon-ds4 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80a;&nbsp;');
+}
+
+/* line 31, ../scss/fontello/_fontello-ie7.scss */
+.icon-pencil {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe812;&nbsp;');
+}
+
+/* line 32, ../scss/fontello/_fontello-ie7.scss */
+.icon-edit {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe813;&nbsp;');
+}
+
+/* line 33, ../scss/fontello/_fontello-ie7.scss */
+.icon-edit-alt {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe814;&nbsp;');
+}
+
+/* line 34, ../scss/fontello/_fontello-ie7.scss */
+.icon-search {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80c;&nbsp;');
+}
+
+/* line 35, ../scss/fontello/_fontello-ie7.scss */
+.icon-videocam {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80b;&nbsp;');
+}
+
+/* line 36, ../scss/fontello/_fontello-ie7.scss */
+.icon-attach-1 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe809;&nbsp;');
+}
+
+/* line 37, ../scss/fontello/_fontello-ie7.scss */
+.icon-trash {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80d;&nbsp;');
+}
+
+/* line 38, ../scss/fontello/_fontello-ie7.scss */
+.icon-video {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe807;&nbsp;');
+}
+
+/* line 39, ../scss/fontello/_fontello-ie7.scss */
+.icon-ok {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe802;&nbsp;');
+}
+
+/* line 40, ../scss/fontello/_fontello-ie7.scss */
+.icon-ok-circle {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe803;&nbsp;');
+}
+
+/* line 41, ../scss/fontello/_fontello-ie7.scss */
+.icon-cancel {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe804;&nbsp;');
+}
+
+/* line 42, ../scss/fontello/_fontello-ie7.scss */
+.icon-link {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe805;&nbsp;');
+}
+
+/* line 43, ../scss/fontello/_fontello-ie7.scss */
+.icon-attach {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe806;&nbsp;');
+}
+
+/* line 44, ../scss/fontello/_fontello-ie7.scss */
+.icon-attention {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe808;&nbsp;');
+}
+
+/* line 45, ../scss/fontello/_fontello-ie7.scss */
+.icon-help {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe811;&nbsp;');
+}
+
+/* line 3, ../scss/fontello/_fontello-ie7-codes.scss */
+.icon-ds3 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe81e;&nbsp;');
+}
+
+/* line 4, ../scss/fontello/_fontello-ie7-codes.scss */
+.icon-cog-2 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe81d;&nbsp;');
+}
+
+/* line 5, ../scss/fontello/_fontello-ie7-codes.scss */
+.icon-xbox {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe810;&nbsp;');
+}
+
+/* line 6, ../scss/fontello/_fontello-ie7-codes.scss */
+.icon-g27 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe819;&nbsp;');
+}
+
+/* line 7, ../scss/fontello/_fontello-ie7-codes.scss */
+.icon-fanatec-clubsport-formula {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe81f;&nbsp;');
+}
+
+/* line 8, ../scss/fontello/_fontello-ie7-codes.scss */
+.icon-edit-1 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe81a;&nbsp;');
+}
+
+/* line 9, ../scss/fontello/_fontello-ie7-codes.scss */
+.icon-gamepad {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe801;&nbsp;');
+}
+
+/* line 10, ../scss/fontello/_fontello-ie7-codes.scss */
+.icon-cog {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe81b;&nbsp;');
+}
+
+/* line 11, ../scss/fontello/_fontello-ie7-codes.scss */
+.icon-cog-1 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe81c;&nbsp;');
+}
+
+/* line 12, ../scss/fontello/_fontello-ie7-codes.scss */
+.icon-wheel {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe800;&nbsp;');
+}
+
+/* line 13, ../scss/fontello/_fontello-ie7-codes.scss */
+.icon-facebook {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe818;&nbsp;');
+}
+
+/* line 14, ../scss/fontello/_fontello-ie7-codes.scss */
+.icon-facebook-rect {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe817;&nbsp;');
+}
+
+/* line 15, ../scss/fontello/_fontello-ie7-codes.scss */
+.icon-twitter {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe816;&nbsp;');
+}
+
+/* line 16, ../scss/fontello/_fontello-ie7-codes.scss */
+.icon-twitter-bird {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe815;&nbsp;');
+}
+
+/* line 17, ../scss/fontello/_fontello-ie7-codes.scss */
+.icon-video-1 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80e;&nbsp;');
+}
+
+/* line 18, ../scss/fontello/_fontello-ie7-codes.scss */
+.icon-video-alt {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80f;&nbsp;');
+}
+
+/* line 19, ../scss/fontello/_fontello-ie7-codes.scss */
+.icon-ds4 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80a;&nbsp;');
+}
+
+/* line 20, ../scss/fontello/_fontello-ie7-codes.scss */
+.icon-pencil {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe812;&nbsp;');
+}
+
+/* line 21, ../scss/fontello/_fontello-ie7-codes.scss */
+.icon-edit {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe813;&nbsp;');
+}
+
+/* line 22, ../scss/fontello/_fontello-ie7-codes.scss */
+.icon-edit-alt {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe814;&nbsp;');
+}
+
+/* line 23, ../scss/fontello/_fontello-ie7-codes.scss */
+.icon-search {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80c;&nbsp;');
+}
+
+/* line 24, ../scss/fontello/_fontello-ie7-codes.scss */
+.icon-videocam {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80b;&nbsp;');
+}
+
+/* line 25, ../scss/fontello/_fontello-ie7-codes.scss */
+.icon-attach-1 {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe809;&nbsp;');
+}
+
+/* line 26, ../scss/fontello/_fontello-ie7-codes.scss */
+.icon-trash {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe80d;&nbsp;');
+}
+
+/* line 27, ../scss/fontello/_fontello-ie7-codes.scss */
+.icon-video {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe807;&nbsp;');
+}
+
+/* line 28, ../scss/fontello/_fontello-ie7-codes.scss */
+.icon-ok {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe802;&nbsp;');
+}
+
+/* line 29, ../scss/fontello/_fontello-ie7-codes.scss */
+.icon-ok-circle {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe803;&nbsp;');
+}
+
+/* line 30, ../scss/fontello/_fontello-ie7-codes.scss */
+.icon-cancel {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe804;&nbsp;');
+}
+
+/* line 31, ../scss/fontello/_fontello-ie7-codes.scss */
+.icon-link {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe805;&nbsp;');
+}
+
+/* line 32, ../scss/fontello/_fontello-ie7-codes.scss */
+.icon-attach {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe806;&nbsp;');
+}
+
+/* line 33, ../scss/fontello/_fontello-ie7-codes.scss */
+.icon-attention {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe808;&nbsp;');
+}
+
+/* line 34, ../scss/fontello/_fontello-ie7-codes.scss */
+.icon-help {
+  *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe811;&nbsp;');
+}

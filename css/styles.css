@@ -1,0 +1,4188 @@
+/* Author Styles */
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+/*====================================
+=            Region Flags            =
+====================================*/
+/**
+*
+* All regional flags will be styled here to be used as classes in the html document. Each region  class will be 
+* specified as the country name eg kenya, and the country code eg ke. Classes will be in lowercase. Furthermore a 
+* class of region should prepend the region name/code as a general styling will be applied to all flags. 
+*
+**/
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+.wrs-region, i[class*="flag-"] {
+  width: 25px;
+  height: 21px;
+  display: inline-block;
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px;
+}
+.wrs-region:before, i[class*="flag-"]:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+@media screen and (max-width: 700px) {
+  .wrs-region, i[class*="flag-"] {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+/*==========  Flags with countries  ==========*/
+.afghanistan,
+.af {
+  background: url("../img/flags_f/af.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .afghanistan,
+  .af {
+    background-size: 18px 18px;
+  }
+}
+
+.aland-islands,
+.ax {
+  background: url("../img/flags_f/ax.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .aland-islands,
+  .ax {
+    background-size: 18px 18px;
+  }
+}
+
+.albania,
+.al {
+  background: url("../img/flags_f/al.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .albania,
+  .al {
+    background-size: 18px 18px;
+  }
+}
+
+.algeria,
+.dz {
+  background: url("../img/flags_f/dz.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .algeria,
+  .dz {
+    background-size: 18px 18px;
+  }
+}
+
+.american-samoa,
+.as {
+  background: url("../img/flags_f/as.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .american-samoa,
+  .as {
+    background-size: 18px 18px;
+  }
+}
+
+.andorra,
+.ad {
+  background: url("../img/flags_f/ad.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .andorra,
+  .ad {
+    background-size: 18px 18px;
+  }
+}
+
+.angola,
+.ao {
+  background: url("../img/flags_f/ao.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .angola,
+  .ao {
+    background-size: 18px 18px;
+  }
+}
+
+.anguilla,
+.ai {
+  background: url("../img/flags_f/ai.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .anguilla,
+  .ai {
+    background-size: 18px 18px;
+  }
+}
+
+.antarctica,
+.aq {
+  background: url("../img/flags_f/aq.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .antarctica,
+  .aq {
+    background-size: 18px 18px;
+  }
+}
+
+.antigua-and-barbuda,
+.ag {
+  background: url("../img/flags_f/ag.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .antigua-and-barbuda,
+  .ag {
+    background-size: 18px 18px;
+  }
+}
+
+.argentina,
+.ar {
+  background: url("../img/flags_f/ar.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .argentina,
+  .ar {
+    background-size: 18px 18px;
+  }
+}
+
+.armenia,
+.am {
+  background: url("../img/flags_f/am.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .armenia,
+  .am {
+    background-size: 18px 18px;
+  }
+}
+
+.aruba,
+.aw {
+  background: url("../img/flags_f/aw.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .aruba,
+  .aw {
+    background-size: 18px 18px;
+  }
+}
+
+.australia,
+.au {
+  background: url("../img/flags_f/au.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .australia,
+  .au {
+    background-size: 18px 18px;
+  }
+}
+
+.austria,
+.at {
+  background: url("../img/flags_f/at.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .austria,
+  .at {
+    background-size: 18px 18px;
+  }
+}
+
+.azerbaijan,
+.az {
+  background: url("../img/flags_f/az.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .azerbaijan,
+  .az {
+    background-size: 18px 18px;
+  }
+}
+
+.bahamas,
+.bs {
+  background: url("../img/flags_f/bs.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .bahamas,
+  .bs {
+    background-size: 18px 18px;
+  }
+}
+
+.bahrain,
+.bh {
+  background: url("../img/flags_f/bh.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .bahrain,
+  .bh {
+    background-size: 18px 18px;
+  }
+}
+
+.bangladesh,
+.bd {
+  background: url("../img/flags_f/bd.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .bangladesh,
+  .bd {
+    background-size: 18px 18px;
+  }
+}
+
+.barbados,
+.bb {
+  background: url("../img/flags_f/bb.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .barbados,
+  .bb {
+    background-size: 18px 18px;
+  }
+}
+
+.belarus,
+.by {
+  background: url("../img/flags_f/by.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .belarus,
+  .by {
+    background-size: 18px 18px;
+  }
+}
+
+.belgium,
+.be {
+  background: url("../img/flags_f/be.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .belgium,
+  .be {
+    background-size: 18px 18px;
+  }
+}
+
+.belize,
+.bz {
+  background: url("../img/flags_f/bz.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .belize,
+  .bz {
+    background-size: 18px 18px;
+  }
+}
+
+.benin,
+.bj {
+  background: url("../img/flags_f/bj.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .benin,
+  .bj {
+    background-size: 18px 18px;
+  }
+}
+
+.bermuda,
+.bm {
+  background: url("../img/flags_f/bm.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .bermuda,
+  .bm {
+    background-size: 18px 18px;
+  }
+}
+
+.bhutan,
+.bt {
+  background: url("../img/flags_f/bt.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .bhutan,
+  .bt {
+    background-size: 18px 18px;
+  }
+}
+
+.bolivia,
+.bo {
+  background: url("../img/flags_f/bo.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .bolivia,
+  .bo {
+    background-size: 18px 18px;
+  }
+}
+
+.bonaire,
+.bq {
+  background: url("../img/flags_f/bq.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .bonaire,
+  .bq {
+    background-size: 18px 18px;
+  }
+}
+
+.botswana,
+.bw {
+  background: url("../img/flags_f/bw.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .botswana,
+  .bw {
+    background-size: 18px 18px;
+  }
+}
+
+.bouvet-island,
+.bv {
+  background: url("../img/flags_f/bv.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .bouvet-island,
+  .bv {
+    background-size: 18px 18px;
+  }
+}
+
+.brazil,
+.br {
+  background: url("../img/flags_f/br.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .brazil,
+  .br {
+    background-size: 18px 18px;
+  }
+}
+
+.british-indian-ocean-territory,
+.io {
+  background: url("../img/flags_f/io.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .british-indian-ocean-territory,
+  .io {
+    background-size: 18px 18px;
+  }
+}
+
+.brunei-darussalam,
+.bn {
+  background: url("../img/flags_f/bn.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .brunei-darussalam,
+  .bn {
+    background-size: 18px 18px;
+  }
+}
+
+.bulgaria,
+.bg {
+  background: url("../img/flags_f/bg.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .bulgaria,
+  .bg {
+    background-size: 18px 18px;
+  }
+}
+
+.burkina-faso,
+.bf {
+  background: url("../img/flags_f/bf.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .burkina-faso,
+  .bf {
+    background-size: 18px 18px;
+  }
+}
+
+.burundi,
+.bi {
+  background: url("../img/flags_f/bi.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .burundi,
+  .bi {
+    background-size: 18px 18px;
+  }
+}
+
+.cambodia,
+.kh {
+  background: url("../img/flags_f/kh.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .cambodia,
+  .kh {
+    background-size: 18px 18px;
+  }
+}
+
+.cameroon,
+.cm {
+  background: url("../img/flags_f/cm.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .cameroon,
+  .cm {
+    background-size: 18px 18px;
+  }
+}
+
+.canada,
+.ca {
+  background: url("../img/flags_f/ca.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .canada,
+  .ca {
+    background-size: 18px 18px;
+  }
+}
+
+.cape-verde,
+.cv {
+  background: url("../img/flags_f/cv.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .cape-verde,
+  .cv {
+    background-size: 18px 18px;
+  }
+}
+
+.cayman-islands,
+.ky {
+  background: url("../img/flags_f/ky.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .cayman-islands,
+  .ky {
+    background-size: 18px 18px;
+  }
+}
+
+.central-african-republic,
+.cf {
+  background: url("../img/flags_f/cf.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .central-african-republic,
+  .cf {
+    background-size: 18px 18px;
+  }
+}
+
+.chad,
+.td {
+  background: url("../img/flags_f/td.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .chad,
+  .td {
+    background-size: 18px 18px;
+  }
+}
+
+.chile,
+.cl {
+  background: url("../img/flags_f/cl.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .chile,
+  .cl {
+    background-size: 18px 18px;
+  }
+}
+
+.china,
+.cn {
+  background: url("../img/flags_f/cn.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .china,
+  .cn {
+    background-size: 18px 18px;
+  }
+}
+
+.christmas-island,
+.cx {
+  background: url("../img/flags_f/cx.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .christmas-island,
+  .cx {
+    background-size: 18px 18px;
+  }
+}
+
+.colombia,
+.co {
+  background: url("../img/flags_f/co.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .colombia,
+  .co {
+    background-size: 18px 18px;
+  }
+}
+
+.comoros,
+.km {
+  background: url("../img/flags_f/km.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .comoros,
+  .km {
+    background-size: 18px 18px;
+  }
+}
+
+.congo,
+.cg {
+  background: url("../img/flags_f/cg.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .congo,
+  .cg {
+    background-size: 18px 18px;
+  }
+}
+
+.democratic-republic-congo,
+.cd {
+  background: url("../img/flags_f/cd.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .democratic-republic-congo,
+  .cd {
+    background-size: 18px 18px;
+  }
+}
+
+.cook-islands,
+.ck {
+  background: url("../img/flags_f/ck.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .cook-islands,
+  .ck {
+    background-size: 18px 18px;
+  }
+}
+
+.costa-rica,
+.cr {
+  background: url("../img/flags_f/cr.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .costa-rica,
+  .cr {
+    background-size: 18px 18px;
+  }
+}
+
+.croatia,
+.hr {
+  background: url("../img/flags_f/hr.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .croatia,
+  .hr {
+    background-size: 18px 18px;
+  }
+}
+
+.cuba,
+.cu {
+  background: url("../img/flags_f/cu.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .cuba,
+  .cu {
+    background-size: 18px 18px;
+  }
+}
+
+.curacao,
+.cw {
+  background: url("../img/flags_f/cw.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .curacao,
+  .cw {
+    background-size: 18px 18px;
+  }
+}
+
+.cyprus,
+.cy {
+  background: url("../img/flags_f/cy.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .cyprus,
+  .cy {
+    background-size: 18px 18px;
+  }
+}
+
+.czech-republic,
+.cz {
+  background: url("../img/flags_f/cz.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .czech-republic,
+  .cz {
+    background-size: 18px 18px;
+  }
+}
+
+.denmark,
+.dk {
+  background: url("../img/flags_f/dk.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .denmark,
+  .dk {
+    background-size: 18px 18px;
+  }
+}
+
+.djibouti,
+.dj {
+  background: url("../img/flags_f/dj.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .djibouti,
+  .dj {
+    background-size: 18px 18px;
+  }
+}
+
+.dominica,
+.dm {
+  background: url("../img/flags_f/dm.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .dominica,
+  .dm {
+    background-size: 18px 18px;
+  }
+}
+
+.dominican-republic,
+.do {
+  background: url("../img/flags_f/do.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .dominican-republic,
+  .do {
+    background-size: 18px 18px;
+  }
+}
+
+.ecuador,
+.ec {
+  background: url("../img/flags_f/ec.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .ecuador,
+  .ec {
+    background-size: 18px 18px;
+  }
+}
+
+.egypt,
+.eg {
+  background: url("../img/flags_f/eg.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .egypt,
+  .eg {
+    background-size: 18px 18px;
+  }
+}
+
+.el-salvador,
+.sv {
+  background: url("../img/flags_f/sv.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .el-salvador,
+  .sv {
+    background-size: 18px 18px;
+  }
+}
+
+.equatorial-guinea,
+.gq {
+  background: url("../img/flags_f/gq.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .equatorial-guinea,
+  .gq {
+    background-size: 18px 18px;
+  }
+}
+
+.eritrea,
+.er {
+  background: url("../img/flags_f/er.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .eritrea,
+  .er {
+    background-size: 18px 18px;
+  }
+}
+
+.estonia,
+.ee {
+  background: url("../img/flags_f/ee.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .estonia,
+  .ee {
+    background-size: 18px 18px;
+  }
+}
+
+.ethiopia,
+.et {
+  background: url("../img/flags_f/et.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .ethiopia,
+  .et {
+    background-size: 18px 18px;
+  }
+}
+
+.faroe-islands,
+.fo {
+  background: url("../img/flags_f/fo.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .faroe-islands,
+  .fo {
+    background-size: 18px 18px;
+  }
+}
+
+.fiji,
+.fj {
+  background: url("../img/flags_f/fj.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .fiji,
+  .fj {
+    background-size: 18px 18px;
+  }
+}
+
+.finland,
+.fi {
+  background: url("../img/flags_f/fi.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .finland,
+  .fi {
+    background-size: 18px 18px;
+  }
+}
+
+.france,
+.fr {
+  background: url("../img/flags_f/fr.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .france,
+  .fr {
+    background-size: 18px 18px;
+  }
+}
+
+.french-guiana,
+.gf {
+  background: url("../img/flags_f/gf.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .french-guiana,
+  .gf {
+    background-size: 18px 18px;
+  }
+}
+
+.french-polynesia,
+.pf {
+  background: url("../img/flags_f/pf.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .french-polynesia,
+  .pf {
+    background-size: 18px 18px;
+  }
+}
+
+.french-southern-territories,
+.tf {
+  background: url("../img/flags_f/tf.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .french-southern-territories,
+  .tf {
+    background-size: 18px 18px;
+  }
+}
+
+.gabon,
+.ga {
+  background: url("../img/flags_f/ga.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .gabon,
+  .ga {
+    background-size: 18px 18px;
+  }
+}
+
+.gambia,
+.gm {
+  background: url("../img/flags_f/gm.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .gambia,
+  .gm {
+    background-size: 18px 18px;
+  }
+}
+
+.georgia,
+.ge {
+  background: url("../img/flags_f/ge.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .georgia,
+  .ge {
+    background-size: 18px 18px;
+  }
+}
+
+.germany,
+.de {
+  background: url("../img/flags_f/de.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .germany,
+  .de {
+    background-size: 18px 18px;
+  }
+}
+
+.ghana,
+.gh {
+  background: url("../img/flags_f/gh.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .ghana,
+  .gh {
+    background-size: 18px 18px;
+  }
+}
+
+.gibraltar,
+.gi {
+  background: url("../img/flags_f/gi.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .gibraltar,
+  .gi {
+    background-size: 18px 18px;
+  }
+}
+
+.greece,
+.gr {
+  background: url("../img/flags_f/gr.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .greece,
+  .gr {
+    background-size: 18px 18px;
+  }
+}
+
+.greenland,
+.gl {
+  background: url("../img/flags_f/gl.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .greenland,
+  .gl {
+    background-size: 18px 18px;
+  }
+}
+
+.grenada,
+.gd {
+  background: url("../img/flags_f/gd.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .grenada,
+  .gd {
+    background-size: 18px 18px;
+  }
+}
+
+.guadeloupe,
+.gp {
+  background: url("../img/flags_f/gp.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .guadeloupe,
+  .gp {
+    background-size: 18px 18px;
+  }
+}
+
+.guam,
+.gu {
+  background: url("../img/flags_f/gu.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .guam,
+  .gu {
+    background-size: 18px 18px;
+  }
+}
+
+.guatemala,
+.gt {
+  background: url("../img/flags_f/gt.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .guatemala,
+  .gt {
+    background-size: 18px 18px;
+  }
+}
+
+.guernsey,
+.gg {
+  background: url("../img/flags_f/gg.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .guernsey,
+  .gg {
+    background-size: 18px 18px;
+  }
+}
+
+.guinea,
+.gn {
+  background: url("../img/flags_f/gn.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .guinea,
+  .gn {
+    background-size: 18px 18px;
+  }
+}
+
+.guinea-bissau,
+.gw {
+  background: url("../img/flags_f/gw.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .guinea-bissau,
+  .gw {
+    background-size: 18px 18px;
+  }
+}
+
+.guyana,
+.gy {
+  background: url("../img/flags_f/gy.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .guyana,
+  .gy {
+    background-size: 18px 18px;
+  }
+}
+
+.haiti,
+.ht {
+  background: url("../img/flags_f/ht.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .haiti,
+  .ht {
+    background-size: 18px 18px;
+  }
+}
+
+.heard-island-and-mcdonald-islands,
+.hm {
+  background: url("../img/flags_f/hm.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .heard-island-and-mcdonald-islands,
+  .hm {
+    background-size: 18px 18px;
+  }
+}
+
+.honduras,
+.hn {
+  background: url("../img/flags_f/hn.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .honduras,
+  .hn {
+    background-size: 18px 18px;
+  }
+}
+
+.hong-kong,
+.hk {
+  background: url("../img/flags_f/hk.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .hong-kong,
+  .hk {
+    background-size: 18px 18px;
+  }
+}
+
+.hungary,
+.hu {
+  background: url("../img/flags_f/hu.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .hungary,
+  .hu {
+    background-size: 18px 18px;
+  }
+}
+
+.iceland,
+.is {
+  background: url("../img/flags_f/is.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .iceland,
+  .is {
+    background-size: 18px 18px;
+  }
+}
+
+.india,
+.in {
+  background: url("../img/flags_f/in.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .india,
+  .in {
+    background-size: 18px 18px;
+  }
+}
+
+.indonesia,
+.id {
+  background: url("../img/flags_f/id.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .indonesia,
+  .id {
+    background-size: 18px 18px;
+  }
+}
+
+.iran,
+.ir {
+  background: url("../img/flags_f/ir.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .iran,
+  .ir {
+    background-size: 18px 18px;
+  }
+}
+
+.iraq,
+.iq {
+  background: url("../img/flags_f/iq.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .iraq,
+  .iq {
+    background-size: 18px 18px;
+  }
+}
+
+.ireland,
+.ie {
+  background: url("../img/flags_f/ie.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .ireland,
+  .ie {
+    background-size: 18px 18px;
+  }
+}
+
+.isle-of-man,
+.im {
+  background: url("../img/flags_f/im.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .isle-of-man,
+  .im {
+    background-size: 18px 18px;
+  }
+}
+
+.israel,
+.il {
+  background: url("../img/flags_f/il.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .israel,
+  .il {
+    background-size: 18px 18px;
+  }
+}
+
+.italy,
+.it {
+  background: url("../img/flags_f/it.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .italy,
+  .it {
+    background-size: 18px 18px;
+  }
+}
+
+.jamaica,
+.jm {
+  background: url("../img/flags_f/jm.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .jamaica,
+  .jm {
+    background-size: 18px 18px;
+  }
+}
+
+.japan,
+.jp {
+  background: url("../img/flags_f/jp.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .japan,
+  .jp {
+    background-size: 18px 18px;
+  }
+}
+
+.jersey,
+.je {
+  background: url("../img/flags_f/je.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .jersey,
+  .je {
+    background-size: 18px 18px;
+  }
+}
+
+.jordan,
+.jo {
+  background: url("../img/flags_f/jo.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .jordan,
+  .jo {
+    background-size: 18px 18px;
+  }
+}
+
+.kazakhstan,
+.kz {
+  background: url("../img/flags_f/kz.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .kazakhstan,
+  .kz {
+    background-size: 18px 18px;
+  }
+}
+
+.kenya,
+.ke {
+  background: url("../img/flags_f/ke.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .kenya,
+  .ke {
+    background-size: 18px 18px;
+  }
+}
+
+.kiribati,
+.ki {
+  background: url("../img/flags_f/ki.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .kiribati,
+  .ki {
+    background-size: 18px 18px;
+  }
+}
+
+.kuwait,
+.kw {
+  background: url("../img/flags_f/kw.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .kuwait,
+  .kw {
+    background-size: 18px 18px;
+  }
+}
+
+.kyrgyzstan,
+.kg {
+  background: url("../img/flags_f/kg.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .kyrgyzstan,
+  .kg {
+    background-size: 18px 18px;
+  }
+}
+
+.lao,
+.la {
+  background: url("../img/flags_f/la.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .lao,
+  .la {
+    background-size: 18px 18px;
+  }
+}
+
+.latvia,
+.lv {
+  background: url("../img/flags_f/lv.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .latvia,
+  .lv {
+    background-size: 18px 18px;
+  }
+}
+
+.lebanon,
+.lb {
+  background: url("../img/flags_f/lb.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .lebanon,
+  .lb {
+    background-size: 18px 18px;
+  }
+}
+
+.lesotho,
+.ls {
+  background: url("../img/flags_f/ls.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .lesotho,
+  .ls {
+    background-size: 18px 18px;
+  }
+}
+
+.liberia,
+.lr {
+  background: url("../img/flags_f/lr.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .liberia,
+  .lr {
+    background-size: 18px 18px;
+  }
+}
+
+.libya,
+.ly {
+  background: url("../img/flags_f/ly.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .libya,
+  .ly {
+    background-size: 18px 18px;
+  }
+}
+
+.liechtenstein,
+.li {
+  background: url("../img/flags_f/li.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .liechtenstein,
+  .li {
+    background-size: 18px 18px;
+  }
+}
+
+.lithuania,
+.lt {
+  background: url("../img/flags_f/lt.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .lithuania,
+  .lt {
+    background-size: 18px 18px;
+  }
+}
+
+.luxembourg,
+.lu {
+  background: url("../img/flags_f/lu.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .luxembourg,
+  .lu {
+    background-size: 18px 18px;
+  }
+}
+
+.macao,
+.mo {
+  background: url("../img/flags_f/mo.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .macao,
+  .mo {
+    background-size: 18px 18px;
+  }
+}
+
+.macedonia,
+.mk {
+  background: url("../img/flags_f/mk.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .macedonia,
+  .mk {
+    background-size: 18px 18px;
+  }
+}
+
+.madagascar,
+.mg {
+  background: url("../img/flags_f/mg.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .madagascar,
+  .mg {
+    background-size: 18px 18px;
+  }
+}
+
+.malawi,
+.mw {
+  background: url("../img/flags_f/mw.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .malawi,
+  .mw {
+    background-size: 18px 18px;
+  }
+}
+
+.malaysia,
+.my {
+  background: url("../img/flags_f/my.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .malaysia,
+  .my {
+    background-size: 18px 18px;
+  }
+}
+
+.maldives,
+.mv {
+  background: url("../img/flags_f/mv.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .maldives,
+  .mv {
+    background-size: 18px 18px;
+  }
+}
+
+.mali,
+.ml {
+  background: url("../img/flags_f/ml.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .mali,
+  .ml {
+    background-size: 18px 18px;
+  }
+}
+
+.malta,
+.mt {
+  background: url("../img/flags_f/mt.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .malta,
+  .mt {
+    background-size: 18px 18px;
+  }
+}
+
+.marshall-islands,
+.mh {
+  background: url("../img/flags_f/mh.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .marshall-islands,
+  .mh {
+    background-size: 18px 18px;
+  }
+}
+
+.martinique,
+.mq {
+  background: url("../img/flags_f/mq.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .martinique,
+  .mq {
+    background-size: 18px 18px;
+  }
+}
+
+.mauritania,
+.mr {
+  background: url("../img/flags_f/mr.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .mauritania,
+  .mr {
+    background-size: 18px 18px;
+  }
+}
+
+.mauritius,
+.mu {
+  background: url("../img/flags_f/mu.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .mauritius,
+  .mu {
+    background-size: 18px 18px;
+  }
+}
+
+.mayotte,
+.yt {
+  background: url("../img/flags_f/yt.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .mayotte,
+  .yt {
+    background-size: 18px 18px;
+  }
+}
+
+.mexico,
+.mx {
+  background: url("../img/flags_f/mx.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .mexico,
+  .mx {
+    background-size: 18px 18px;
+  }
+}
+
+.monaco,
+.mc {
+  background: url("../img/flags_f/mc.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .monaco,
+  .mc {
+    background-size: 18px 18px;
+  }
+}
+
+.mongolia,
+.mn {
+  background: url("../img/flags_f/mn.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .mongolia,
+  .mn {
+    background-size: 18px 18px;
+  }
+}
+
+.montenegro,
+.me {
+  background: url("../img/flags_f/me.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .montenegro,
+  .me {
+    background-size: 18px 18px;
+  }
+}
+
+.montserrat,
+.ms {
+  background: url("../img/flags_f/ms.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .montserrat,
+  .ms {
+    background-size: 18px 18px;
+  }
+}
+
+.morocco,
+.ma {
+  background: url("../img/flags_f/ma.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .morocco,
+  .ma {
+    background-size: 18px 18px;
+  }
+}
+
+.mozambique,
+.mz {
+  background: url("../img/flags_f/mz.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .mozambique,
+  .mz {
+    background-size: 18px 18px;
+  }
+}
+
+.myanmar,
+.mm {
+  background: url("../img/flags_f/mm.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .myanmar,
+  .mm {
+    background-size: 18px 18px;
+  }
+}
+
+.namibia,
+.na {
+  background: url("../img/flags_f/na.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .namibia,
+  .na {
+    background-size: 18px 18px;
+  }
+}
+
+.nauru,
+.nr {
+  background: url("../img/flags_f/nr.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .nauru,
+  .nr {
+    background-size: 18px 18px;
+  }
+}
+
+.nepal,
+.np {
+  background: url("../img/flags_f/np.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .nepal,
+  .np {
+    background-size: 18px 18px;
+  }
+}
+
+.netherlands,
+.nl {
+  background: url("../img/flags_f/nl.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .netherlands,
+  .nl {
+    background-size: 18px 18px;
+  }
+}
+
+.new-caledonia,
+.nc {
+  background: url("../img/flags_f/nc.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .new-caledonia,
+  .nc {
+    background-size: 18px 18px;
+  }
+}
+
+.new-zealand,
+.nz {
+  background: url("../img/flags_f/nz.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .new-zealand,
+  .nz {
+    background-size: 18px 18px;
+  }
+}
+
+.nicaragua,
+.ni {
+  background: url("../img/flags_f/ni.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .nicaragua,
+  .ni {
+    background-size: 18px 18px;
+  }
+}
+
+.niger,
+.ne {
+  background: url("../img/flags_f/ne.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .niger,
+  .ne {
+    background-size: 18px 18px;
+  }
+}
+
+.nigeria,
+.ng {
+  background: url("../img/flags_f/ng.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .nigeria,
+  .ng {
+    background-size: 18px 18px;
+  }
+}
+
+.niue,
+.nu {
+  background: url("../img/flags_f/nu.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .niue,
+  .nu {
+    background-size: 18px 18px;
+  }
+}
+
+.norfolk-island,
+.nf {
+  background: url("../img/flags_f/nf.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .norfolk-island,
+  .nf {
+    background-size: 18px 18px;
+  }
+}
+
+.northern-mariana-islands,
+.mp {
+  background: url("../img/flags_f/mp.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .northern-mariana-islands,
+  .mp {
+    background-size: 18px 18px;
+  }
+}
+
+.norway,
+.no {
+  background: url("../img/flags_f/no.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .norway,
+  .no {
+    background-size: 18px 18px;
+  }
+}
+
+.oman,
+.om {
+  background: url("../img/flags_f/om.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .oman,
+  .om {
+    background-size: 18px 18px;
+  }
+}
+
+.pakistan,
+.pk {
+  background: url("../img/flags_f/pk.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .pakistan,
+  .pk {
+    background-size: 18px 18px;
+  }
+}
+
+.palau,
+.pw {
+  background: url("../img/flags_f/pw.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .palau,
+  .pw {
+    background-size: 18px 18px;
+  }
+}
+
+.palestine,
+.ps {
+  background: url("../img/flags_f/ps.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .palestine,
+  .ps {
+    background-size: 18px 18px;
+  }
+}
+
+.panama,
+.pa {
+  background: url("../img/flags_f/pa.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .panama,
+  .pa {
+    background-size: 18px 18px;
+  }
+}
+
+.papua-new-guinea,
+.pg {
+  background: url("../img/flags_f/pg.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .papua-new-guinea,
+  .pg {
+    background-size: 18px 18px;
+  }
+}
+
+.paraguay,
+.py {
+  background: url("../img/flags_f/py.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .paraguay,
+  .py {
+    background-size: 18px 18px;
+  }
+}
+
+.peru,
+.pe {
+  background: url("../img/flags_f/pe.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .peru,
+  .pe {
+    background-size: 18px 18px;
+  }
+}
+
+.philippines,
+.ph {
+  background: url("../img/flags_f/ph.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .philippines,
+  .ph {
+    background-size: 18px 18px;
+  }
+}
+
+.pitcairn,
+.pn {
+  background: url("../img/flags_f/pn.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .pitcairn,
+  .pn {
+    background-size: 18px 18px;
+  }
+}
+
+.poland,
+.pl {
+  background: url("../img/flags_f/pl.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .poland,
+  .pl {
+    background-size: 18px 18px;
+  }
+}
+
+.portugal,
+.pt {
+  background: url("../img/flags_f/pt.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .portugal,
+  .pt {
+    background-size: 18px 18px;
+  }
+}
+
+.puerto-rico,
+.pr {
+  background: url("../img/flags_f/pr.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .puerto-rico,
+  .pr {
+    background-size: 18px 18px;
+  }
+}
+
+.qatar,
+.qa {
+  background: url("../img/flags_f/qa.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .qatar,
+  .qa {
+    background-size: 18px 18px;
+  }
+}
+
+.reunion,
+.re {
+  background: url("../img/flags_f/re.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .reunion,
+  .re {
+    background-size: 18px 18px;
+  }
+}
+
+.romania,
+.ro {
+  background: url("../img/flags_f/ro.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .romania,
+  .ro {
+    background-size: 18px 18px;
+  }
+}
+
+.rwanda,
+.rw {
+  background: url("../img/flags_f/rw.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .rwanda,
+  .rw {
+    background-size: 18px 18px;
+  }
+}
+
+.saint-barthelemy,
+.bl {
+  background: url("../img/flags_f/bl.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .saint-barthelemy,
+  .bl {
+    background-size: 18px 18px;
+  }
+}
+
+.saint-lucia,
+.lc {
+  background: url("../img/flags_f/lc.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .saint-lucia,
+  .lc {
+    background-size: 18px 18px;
+  }
+}
+
+.saint-martin,
+.mf {
+  background: url("../img/flags_f/mf.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .saint-martin,
+  .mf {
+    background-size: 18px 18px;
+  }
+}
+
+.samoa,
+.ws {
+  background: url("../img/flags_f/ws.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .samoa,
+  .ws {
+    background-size: 18px 18px;
+  }
+}
+
+.san-marino,
+.sm {
+  background: url("../img/flags_f/sm.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .san-marino,
+  .sm {
+    background-size: 18px 18px;
+  }
+}
+
+.sao-tome-and-principe,
+.st {
+  background: url("../img/flags_f/st.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .sao-tome-and-principe,
+  .st {
+    background-size: 18px 18px;
+  }
+}
+
+.saudi-arabia,
+.sa {
+  background: url("../img/flags_f/sa.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .saudi-arabia,
+  .sa {
+    background-size: 18px 18px;
+  }
+}
+
+.senegal,
+.sn {
+  background: url("../img/flags_f/sn.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .senegal,
+  .sn {
+    background-size: 18px 18px;
+  }
+}
+
+.serbia,
+.rs {
+  background: url("../img/flags_f/rs.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .serbia,
+  .rs {
+    background-size: 18px 18px;
+  }
+}
+
+.seychelles,
+.sc {
+  background: url("../img/flags_f/sc.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .seychelles,
+  .sc {
+    background-size: 18px 18px;
+  }
+}
+
+.sierra-leone,
+.sl {
+  background: url("../img/flags_f/sl.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .sierra-leone,
+  .sl {
+    background-size: 18px 18px;
+  }
+}
+
+.singapore,
+.sg {
+  background: url("../img/flags_f/sg.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .singapore,
+  .sg {
+    background-size: 18px 18px;
+  }
+}
+
+.sint-maarten,
+.sx {
+  background: url("../img/flags_f/sx.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .sint-maarten,
+  .sx {
+    background-size: 18px 18px;
+  }
+}
+
+.slovakia,
+.sk {
+  background: url("../img/flags_f/sk.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .slovakia,
+  .sk {
+    background-size: 18px 18px;
+  }
+}
+
+.slovenia,
+.si {
+  background: url("../img/flags_f/si.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .slovenia,
+  .si {
+    background-size: 18px 18px;
+  }
+}
+
+.solomon-islands,
+.sb {
+  background: url("../img/flags_f/sb.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .solomon-islands,
+  .sb {
+    background-size: 18px 18px;
+  }
+}
+
+.somalia,
+.so {
+  background: url("../img/flags_f/so.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .somalia,
+  .so {
+    background-size: 18px 18px;
+  }
+}
+
+.south-africa,
+.za {
+  background: url("../img/flags_f/za.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .south-africa,
+  .za {
+    background-size: 18px 18px;
+  }
+}
+
+.south-sudan,
+.ss {
+  background: url("../img/flags_f/ss.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .south-sudan,
+  .ss {
+    background-size: 18px 18px;
+  }
+}
+
+.spain,
+.es {
+  background: url("../img/flags_f/es.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .spain,
+  .es {
+    background-size: 18px 18px;
+  }
+}
+
+.sri-lanka,
+.lk {
+  background: url("../img/flags_f/lk.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .sri-lanka,
+  .lk {
+    background-size: 18px 18px;
+  }
+}
+
+.sudan,
+.sd {
+  background: url("../img/flags_f/sd.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .sudan,
+  .sd {
+    background-size: 18px 18px;
+  }
+}
+
+.suriname,
+.sr {
+  background: url("../img/flags_f/sr.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .suriname,
+  .sr {
+    background-size: 18px 18px;
+  }
+}
+
+.svalbard-and-jan-mayen,
+.sj {
+  background: url("../img/flags_f/sj.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .svalbard-and-jan-mayen,
+  .sj {
+    background-size: 18px 18px;
+  }
+}
+
+.swaziland,
+.sz {
+  background: url("../img/flags_f/sz.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .swaziland,
+  .sz {
+    background-size: 18px 18px;
+  }
+}
+
+.sweden,
+.se {
+  background: url("../img/flags_f/se.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .sweden,
+  .se {
+    background-size: 18px 18px;
+  }
+}
+
+.switzerland,
+.ch {
+  background: url("../img/flags_f/ch.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .switzerland,
+  .ch {
+    background-size: 18px 18px;
+  }
+}
+
+.syrian-arab-republic,
+.sy {
+  background: url("../img/flags_f/sy.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .syrian-arab-republic,
+  .sy {
+    background-size: 18px 18px;
+  }
+}
+
+.taiwan,
+.tw {
+  background: url("../img/flags_f/tw.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .taiwan,
+  .tw {
+    background-size: 18px 18px;
+  }
+}
+
+.tajikistan,
+.tj {
+  background: url("../img/flags_f/tj.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .tajikistan,
+  .tj {
+    background-size: 18px 18px;
+  }
+}
+
+.tanzania,
+.tz {
+  background: url("../img/flags_f/tz.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .tanzania,
+  .tz {
+    background-size: 18px 18px;
+  }
+}
+
+.thailand,
+.th {
+  background: url("../img/flags_f/th.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .thailand,
+  .th {
+    background-size: 18px 18px;
+  }
+}
+
+.timor-leste,
+.tl {
+  background: url("../img/flags_f/tl.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .timor-leste,
+  .tl {
+    background-size: 18px 18px;
+  }
+}
+
+.togo,
+.tg {
+  background: url("../img/flags_f/tg.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .togo,
+  .tg {
+    background-size: 18px 18px;
+  }
+}
+
+.tokelau,
+.tk {
+  background: url("../img/flags_f/tk.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .tokelau,
+  .tk {
+    background-size: 18px 18px;
+  }
+}
+
+.tonga,
+.to {
+  background: url("../img/flags_f/to.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .tonga,
+  .to {
+    background-size: 18px 18px;
+  }
+}
+
+.trinidad-and-tobago,
+.tt {
+  background: url("../img/flags_f/tt.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .trinidad-and-tobago,
+  .tt {
+    background-size: 18px 18px;
+  }
+}
+
+.tunisia,
+.tn {
+  background: url("../img/flags_f/tn.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .tunisia,
+  .tn {
+    background-size: 18px 18px;
+  }
+}
+
+.turkey,
+.tr {
+  background: url("../img/flags_f/tr.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .turkey,
+  .tr {
+    background-size: 18px 18px;
+  }
+}
+
+.turkmenistan,
+.tm {
+  background: url("../img/flags_f/tm.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .turkmenistan,
+  .tm {
+    background-size: 18px 18px;
+  }
+}
+
+.tuvalu,
+.tv {
+  background: url("../img/flags_f/tv.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .tuvalu,
+  .tv {
+    background-size: 18px 18px;
+  }
+}
+
+.uganda,
+.ug {
+  background: url("../img/flags_f/ug.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .uganda,
+  .ug {
+    background-size: 18px 18px;
+  }
+}
+
+.ukraine,
+.ua {
+  background: url("../img/flags_f/ua.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .ukraine,
+  .ua {
+    background-size: 18px 18px;
+  }
+}
+
+.united-states,
+.us {
+  background: url("../img/flags_f/us.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .united-states,
+  .us {
+    background-size: 18px 18px;
+  }
+}
+
+.united-states-minor-outlying-islands,
+.um {
+  background: url("../img/flags_f/um.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .united-states-minor-outlying-islands,
+  .um {
+    background-size: 18px 18px;
+  }
+}
+
+.uruguay,
+.uy {
+  background: url("../img/flags_f/uy.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .uruguay,
+  .uy {
+    background-size: 18px 18px;
+  }
+}
+
+.uzbekistan,
+.uz {
+  background: url("../img/flags_f/uz.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .uzbekistan,
+  .uz {
+    background-size: 18px 18px;
+  }
+}
+
+.vanuatu,
+.vu {
+  background: url("../img/flags_f/vu.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .vanuatu,
+  .vu {
+    background-size: 18px 18px;
+  }
+}
+
+.venezuela,
+.ve {
+  background: url("../img/flags_f/ve.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .venezuela,
+  .ve {
+    background-size: 18px 18px;
+  }
+}
+
+.viet-nam,
+.vietnam {
+  background: url("../img/flags_f/vietnam.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .viet-nam,
+  .vietnam {
+    background-size: 18px 18px;
+  }
+}
+
+.british-virgin-islands,
+.vg {
+  background: url("../img/flags_f/vg.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .british-virgin-islands,
+  .vg {
+    background-size: 18px 18px;
+  }
+}
+
+.us-virgin-islands,
+.vi {
+  background: url("../img/flags_f/vi.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .us-virgin-islands,
+  .vi {
+    background-size: 18px 18px;
+  }
+}
+
+.wallis-and-futuna,
+.wf {
+  background: url("../img/flags_f/wf.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .wallis-and-futuna,
+  .wf {
+    background-size: 18px 18px;
+  }
+}
+
+.western-sahara,
+.eh {
+  background: url("../img/flags_f/eh.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .western-sahara,
+  .eh {
+    background-size: 18px 18px;
+  }
+}
+
+.yemen,
+.ye {
+  background: url("../img/flags_f/ye.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .yemen,
+  .ye {
+    background-size: 18px 18px;
+  }
+}
+
+.zambia,
+.zm {
+  background: url("../img/flags_f/zm.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .zambia,
+  .zm {
+    background-size: 18px 18px;
+  }
+}
+
+.zimbabwe,
+.zw {
+  background: url("../img/flags_f/zw.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .zimbabwe,
+  .zw {
+    background-size: 18px 18px;
+  }
+}
+
+.cocos-islands,
+.keeling-island,
+.cc {
+  background: url("../img/flags_f/cc.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .cocos-islands,
+  .keeling-island,
+  .cc {
+    background-size: 18px 18px;
+  }
+}
+
+.cote-d-ivoire,
+.ivory-coast,
+.ci {
+  background: url("../img/flags_f/ci.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .cote-d-ivoire,
+  .ivory-coast,
+  .ci {
+    background-size: 18px 18px;
+  }
+}
+
+.falkland-islands,
+.malvinas,
+.fk {
+  background: url("../img/flags_f/fk.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .falkland-islands,
+  .malvinas,
+  .fk {
+    background-size: 18px 18px;
+  }
+}
+
+.holy-see,
+.vatican-city-state,
+.va {
+  background: url("../img/flags_f/va.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .holy-see,
+  .vatican-city-state,
+  .va {
+    background-size: 18px 18px;
+  }
+}
+
+.peoples-republic-of-korea,
+.north-korea,
+.kp {
+  background: url("../img/flags_f/kp.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .peoples-republic-of-korea,
+  .north-korea,
+  .kp {
+    background-size: 18px 18px;
+  }
+}
+
+.republic-of-,
+.korea,
+.south-korea {
+  background: url("../img/flags_f/south-korea.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .republic-of-,
+  .korea,
+  .south-korea {
+    background-size: 18px 18px;
+  }
+}
+
+.moldova,
+.republic-of-moldova,
+.md {
+  background: url("../img/flags_f/md.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .moldova,
+  .republic-of-moldova,
+  .md {
+    background-size: 18px 18px;
+  }
+}
+
+.south-georgia,
+.south-sandwich-islands,
+.gs {
+  background: url("../img/flags_f/gs.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .south-georgia,
+  .south-sandwich-islands,
+  .gs {
+    background-size: 18px 18px;
+  }
+}
+
+.micronesia,
+.federated-states-of-micronesia,
+.fm {
+  background: url("../img/flags_f/fm.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .micronesia,
+  .federated-states-of-micronesia,
+  .fm {
+    background-size: 18px 18px;
+  }
+}
+
+.turks-and-caicos-islands,
+.turks-islands,
+.caicos-islands {
+  background: url("../img/flags_f/caicos-islands.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .turks-and-caicos-islands,
+  .turks-islands,
+  .caicos-islands {
+    background-size: 18px 18px;
+  }
+}
+
+.united-arab-emirates,
+.uae,
+.ae {
+  background: url("../img/flags_f/ae.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .united-arab-emirates,
+  .uae,
+  .ae {
+    background-size: 18px 18px;
+  }
+}
+
+.russian-federation,
+.russia,
+.ru {
+  background: url("../img/flags_f/ru.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .russian-federation,
+  .russia,
+  .ru {
+    background-size: 18px 18px;
+  }
+}
+
+.bosnia-and-herzegovina,
+.bosnia,
+.herzegovina,
+.ba {
+  background: url("../img/flags_f/ba.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .bosnia-and-herzegovina,
+  .bosnia,
+  .herzegovina,
+  .ba {
+    background-size: 18px 18px;
+  }
+}
+
+.saint-helena,
+.ascension,
+.tristan-da-cunha,
+.sh {
+  background: url("../img/flags_f/sh.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .saint-helena,
+  .ascension,
+  .tristan-da-cunha,
+  .sh {
+    background-size: 18px 18px;
+  }
+}
+
+.saint-kitts-and-nevis,
+.saint-kitts,
+.nevis,
+.kn {
+  background: url("../img/flags_f/kn.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .saint-kitts-and-nevis,
+  .saint-kitts,
+  .nevis,
+  .kn {
+    background-size: 18px 18px;
+  }
+}
+
+.saint-pierre-and-miquelon,
+.saint-pierre,
+.miquelon,
+.pm {
+  background: url("../img/flags_f/pm.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .saint-pierre-and-miquelon,
+  .saint-pierre,
+  .miquelon,
+  .pm {
+    background-size: 18px 18px;
+  }
+}
+
+.saint-vincent-and-the-grenadines,
+.saint-vincent,
+.the-grenadines,
+.grenadines {
+  background: url("../img/flags_f/grenadines.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .saint-vincent-and-the-grenadines,
+  .saint-vincent,
+  .the-grenadines,
+  .grenadines {
+    background-size: 18px 18px;
+  }
+}
+
+.united-kingdom,
+.great-britain,
+.uk,
+.gb {
+  background: url("../img/flags_f/gb.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .united-kingdom,
+  .great-britain,
+  .uk,
+  .gb {
+    background-size: 18px 18px;
+  }
+}
+
+/*==========  Unknown and non ISO countries  ==========*/
+.unknown {
+  background: url("../img/flags_f/_unknown.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .unknown {
+    background-size: 15px 15px;
+  }
+}
+
+.abkhazia {
+  background: url("../img/flags_f/_abkhazia.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .abkhazia {
+    background-size: 15px 15px;
+  }
+}
+
+.kosovo {
+  background: url("../img/flags_f/_kosovo.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .kosovo {
+    background-size: 15px 15px;
+  }
+}
+
+.northern-cyprus {
+  background: url("../img/flags_f/_northern-cyprus.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .northern-cyprus {
+    background-size: 15px 15px;
+  }
+}
+
+.northern-ireland {
+  background: url("../img/flags_f/_northern-ireland.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .northern-ireland {
+    background-size: 15px 15px;
+  }
+}
+
+.somaliland {
+  background: url("../img/flags_f/_somaliland.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .somaliland {
+    background-size: 15px 15px;
+  }
+}
+
+.wales {
+  background: url("../img/flags_f/_wales.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .wales {
+    background-size: 15px 15px;
+  }
+}
+
+.scotland {
+  background: url("../img/flags_f/_scotland.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .scotland {
+    background-size: 15px 15px;
+  }
+}
+
+.england {
+  background: url("../img/flags_f/_england.png") no-repeat;
+  background-size: 24px 24px;
+}
+@media screen and (max-width: 700px) {
+  .england {
+    background-size: 15px 15px;
+  }
+}
+
+/*-----  End of Region Flags  ------*/
+@font-face {
+  font-family: 'wrs';
+  src: url("../fonts/wrs/wrs.eot?-x1scux");
+  src: url("../fonts/wrs/wrs.eot?#iefix-x1scux") format("embedded-opentype"), url("../fonts/wrs/wrs.woff?-x1scux") format("woff"), url("../fonts/wrs/wrs.ttf?-x1scux") format("truetype"), url("../fonts/wrs/wrs.svg?-x1scux#wrs") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'wrs';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-g27:before {
+  content: "\e601";
+}
+
+.icon-fanatec-clubsport-formula:before {
+  content: "\e602";
+}
+
+.icon-ds3:before {
+  content: "\e610";
+}
+
+.icon-t500rs:before {
+  content: "\e604";
+}
+
+.icon-fanatec:before {
+  content: "\e606";
+}
+
+.icon-ds4:before {
+  content: "\e603";
+}
+
+.icon-dfgt:before {
+  content: "\e607";
+}
+
+.icon-t500rs-gte-f458:before {
+  content: "\e608";
+}
+
+.icon-t500rs-ferrari-f1:before {
+  content: "\e609";
+}
+
+.icon-fanatec-formula:before {
+  content: "\e60a";
+}
+
+.icon-g25:before {
+  content: "\e60b";
+}
+
+.icon-t500rs-no-shifter:before {
+  content: "\e605";
+}
+
+.icon-user:before {
+  content: "\e60e";
+}
+
+.icon-wheel:before {
+  content: "\e600";
+}
+
+.icon-cog:before {
+  content: "\e60f";
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+select {
+  border: 0 !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+ul {
+  margin: 0 !important;
+  padding: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+/* Main Container Styles */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 320px) {
+  .container {
+    width: auto;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 960px !important;
+  }
+}
+
+.push-right {
+  float: right;
+}
+
+/*==============================
+=            Header            =
+==============================*/
+/*==========  Top Navigation  ==========*/
+.wrs-top-bar {
+  color: white;
+  text-decoration: none;
+}
+.wrs-top-bar h4 {
+  line-height: 36px;
+  margin: 0;
+  overflow: hidden;
+}
+.wrs-top-bar ul {
+  float: left;
+}
+.wrs-top-bar li {
+  text-align: left;
+  float: left;
+  list-style: none;
+  margin: 0 10px;
+  font: normal 12px/20px arial;
+  color: white;
+  vertical-align: middle;
+}
+.wrs-top-bar li:not(:first-child) {
+  line-height: 36px;
+}
+.wrs-top-bar a {
+  color: white;
+  text-decoration: none !important;
+  font: normal 11px helvetica neue;
+}
+.wrs-top-bar a:hover {
+  color: #8080ff;
+}
+
+/*-----  End of Header  ------*/
+/*=====================================================
+=            Event Menu & Countdown Ticker            =
+=====================================================*/
+/* Event Title Bar */
+.wrs-event-menu {
+  background: transparent;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  top: 75%;
+}
+.wrs-event-menu li {
+  text-align: left;
+  float: left;
+  list-style: none;
+  margin: 0 10px;
+  font: normal 12px/20px "font-family:              " Helvetica Neue ",  Helvetica,       Arial,      sans-serif;";
+  color: white;
+  vertical-align: middle;
+}
+.wrs-event-menu ul li:nth-child(3),
+.wrs-event-menu ul li:nth-child(4) {
+  margin: 0px;
+}
+.wrs-event-menu ul li:nth-child(4) {
+  margin-left: 15px;
+}
+.wrs-event-menu ul li:nth-child(5) {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.wrs-event-menu ul li:nth-child(6) {
+  margin-right: 0px;
+}
+.wrs-event-menu ul li:nth-child(1) {
+  margin-right: 0;
+}
+.wrs-event-menu ul li:nth-child(2) {
+  margin-left: 5px;
+}
+.wrs-event-menu ul li:last-child {
+  margin-left: 0;
+}
+
+/*==========================================================
+=            Event Menu Bar & Countdown Ticker             =
+==========================================================*/
+/* Prev Next Button */
+.wrs-prev-next {
+  background: linear-gradient(to bottom, #525252 0%, #999999 100%);
+  display: inline-block;
+  color: white;
+  text-shadow: 0 1px 0 #444;
+  width: 27px;
+  height: 27px;
+  text-align: center;
+  line-height: 28px;
+  border-radius: 3px;
+  margin-top: 5px;
+}
+.wrs-prev-next:hover {
+  background: linear-gradient(to bottom, #6c6c6c, #b3b3b3);
+}
+
+/* Select Box */
+.wrs-select-menu {
+  background: linear-gradient(to bottom, #f0f0f0 0%, white 100%);
+  background-position: -349px 0;
+  border: 1px solid #fff !important;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  /*    text-align: 0.01px;*/
+  /*    text-overflow: "";*/
+  padding: 6px;
+}
+
+/* Game and Week Select Buttons */
+select .wrs-game-menu, select .wrs-week-menu {
+  width: 58px;
+  margin-left: 5px;
+}
+select .wrs-week-menu {
+  width: 83px;
+}
+
+/* Event Title */
+.wrs-event-title {
+  width: 53.33333%;
+  margin-top: 6px !important;
+}
+.wrs-event-title h4 {
+  font: bold 11px/26px "font-family:              " Helvetica Neue ",  Helvetica,       Arial,      sans-serif;";
+  margin: 0;
+}
+
+/* Splits / Results Toggle */
+.wrs-splits-results {
+  background: linear-gradient(to bottom, #525252 0%, #999999 100%);
+  display: inline-block;
+  border-radius: 3px;
+  /*    box-shadow: inset #555 3px 3px 5px;*/
+  width: 83px;
+  height: 27px;
+  /*    padding: 6px 14px;*/
+  text-align: center;
+  vertical-align: middle;
+  font: bold 11px/27px "font-family:              " Helvetica Neue ",  Helvetica,       Arial,      sans-serif;";
+  color: #fff;
+  margin: 5px 0 0 4px;
+}
+.wrs-splits-results:not(:first-child) {
+  background: linear-gradient(to bottom, #525252 0%, #797979 100%);
+}
+.wrs-splits-results a {
+  padding: 0;
+}
+.wrs-splits-results:hover {
+  background: green;
+}
+
+.wrs-selected {
+  background: linear-gradient(to bottom, #f0f0f0 0%, white 100%);
+  box-shadow: none;
+  border: #fff 1px solid;
+  width: 81px;
+  height: 25px;
+  color: #000;
+}
+
+/* Deadline Countdown Ticker */
+.wrs-countdown {
+  margin-right: 25px;
+}
+.wrs-countdown i {
+  font-size: 13px;
+}
+
+/*-----  End of Event Menu & Countdown Ticker  ------*/
+/*==================================================
+=            Event Info and Regulations            =
+==================================================*/
+.wrs-event-info {
+  margin-top: 20px;
+  width: 100%;
+  overflow: hidden;
+  background: #000;
+  border: 1px solid #0d0d0d;
+  border-radius: 2px;
+}
+
+.wrs-event-regs, .wrs-event-car, .wrs-event-track {
+  background: #141414;
+  overflow: hidden;
+  width: 33.33333%;
+  float: left;
+  padding: 10px 0 6px 25px;
+  font-size: 95% !important;
+  font-family: helvetica neue;
+}
+@media (max-width: 320px) {
+  .wrs-event-regs, .wrs-event-car, .wrs-event-track {
+    padding: 10px 0 6px 10px;
+    font-size: 85% !important;
+    width: 100%;
+  }
+}
+@media (min-width: 480px) {
+  .wrs-event-regs, .wrs-event-car, .wrs-event-track {
+    padding: 10px 0 6px 10px;
+    font-size: 85% !important;
+    width: 70%;
+  }
+}
+@media (min-width: 568px) {
+  .wrs-event-regs, .wrs-event-car, .wrs-event-track {
+    padding: 10px 0 6px 15px;
+    font-size: 85% !important;
+    width: 74%;
+  }
+}
+@media (min-width: 768px) {
+  .wrs-event-regs, .wrs-event-car, .wrs-event-track {
+    width: 40%;
+    padding: 10px 0 6px 15px;
+  }
+}
+.wrs-event-regs ul li, .wrs-event-car ul li, .wrs-event-track ul li, .wrs-event-regs ul a, .wrs-event-car ul a, .wrs-event-track ul a {
+  list-style: none;
+  color: white;
+  text-align: left;
+  font-size: 85%;
+}
+.wrs-event-regs ul p, .wrs-event-car ul p, .wrs-event-track ul p, .wrs-event-regs ul h4, .wrs-event-car ul h4, .wrs-event-track ul h4 {
+  float: left;
+  line-height: 22px;
+  margin: 0;
+}
+.wrs-event-regs ul a, .wrs-event-car ul a, .wrs-event-track ul a {
+  color: orange;
+  margin-right: 5px;
+  font: bold 100% helvetica neue;
+}
+.wrs-event-regs ul a:hover, .wrs-event-car ul a:hover, .wrs-event-track ul a:hover {
+  color: #9999ff;
+}
+.wrs-event-regs h4, .wrs-event-car h4, .wrs-event-track h4 {
+  width: 20%;
+  overflow: hidden;
+  color: #999;
+  font-size: 95%;
+  font-weight: bold;
+}
+.wrs-event-regs p, .wrs-event-car p, .wrs-event-track p {
+  width: 80%;
+  line-height: 20px;
+  float: left;
+  overflow: hidden;
+}
+
+.wrs-event-car, .wrs-event-track {
+  padding: 0;
+}
+.wrs-event-car img, .wrs-event-track img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+@media (min-width: 320px) {
+  .wrs-event-car, .wrs-event-track {
+    width: 50%;
+  }
+}
+@media (min-width: 480px) {
+  .wrs-event-car, .wrs-event-track {
+    width: 30%;
+    padding: 0;
+  }
+}
+@media (min-width: 568px) {
+  .wrs-event-car, .wrs-event-track {
+    width: 26%;
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .wrs-event-car, .wrs-event-track {
+    width: 30%;
+    margin-top: 10px;
+  }
+}
+
+/*-----  End of Event Info and Regulations  ------*/
+/*====================================
+=            Leaderboards            =
+====================================*/
+/*Sticky Header Table */
+.wrs-lb table {
+  border: none;
+  margin: 10px 0;
+  width: 100%;
+  background: #fff;
+}
+.wrs-lb table td, .wrs-lb table th {
+  padding: 2px 10px;
+  text-align: left;
+  border: none;
+}
+.wrs-lb table thead {
+  display: table-header-group;
+}
+.wrs-lb table thead th {
+  background-image: linear-gradient(#f2825b, #e55b2b, #f07146);
+  background-image: linear-gradient(to bottom, #00b298, #00e5c4);
+  font: bold 14px/30px "font-family:              " Helvetica Neue ",  Helvetica,       Arial,      sans-serif;";
+  color: white;
+  text-shadow: 0 -1px 0 #444;
+  white-space: nowrap;
+}
+.wrs-lb table thead th:nth-child(1), .wrs-lb table thead th:nth-child(2), .wrs-lb table thead th:nth-child(3) {
+  text-align: center;
+}
+.wrs-lb table tbody, .wrs-lb table a {
+  font: bold 12px/30px "font-family:              " Helvetica Neue ",  Helvetica,       Arial,      sans-serif;";
+}
+.wrs-lb table tbody .lb-tb-header:nth-child(1), .wrs-lb table a .lb-tb-header:nth-child(1), .wrs-lb table tbody .lb-tb-header:nth-child(2), .wrs-lb table a .lb-tb-header:nth-child(2), .wrs-lb table tbody .lb-tb-header:nth-child(3), .wrs-lb table a .lb-tb-header:nth-child(3) {
+  text-align: center;
+}
+.wrs-lb table tbody .wrs-lb-controller, .wrs-lb table a .wrs-lb-controller {
+  font-size: 16px;
+}
+.wrs-lb table tbody [class^="icon-"], .wrs-lb table a [class^="icon-"], .wrs-lb table tbody [class*=" icon-"], .wrs-lb table a [class*=" icon-"], .wrs-lb table tbody .fa-question-circle, .wrs-lb table a .fa-question-circle {
+  color: #777;
+  text-align: center;
+  transition-duration: 0.2s;
+  display: inline-block;
+}
+.wrs-lb table tbody [class^="icon-"]:hover, .wrs-lb table a [class^="icon-"]:hover, .wrs-lb table tbody [class*=" icon-"]:hover, .wrs-lb table a [class*=" icon-"]:hover {
+  color: #449FDB;
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+.wrs-lb table tbody .icon-ds3, .wrs-lb table a .icon-ds3, .wrs-lb table tbody .icon-ds4, .wrs-lb table a .icon-ds4 {
+  font-size: 13px;
+}
+.wrs-lb table tbody .icon-ds3:hover, .wrs-lb table a .icon-ds3:hover, .wrs-lb table tbody .icon-ds4:hover, .wrs-lb table a .icon-ds4:hover {
+  -moz-transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  transform: rotate(10deg);
+}
+.wrs-lb table tbody .fa-question-circle:hover, .wrs-lb table a .fa-question-circle:hover {
+  color: #449FDB;
+}
+.wrs-lb table tr:nth-child(2n-1) {
+  background: #e5e5e5 !important;
+}
+
+.div-1 {
+  background: url(http://wrs.gtplanet.net/images/badge_division_1.png) no-repeat;
+  width: 36px;
+  height: 17px;
+  display: inline-block;
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px;
+}
+.div-1:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+.div-2 {
+  background: url(http://wrs.gtplanet.net/images/badge_division_2.png) no-repeat;
+  width: 36px;
+  height: 17px;
+  display: inline-block;
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px;
+}
+.div-2:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+.div-3 {
+  background: url(http://wrs.gtplanet.net/images/badge_division_3.png) no-repeat;
+  width: 36px;
+  height: 17px;
+  display: inline-block;
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px;
+}
+.div-3:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+.div-4 {
+  background: url(http://wrs.gtplanet.net/images/badge_division_4.png) no-repeat;
+  width: 36px;
+  height: 17px;
+  display: inline-block;
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px;
+}
+.div-4:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+.div-Gold {
+  background: url(http://wrs.gtplanet.net/images/Trophy_Gold.png) no-repeat;
+  width: 14px;
+  height: 15px;
+  display: inline-block;
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px;
+}
+.div-Gold:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+.div-Silver {
+  background: url(http://wrs.gtplanet.net/images/Trophy_Silver.png) no-repeat;
+  width: 14px;
+  height: 15px;
+  display: inline-block;
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px;
+}
+.div-Silver:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+.div-Bronze {
+  background: url(http://wrs.gtplanet.net/images/Trophy_Bronze.png) no-repeat;
+  width: 14px;
+  height: 15px;
+  display: inline-block;
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px;
+}
+.div-Bronze:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+.fastest-overall {
+  color: #C80C8C;
+}
+
+.fastest-division {
+  color: #19AA00;
+}
+
+@media (max-width: 320px) {
+  .wrs-lb-split-h, .wrs-lb-split, .wrs-lb-gap-h, .wrs-lb-gap {
+    display: none;
+  }
+}
+
+/*-----  End of Leaderboards  ------*/

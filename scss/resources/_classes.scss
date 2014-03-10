@@ -1,0 +1,49 @@
+// CLASSES:
+
+$push-right:                "push-right";              // pushes item to the right of the screen using float right
+$wrs-top-bar:               "wrs-top-bar";
+
+// Event Menu Classes / This is the menu that displays the gt/week menu the title and the splits results links
+$wrs-event-menu:            "wrs-event-menu";          // or "wrs-event-menu" styles the banner and title of the event including the countdown clock
+$wrs-prev-next:             "wrs-prev-next";
+$wrs-select-menu:           "wrs-select-menu";         // styles the selet menu
+$wrs-game:                  "wrs-game-menu";           // select menu for choosing the game (gt5/gt6/gtp)
+$wrs-week:                  "wrs-week-menu";           // select menu for choosing the event week
+$wrs-event-title:           "wrs-event-title";
+$wrs-splits-results-button: "wrs-splits-results";
+$wrs-selected-button:       "wrs-selected";
+$wrs-countdown:             "wrs-countdown";
+// Event Regulations / This is where we have the event rules, car and track details
+$wrs-event-info:            "wrs-event-info";          // styles the container containing the rules + car + track
+$wrs-event-regs:            "wrs-event-regs";          // styles the events regulations ie the listed rules
+$wrs-event-car:             "wrs-event-car";           // styles the car section + img
+$wrs-event-track:           "wrs-event-track";         // styles the track info and image
+
+// Event Leaderboard / This styles the leader board
+$wrs-lb:                    "wrs-lb";                  // styles the leaderboard container
+$wrs-lb-position-h:         "wrs-lb-position-h";       // styles the leaderboard position
+$wrs-lb-region-h:           "wrs-lb-region-h";         // styles the leaderboard region
+$wrs-lb-controller-h:       "wrs-lb-controller-h";     // styles the leaderboard controller
+$wrs-lb-driver-h:           "wrs-lb-driver-h";         // styles the leaderboard driver
+$wrs-lb-division-h:         "wrs-lb-division-h";       // styles the leaderboard division
+$wrs-lb-division-class-h:   "wrs-lb-division-class-h"; // styles the leaderboard division class
+$wrs-lb-split-h:            "wrs-lb-split-h";          // styles the leaderboard split
+$wrs-lb-total-split-h:      "wrs-lb-total-split-h";    // styles the leaderboard total plit
+$wrs-lb-total-time-h:       "wrs-lb-total-time-h";     // styles the leaderboard total time
+$wrs-lb-gap-h:              "wrs-lb-gap-h";            // styles the leaderboard gap
+$wrs-lb-position:           "wrs-lb-position";         // styles the leaderboard position
+$wrs-lb-region:             "wrs-lb-region";           // styles the leaderboard region
+$wrs-lb-controller:         "wrs-lb-controller";       // styles the leaderboard controller
+$wrs-lb-driver:             "wrs-lb-driver";           // styles the leaderboard driver
+$wrs-lb-division:           "wrs-lb-division";         // styles the leaderboard division
+$wrs-lb-division-class:     "wrs-lb-division-class";   // styles the leaderboard division class
+$wrs-lb-split:              "wrs-lb-split";            // styles the leaderboard split
+$wrs-lb-total-split:        "wrs-lb-total-split";      // styles the leaderboard total plit
+$wrs-lb-total-time:         "wrs-lb-total-time";       // styles the leaderboard total time
+$wrs-lb-gap:                "wrs-lb-gap";              // styles the leaderboard gap
+$wrs-region:                "wrs-region";
+
+$wrs-footer:                "wrs-footer";              // styles the footer container
+
+
+$default-font:              "font-family:              "Helvetica  Neue",  Helvetica,       Arial,      sans-serif;";

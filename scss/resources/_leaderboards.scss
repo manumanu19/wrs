@@ -1,0 +1,137 @@
+/*====================================
+=            Leaderboards            =
+====================================*/
+
+/*Sticky Header Table */
+
+.#{$wrs-lb} {
+	table{
+		border: none;
+		margin: 10px 0;
+		width: 100%;
+		background: #fff;
+
+		td, th {
+			padding: 2px 10px;
+			text-align: left;
+			border: none;
+		}
+
+		thead {
+				display: table-header-group;
+			th{
+				background-image: linear-gradient(#f2825b, #e55b2b, #f07146);
+				background-image: linear-gradient(to bottom, #00B298, lighten(#00B298, 10%));
+				font: bold 14px/30px $default-font;
+				color: white;
+				text-shadow: 0 -1px 0 #444;
+				white-space: nowrap; 
+
+				&:nth-child(1), &:nth-child(2), &:nth-child(3){
+					text-align: center;
+				}
+			}
+		}
+
+		tbody {
+			font: bold 12px/30px $default-font;
+			
+			tr{
+				
+				&:nth-child(2n+1){
+					.lb-tb-header{
+						// background-color: #fdf3f0; 
+					}
+				}	
+			}
+			.lb-tb-header{
+				&:nth-child(1), &:nth-child(2), &:nth-child(3){
+					text-align: center;
+				}
+			}
+			.#{$wrs-lb-controller} {
+				font-size: 16px;
+			}
+
+			[class^="icon-"], [class*=" icon-"], .fa-question-circle{
+				color: #777;
+				text-align: center;
+				transition-duration: 0.2s;
+				display: inline-block;
+			}
+			[class^="icon-"], [class*=" icon-"]{
+				&:hover{
+					color: #449FDB;
+					-moz-transform: rotate(360deg);
+					-webkit-transform: rotate(360deg);
+					-o-transform: rotate(360deg);
+					-ms-transform: rotate(360deg);
+					transform: rotate(360deg);
+				}
+			}
+
+			.icon-ds3, .icon-ds4{
+				font-size: 13px;
+				
+				&:hover{
+					-moz-transform: rotate(10deg);
+					-webkit-transform: rotate(10deg);
+					-o-transform: rotate(10deg);
+					-ms-transform: rotate(10deg);
+					transform: rotate(10deg);
+				}
+			}
+			.fa-question-circle{
+				&:hover{
+					color: #449FDB;
+				}
+			}	
+		}
+		a {
+			@extend tbody;
+		}
+
+		tr:nth-child(2n-1) {
+			background: #e5e5e5 !important;
+		}
+	}
+}
+
+$divlist: 1, 2, 3, 4;
+$divclass: "Gold", "Silver", "Bronze";
+
+@each $division in $divlist {
+	.div-#{$division} {
+		background: url(http://wrs.gtplanet.net/images/badge_division_#{$division}.png) no-repeat;
+		width: 36px;
+   		height: 17px;
+   		display: inline-block;
+   		@include hide-text;
+	}
+}
+
+@each $class in $divclass {
+	.div-#{$class} {
+		background: url(http://wrs.gtplanet.net/images/Trophy_#{$class}.png) no-repeat;
+		width: 14px;
+   		height: 15px;
+   		display: inline-block;
+   		@include hide-text;
+	}
+}
+
+.fastest-overall{
+    color: #C80C8C;
+}
+.fastest-division{
+    color: #19AA00;
+}
+
+.#{$wrs-lb-split-h}, .#{$wrs-lb-split}, .#{$wrs-lb-gap-h}, .#{$wrs-lb-gap} {
+    @media (max-width: 320px) {
+        display: none;
+    }
+}
+
+
+/*-----  End of Leaderboards  ------*/

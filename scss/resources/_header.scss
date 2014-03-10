@@ -1,0 +1,44 @@
+/*==============================
+=            Header            =
+==============================*/
+
+/*==========  Top Navigation  ==========*/
+
+.#{$wrs-top-bar} {
+    color: white;
+    text-decoration: none;
+
+    h4 {
+        line-height: 36px;
+        margin: 0;
+        overflow: hidden;
+    }  
+    ul{
+        float: left;
+    }
+
+    li{
+        text-align: left;
+        float: left;
+        list-style: none;
+        margin: 0 10px;
+        font: normal 12px/20px arial;
+        color: white;
+        vertical-align: middle;
+
+        &:not(:first-child){
+            line-height: 36px;
+        }
+    }
+    a{
+        color: white;
+        text-decoration: none !important;
+        font: normal 11px helvetica neue;
+
+        &:hover{
+            color: lighten(blue, 25%);
+        }
+    }
+}
+
+/*-----  End of Header  ------*/

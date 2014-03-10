@@ -1,0 +1,165 @@
+/*=====================================================
+=            Event Menu & Countdown Ticker            =
+=====================================================*/
+
+/* Event Title Bar */
+
+.#{$wrs-event-menu} {
+    background: transparent;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    top: 75%;
+
+    li{
+        text-align: left;
+        float: left;
+        list-style: none;
+        margin: 0 10px;
+        font: normal 12px/20px $default-font;
+        color: white;
+        vertical-align: middle;
+    }
+
+	ul {
+	    li:nth-child(3), 
+	    li:nth-child(4) {
+	        margin: 0px;
+	    }
+	    li:nth-child(4) {
+	        margin-left: 15px;
+	    }
+	    li:nth-child(5) {
+	        margin-left: 8px;
+	        margin-right: 8px;
+	    }
+	    li:nth-child(6) {
+	        margin-right: 0px;
+	    }
+	    li:nth-child(1) {
+	        margin-right: 0;
+	    }
+	    li:nth-child(2) {
+	        margin-left: 5px;
+	    }
+	    li:last-child {
+	        margin-left: 0;
+	    }
+	}
+}
+
+/*==========================================================
+=            Event Menu Bar & Countdown Ticker             =
+==========================================================*/
+
+
+/* Prev Next Button */
+
+.#{$wrs-prev-next} {
+    background: linear-gradient(to bottom, #525252 0%,#999 100%);
+    display: inline-block;
+    color: white;
+    text-shadow: 0 1px 0 #444;
+    width: 27px;
+    height: 27px;
+    text-align: center;
+    line-height: 28px;
+    border-radius: 3px;
+    margin-top: 5px;
+
+    &:hover{
+        background: linear-gradient(to bottom, lighten(#525252, 10%), lighten(#999, 10%));
+    }
+}
+
+/* Select Box */
+
+.#{$wrs-select-menu} {
+    background: linear-gradient(to bottom, #f0f0f0 0%,#ffffff 100%);
+    background-position: -349px 0;
+    border: 1px solid #fff !important;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-top: 5px;
+/*    text-align: 0.01px;*/
+/*    text-overflow: "";*/
+    padding: 6px;
+}
+
+	/* Game and Week Select Buttons */
+
+	select{
+		.#{$wrs-game} {
+		    width: 58px;
+		    margin-left: 5px;
+		}
+
+		.#{$wrs-week} {
+		    @extend .#{$wrs-game};
+		    width: 83px;
+		}
+	}
+
+
+/* Event Title */
+
+.#{$wrs-event-title} { 
+    width: percentage(512px/960px);
+    margin-top: 6px !important;
+
+    h4 {
+        font: bold 11px/26px $default-font;
+        margin: 0;
+    }
+}
+
+/* Splits / Results Toggle */
+
+.#{$wrs-splits-results-button} {
+    background: linear-gradient(to bottom, #525252 0%,#999 100%);
+    display: inline-block;
+    border-radius: 3px;
+/*    box-shadow: inset #555 3px 3px 5px;*/
+    width: 83px;
+    height: 27px;
+/*    padding: 6px 14px;*/
+    text-align: center;
+    vertical-align: middle;
+    font: bold 11px/27px $default-font;
+    color: #fff;
+    margin: 5px 0 0 4px;
+
+    &:not(:first-child){
+        background: linear-gradient(to bottom, #525252 0%,#797979 100%);
+    }
+
+    a{
+        padding: 0;
+    }
+
+    &:hover{
+        background: green;
+    }
+}
+
+.#{$wrs-selected-button} {
+    background: linear-gradient(to bottom, #f0f0f0 0%,#ffffff 100%);
+    box-shadow: none;
+    border: #fff 1px solid;
+    width: 81px;
+    height: 25px;
+    color: #000;
+}
+
+/* Deadline Countdown Ticker */
+
+.#{$wrs-countdown} {
+    margin-right: 25px;
+
+    i{
+        font-size: 13px;
+    }
+}
+
+/*-----  End of Event Menu & Countdown Ticker  ------*/
+

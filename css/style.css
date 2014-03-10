@@ -1,0 +1,1133 @@
+body
+{
+    background: #ffffff url('http://wrs.gtplanet.net/images/Background.jpg') repeat-x;
+    margin: 0px;
+    padding: 0px;
+    text-align: center; /* for IE */
+}
+
+div#container 
+{
+        margin: 0 auto;   /* align for good browsers */
+        text-align: left; /* counter the body center */
+        width: 960px;
+}
+
+html,
+body,
+td
+{
+    font-family: tahoma, Verdana;
+}
+
+h2
+{
+    font-size: 10pt;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+a img
+{
+    border: 0px;
+}
+
+/**
+ *  The main content block styling
+ */
+
+div#content
+{
+    width: 960px;
+    overflow: hidden;
+
+    _overflow: display; /* IE hack , fix for overflow weeks with > 3 splits */
+}
+
+div#content_ancher
+{
+    position: absolute;
+    margin-top: 260px;
+}
+
+/**
+ *  The header styling
+ */
+div#header
+{
+    width: 960px;
+    height: 36px;
+
+    color: white;
+    font-size: 8pt;
+
+    margin: auto;
+}
+
+div.header_button a
+{
+    color: white;
+}
+
+div.header_button,
+div.header_button_active
+{
+    float: left;
+    padding: 12px;
+    background: url("http://wrs.gtplanet.net/images/Header_Button.png") no-repeat bottom center;
+}
+
+div.header_button a:hover
+{
+    text-decoration: underline;
+}
+
+div.header_button_active
+{
+    background: url("http://wrs.gtplanet.net/images/Header_Button_Active.png") no-repeat bottom center;
+}
+
+div.button_right a:hover
+{
+    color: #5fc8ff
+}
+
+div.button_right
+{
+    padding: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+img#header_news,
+img#header_forums,
+img#header_guides,
+img#header_tv,
+img#header_store 
+{
+    margin-top: 7px;
+    margin-left: 3px;
+}
+
+div.header_spacer
+{
+    float: left;
+    width: 1px;
+    height: 32px;
+    background: url('http://wrs.gtplanet.net/images/Header_Spacer.png');
+}
+
+/**
+ * 'Menu block' styling
+ */
+div#menu_open
+{
+    background: url('http://wrs.gtplanet.net/images/Menu_Open_Background.png') no-repeat;
+
+    width: 960px;
+    height: 164px;
+    margin-top: 26px;
+
+    font-size: 8pt;
+}
+
+div#menu_closed,
+div#menu_closed_driver_profile,
+div#menu_closed_divisions,
+div#menu_closed_replay,
+div#menu_closed_faq,
+div#menu_closed_generic,
+div#menu_closed_bugs
+{
+    background: url('http://wrs.gtplanet.net/images/header_page_frontpage_beta.png') no-repeat;
+
+    width: 960px;
+    height: 128px;
+    margin-top: 26px;
+}
+
+div#menu_closed_replay
+{
+    background: url('http://wrs.gtplanet.net/images/header_page_replay_beta.png') no-repeat;
+}
+
+div#menu_closed_generic
+{
+    background: url('http://wrs.gtplanet.net/images/header_page_generic_beta.png') no-repeat;
+}
+
+div#menu_closed_divisions
+{
+    background: url('http://wrs.gtplanet.net/images/header_page_divisions.png') no-repeat;
+}
+
+div#menu_closed_faq
+{
+    background: url('http://wrs.gtplanet.net/images/header_page_faq.png') no-repeat;
+}
+
+div#menu_closed_bugs
+{
+    background: url('http://wrs.gtplanet.net/images/header_page_bugs_beta.png') no-repeat;
+}
+
+div#menu_closed_driver_profile
+{
+    background: url('http://wrs.gtplanet.net/images/header_page_driver_profile_beta.png') no-repeat;
+}
+
+div.menu div#button_next,
+div.menu div#button_previous,
+div.menu div#button_splits,
+div.menu div#button_results,
+div.menu div#week_selector
+{
+    font-weight: bold;
+    margin-top: 129px;
+    margin-right: 10px;
+}
+
+div.menu div#week_selector
+{
+    margin-top: 132px;
+    text-align: left;
+}
+
+div#game_selector_dropdown,
+div#week_selector_dropdown
+{
+    background: white;
+
+    padding: 5px;
+    line-height: 1.6em;
+    padding-top: -5px;
+
+    position: absolute;
+    top: 218px;
+    width: 74px;
+    height: 200px;
+    overflow: auto;
+}
+
+div#week_dropdown_pane
+{
+    height: 200px;
+}
+
+div#game_selector_dropdown
+{
+    width: 50px;
+    height: 50px;
+}
+
+div#game_dropdown_pane
+{
+    height: 40px;
+}
+
+
+div.menu div#breadcrumb
+{
+    margin-top: 136px;
+    margin-left: 20px;
+}
+
+div.menu div#breadcrumb,
+div.menu div#breadcrumb a
+{
+    color: white;
+    font-weight: bold;
+}
+
+div.menu div#breadcrumb a:hover
+{   
+    text-decoration: underline;
+}
+
+div.menu span.breadcrumb_spacer
+{
+    background: url('http://wrs.gtplanet.net/images/Small_Button_Right.png') no-repeat;
+    margin: 4px;
+    margin-bottom: 4px;
+}
+
+
+div.menu div#button_previous
+{   
+    margin-left: 10px;
+}
+
+div.menu div#button_splits,
+div.menu div#button_results,
+div.menu div#button_week_select,
+div.menu div#button_game_select
+{
+    width: 82px;
+    height: 20px; /* 26 -6 padding */
+    _height: 26px; /* ie hack */
+    cursor: pointer;
+}
+
+div.menu div#button_splits a:hover,
+div.menu div#button_results a:hover
+{
+    text-decoration: none;
+}
+
+div.menu div#button_game_select,
+div.menu div#button_week_select
+{
+    margin-top:  129px;
+    text-align: left;
+    padding-left: 8px;
+    width: 74px;
+    _width: 82px;
+    background: url('http://wrs.gtplanet.net/images/button_dropdown_sprite.png');
+}
+
+div.menu div#button_game_select
+{
+    background: url('http://wrs.gtplanet.net/images/button_dropdown_sprite_small.png');
+    margin-right: 12px;
+    width: 50px;
+}
+
+div.menu div#button_week_select:hover a:hover
+{
+    text-decoration: underline;
+}
+
+div.menu div#button_week_select:hover
+{
+    background-position: 0px 52px; 
+}
+
+div.button_inactive,
+div.button_active {
+    padding-top: 6px;
+    text-align: center;
+}
+
+div.button_inactive
+{
+    background: #000000 url('http://wrs.gtplanet.net/images/Menu_Button_Inactive.jpg') no-repeat;
+}
+
+div.button_inactive a
+{
+    color: white;
+}
+
+div.button_inactive:hover
+{
+    background: #000000 url('http://wrs.gtplanet.net/images/Menu_Button_Active.jpg') no-repeat;
+}
+
+div.button_inactive:hover > a {
+    color: black;
+}
+
+div.button_active
+{
+    background: #000000 url('http://wrs.gtplanet.net/images/Menu_Button_Active.jpg') no-repeat;
+}
+
+div.button_active a
+{
+    color: black;
+}
+
+#menu_button_left, 
+#menu_button_right {
+    display: block; 
+    width: 26px;    
+    height: 26px;
+}
+
+#menu_button_right {
+    background: url("http://wrs.gtplanet.net/images/Menu_Button_Right.png");
+}
+
+#menu_button_right:hover {
+    background: url('http://wrs.gtplanet.net/images/Menu_Button_Right_Selected.png');
+}
+
+#menu_button_left {
+    background: url("http://wrs.gtplanet.net/images/Menu_Button_Left.png");
+}
+
+#menu_button_left:hover {
+    background: url('http://wrs.gtplanet.net/images/Menu_Button_Left_Selected.png');
+}
+
+/** begin sfar */
+
+/**
+ * 'Week details block' styling
+ */
+div#week_data
+{
+    margin: 0px;
+    background: black;
+}
+
+div#week_data_combo,
+div#week_data_track,
+div#week_data_car
+{
+    width: 319px;
+    height: 163px;
+    background: black;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+div#week_data_combo,
+div#week_data_car
+{
+    /* DEZE FLOAT MAAKT SAFARI STUK */
+    float: left;
+}
+
+div#week_data_track
+{
+    /* DEZE FLOAT MAAKT SAFARI STUK */
+    float: right;
+}
+
+div#week_data_car
+{
+    width: 320px;
+}
+
+div#week_data_combo
+{
+    border-right: 1px solid #3b3b3b;
+    background: url('http://wrs.gtplanet.net/images/column_info_text.png');
+    padding-top: 4px;
+    padding-left: 10px;
+
+    width: 309px; /* 319 - 10 */
+    height: 159px; /* 163 - 4 */
+
+    _width: 320px;
+    _height: 163px;
+}
+
+div#week_data_combo td
+{
+    height: 15px;
+}
+
+div#week_data_track
+{
+    border-left: 1px solid #3b3b3b;
+}
+
+div#week_data_track img
+{
+    width: 319px;
+    height: 163px;
+}
+
+div#week_data_car img
+{
+    width: 320px;
+    height: 163px;
+}
+
+/** END sfar */
+
+
+
+div#subheader_frontpage, 
+div.subheader_generic,
+div.subheader_driver,
+div.subheader_frontpage,
+div.subheader_question,
+div.subheader_division, 
+div.subheader_gold, 
+div.subheader_silver, 
+div.subheader_bronze
+{
+    height: 25px;
+    _height: 36px; /* ie hack */
+
+    color: white;
+    font-weight: bold;
+    font-size: 8pt;
+    padding: 10px;
+    padding-top: 11px;
+    padding-left: 36px;
+    padding-bottom: 0px;
+}
+
+div.subheader_division a
+{
+    color: white;
+    text-decoration: underline;
+}
+
+div.subheader_frontpage span.track
+{
+    padding-right: 26px;
+}
+
+div.subheader_frontpage
+{
+    background: url('http://wrs.gtplanet.net/images/subheader_frontpage.png') no-repeat;
+    margin-top: 16px;
+}
+
+div.subheader_driver
+{
+    background: url('http://wrs.gtplanet.net/images/subheader_driver.png') no-repeat;
+    margin-top: 16px;
+}
+
+div.subheader_question
+{
+    background: url('http://wrs.gtplanet.net/images/subheader_question.png') no-repeat;
+    margin-top: 16px;
+}
+
+div.subheader_generic
+{
+    background: url('http://wrs.gtplanet.net/images/subheader_generic.png') no-repeat;
+    margin-top: 16px;
+}
+
+div.subheader_division
+{
+    background: url('http://wrs.gtplanet.net/images/subheader_division.png') no-repeat;
+    margin-top: 16px;
+}
+
+div.subheader_gold
+{
+    background: url('http://wrs.gtplanet.net/images/subheader_class_gold.png') no-repeat;
+    color: #82551e;
+}
+
+div.subheader_silver
+{
+    background: url('http://wrs.gtplanet.net/images/subheader_class_silver.png') no-repeat;
+    color: #646464;
+    margin-top: 8px;
+}
+
+div.subheader_bronze
+{
+    background: url('http://wrs.gtplanet.net/images/subheader_class_bronze.png') no-repeat;
+    color: #82551e;
+    margin-top: 8px;
+}
+
+table.division_table td
+{
+    padding-left: 40px;
+}
+
+table.week_description_table 
+{
+    margin: 2px;
+}
+
+table.week_description_table td
+{
+    padding: 5px;
+    font-size: 0.7em;
+}
+
+table.week_description_table td,
+table.week_description_table td a
+{
+    color: white;
+}
+
+table.week_description_table td a
+{
+    text-decoration: underline;
+}
+
+table.week_description_table td input
+{
+    border: 1px solid #aaa;
+    margin: 0px;
+    padding: 0px;
+    height: 15px;
+    width: 220px;
+}
+
+/** Helper classes
+ */
+.left
+{
+    float: left;
+}
+
+.right
+{
+    float: right;
+}
+
+table.runs_table td.icons {
+}
+
+table.registrations td.flag {
+    text-align: center;
+    cursor: pointer;
+}
+table.registrations tr.deleted td {
+    text-decoration: line-through;
+}
+
+table.registrations td img {
+    vertical-align: top;
+}
+
+table.registrations td.flag .alert {
+    padding: 2px;
+}
+
+table.runs_table td.text {
+    padding-left: 8px;
+}
+
+/**
+ * The table consiting of runs/results
+ */
+table.runs_table td.position,
+table.runs_table td.controller,
+table.runs_table td.medal,
+table.runs_table td.division,
+table.runs_table td.split,
+table.runs_table td.sector_time,
+table.runs_table td.gap
+{
+    text-align: center;
+    padding: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 10pt;
+}
+
+table.runs_table td.controller
+{
+    font-size: 0.8em;
+    color: #969696;
+}
+
+table.runs_table td.split,
+table.runs_table td.sector_time,
+table.runs_table td.gap
+{
+    font-weight: bold;
+}
+
+table.runs_table td.week_title
+{
+    font-size: 9pt;
+}
+
+table.runs_table td.division,
+table.runs_table td.position
+{
+    font-size: 0.8em;
+}
+
+td.driver
+{
+    padding: 4px;
+    padding-left: 8px;
+    font-weight: bold;
+    font-size: 75%;
+}
+
+table.runs_table td.fastestOverall
+{
+    color: #C80C8C;
+}
+
+table.runs_table td.fastestDiv
+{
+    color: #19AA00;
+}
+
+table.runs_table th 
+{
+    background: url('http://wrs.gtplanet.net/images/Table_Header_Background.png') repeat-x;
+    border-bottom: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+    border-left: 1px solid white;
+    padding: 8px;
+}
+
+table.runs_table td
+{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+table.runs_table th,
+table.runs_table th a
+{
+    font-size: 0.9em;
+    color: black;
+}
+
+table td.week_description_table_label
+{
+    padding-left: 7px;
+    color: #c8c8c8;
+    font-weight: bold;
+}
+
+
+table td.theoritical_fastest_time 
+{
+    text-align: right;
+    color: #808080;
+    font-weight: bold;
+    background: url('http://wrs.gtplanet.net/images/Fastest_Time_Background.jpg') repeat-x;
+    font-size: 0.8em;
+    border: 0px;
+    padding-right: 8px;
+    padding-top: 15px;
+}
+
+table td.replay
+{
+	padding-left: 7px;
+}
+
+td.replay img
+{
+    width: 16px;
+    height: 16px;
+	vertical-align: middle;
+}
+
+td.replay .replayRegion {
+	color: gray;
+	font-size: 10px;
+	vertical-align: middle;
+}
+
+table.runs_table td
+{
+    height: 24px;
+}
+
+
+/* 
+ * Div colors
+
+td.div_1,
+    color: #0e4675;
+td.div_2,
+    color: #c89601;
+td.div_3,
+    color: #2eaf30;
+td.div_4,
+    color: #519dd6;
+td.div_5,
+    color: black;
+}
+*/
+
+/**
+ * Footer
+ */
+
+div#footer
+{
+    background: url('http://wrs.gtplanet.net/images/Footer_Background.png') repeat-x;
+    height: 126px;
+    text-align: center;
+
+    padding: 0px;
+
+    margin: 0px;
+    margin-top: 50px;
+
+    font-size: 8pt;
+    line-height: 1.6em;
+}
+
+div#footer_text
+{
+    background: url('http://wrs.gtplanet.net/images/Footer_Text_Background.png') no-repeat;
+    height: 35px; /* 66 - 31 (16 + 15) padding */
+    width: 868px; /* 960 - (76 left + 16 right padding) */
+
+    padding: 16px;
+    padding-top: 15px;
+    padding-left: 76px;
+}
+
+div#footer_text a 
+{
+    color: #2d81c7;
+    font-weight: bold;
+}
+
+div#footer_text a:hover
+{
+    text-decoration: underline;
+}
+
+td.division_list
+{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    line-height: 1.3em;
+}
+
+
+div#more_less_info 
+{
+    display: block;
+    background-image: url('http://wrs.gtplanet.net/images/button_more_sprite.png');
+    width: 67px;
+    height: 17px;
+    margin-top: -1px;
+    cursor: pointer;
+}
+
+div.more_less_info_open
+{
+    background-position: 0px 17px; 
+}
+
+
+a.threadlink
+{
+    color: #f0d755 !important;
+    text-decoration: none !important;
+}
+
+a.threadlink:hover
+{
+    color: white !important;
+    text-decoration: underline !important;
+}
+
+.normal_weight
+{
+    font-weight: normal;
+}
+
+div.subheader_division span a:hover
+{
+    text-decoration: none;
+}
+
+a.division_page_user,
+a.driver,
+a.week_link
+{
+    color: #1964a0;
+}
+
+a.division_page_user:hover,
+a.driver:hover,
+a.week_link:hover
+{
+    color: #a01919;
+}
+
+div.question
+{
+    background-image: url('http://wrs.gtplanet.net/images/content_border_fill.png');
+    background-repeat: repeat;
+    width: 932px;
+    _width: 960px;
+    padding: 14px;
+    font-size: 0.8em;
+}
+
+div.question_bottom
+{
+    background: url('http://wrs.gtplanet.net/images/content_border_bottom.png');
+    width: 960px;
+    height: 4px;
+}
+
+input.bug,
+input.bug_submit,
+.bug_textarea
+{
+    width: 420px;
+    border: 1px solid #dcdcdc;
+    height: 27px;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.bug_textarea
+{
+    height: 160px;
+    font-size: 12px;
+    font-family: tahoma, Verdana;
+    font-size: 1em;
+}
+
+div.bug_submit
+{
+    margin-top: -5px;
+    font-size: 12px;
+    width: 107px;
+    height: 29px;
+    background: url('http://wrs.gtplanet.net/images/button_bug_report_sprite.png');
+    border: 0px;
+    text-align: center;
+    padding-top: 0px;
+    vertical-align: middle;
+    line-height: 28px;
+}
+
+div.bug_submit:hover
+{
+    background-position: 0px 29px;
+    border: 0px;
+    cursor: pointer;
+    color: white;
+}
+
+td.bug
+{
+    background: #f0f0f0;
+    padding: 4px;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+div.driver_profile_overall_label,
+div.driver_profile_overall_disqualified,
+div.driver_profile_overall_bronze,
+div.driver_profile_overall_silver,
+div.driver_profile_overall_gold
+{
+    float: right;
+    width: 85px;
+    height: 27px;    
+    _height: 37px;    
+    margin-left: 2px;
+    padding-top: 10px;
+    font-weight: normal;
+    color: black;
+}
+
+div.driver_profile_overall_label
+{
+    color: #656565;
+    font-weight: bold;
+}
+
+div.driver_profile_overall_disqualified img,
+div.driver_profile_overall_bronze img,
+div.driver_profile_overall_silver img,
+div.driver_profile_overall_gold img
+{
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+div.driver_profile_overall_disqualified
+{
+    margin-right: 38px;
+    background: url('http://wrs.gtplanet.net/images/bg_driver_place_disqualified.png');
+}
+
+div.driver_profile_overall_bronze
+{
+    background: url('http://wrs.gtplanet.net/images/bg_driver_place_3rd.png');
+}
+
+div.driver_profile_overall_silver
+{
+    background: url('http://wrs.gtplanet.net/images/bg_driver_place_2nd.png');
+}
+
+div.driver_profile_overall_gold
+{
+    background: url('http://wrs.gtplanet.net/images/bg_driver_place_1st.png');
+}
+
+td.no_participants
+{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    color: #c82d2d;
+
+    background: #fff0f0;
+}
+
+
+
+div#download_button
+{
+    width: 107px;
+    height: 29px;
+    background: url('http://wrs.gtplanet.net/images/button_download_sprite.png');
+}
+
+div#download_button:hover
+{
+    background-position: 0px 29px; 
+}
+
+td.dq_split
+{
+    color: #808080;
+}
+
+table.replayData 
+{
+    border: 0px solid #ccc;
+}
+
+table.replayData tr
+{
+    border: 0px solid #ccc;
+    vertical-align: top;
+}
+
+table.replayData td
+{
+    border-top: 1px solid #ccc;
+    padding: 7px;
+}
+
+table.replayData td.label
+{
+    border-left: 1px solid #ccc;
+    padding-right: 20px;
+    color: #aaa;
+    font-weight: bold;
+    text-align: right;
+}
+
+table.replayData td:last-child
+{
+    border-right: 1px solid #ccc;
+}
+
+table.replayData tr:last-child td
+{
+    border-bottom: 1px solid #ccc;
+}
+
+table.replayData span.hex {
+    color: #aaa;
+}
+
+#content.user .filterPanel,
+#content.userStatistics .filterPanel {
+	display: block;
+	overflow: auto;
+}
+
+#content.user .tabs,
+#content.userStatistics .tabs {
+	float: left;
+}
+
+#content.user .tabs div,
+#content.userStatistics .tabs div {
+	display: inline-block;
+}
+
+div.filterPanel,
+div.filterPanel a {
+	color: black;
+}
+
+div.filterPanel div > div.active,
+div.filterPanel div > div div.active a,
+div.filterPanel div > div:hover,
+div.filterPanel div > div div a:hover {
+	font-size: 13px;
+	display: inline-block;
+	color: #DA1D21;
+	font-weight: bold;
+	text-decoration: underline;
+}
+div.filterPanel div.active > a {
+	color: #DA1D21;
+}
+
+#content.user .filter,
+#content.userStatistics .filter {
+
+	float: right;
+	display: inline-block;
+}
+
+#content.user .filter div,
+#content.userStatistics .filter div,
+#content.userStatistics .tabs div {
+	display: inline-block;
+}
+
+.stats_graph {
+	margin-top: 20px !important;
+	margin-bottom: 20px !important;
+}
+
+
+.bar {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 0.8em;
+}
+
+.bar.notice {
+    background-color: #fcf8e3;
+    border: 1px solid #fbeed5;
+}
+
+.bar.error {
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+}
+
+.weekedit .checkbox {
+    display: inline-block;
+    width: 15em;
+}
+
+#refLapInfo {
+    display: none;
+}
+
+a.button.delete {
+    color: red;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+table.runs_table.runs td.admin-icons {
+    width: 20px;
+}
+
+table.runs_table.results td.admin-icons {
+    width: 65px;
+}
+
+.top-nav {
+    
+}

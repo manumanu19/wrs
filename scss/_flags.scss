@@ -1,0 +1,174 @@
+// @import "country_list_name_iso";
+@import "country_list";
+@import "resources/classes";
+$flag-extension: "png";
+$flag: "";
+$flag-path: "../img/flags_f";
+$flag-background: 24px 24px;
+$flag-background-small: 18px 18px;
+
+/*====================================
+=            Region Flags            =
+====================================*/
+
+/**
+*
+* All regional flags will be styled here to be used as classes in the html document. Each region  class will be 
+* specified as the country name eg kenya, and the country code eg ke. Classes will be in lowercase. Furthermore a 
+* class of region should prepend the region name/code as a general styling will be applied to all flags. 
+*
+**/
+
+// h5bp Image Replacement 
+@mixin hide-text {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px; 
+
+  &:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+  }
+}
+
+// Hide from both screenreaders and browsers: h5bp.com/u
+
+@mixin hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+ @mixin visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+@mixin invisible {
+    visibility: hidden;
+}
+
+@mixin clearfix {
+  *zoom: 1;
+
+  &:before {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+.#{$wrs-region}, i[class*="flag-"]{
+   	width: 25px;
+   	height: 21px;
+   	display: inline-block;
+   	@include hide-text;
+
+    @media screen and (max-width: 700px) {
+      width: 18px;
+      height: 18px;
+    }
+}
+
+
+// .region, i[class*="flag-"]{
+//     width: 25px;
+//     height: 21px;
+//     display: inline-block;
+//     @include hide-text;
+// }
+
+
+
+
+/*==========  Flags with countries  ==========*/
+
+// Uncomment if you only want to use the iso2 code 
+// @each $country_name, $country_code in $country-list {
+//   .flag-#{$country_code}, .#{$country_code} {
+//     background: url("#{$flag-path}/#{$country_code}.png") no-repeat; background-size: 24px 24px;
+//   }
+// }
+
+// Uncomment if you want to use iso2 code, and country name
+@each $country_name, $country_iso2 in $country_list{
+  // .flag-#{$country_name}, 
+  // .flag-#{$country_iso2}, 
+  .#{$country_name}, 
+  .#{$country_iso2}  {
+    background: url('#{$flag-path}/#{$country_iso2}.#{$flag-extension}')no-repeat; 
+    background-size: $flag-background;
+
+    @media screen and (max-width: 700px ) {
+      background-size: $flag-background-small;
+    }
+  }
+  
+}
+// Optional Code For alternative country codes like gb, uk etc
+@each $country_name, $country_name2, $country_iso2 in $country_list2{
+  // .flag-#{$country_name}, 
+  // .flag-#{$country_name2}, 
+  // .flag-#{$country_iso2}, 
+  .#{$country_name}, 
+  .#{$country_name2}, 
+  .#{$country_iso2}  {
+    background: url('#{$flag-path}/#{$country_iso2}.#{$flag-extension}')no-repeat; 
+    background-size: $flag-background;
+
+    @media screen and (max-width: 700px ) {
+      background-size: $flag-background-small;
+    }
+  }
+  
+}
+
+@each $country_name, $country_name2, $country_iso, $country_iso2 in $country_list3{
+  // .flag-#{$country_name}, 
+  // .flag-#{$country_name2}, 
+  // .flag-#{$country_iso}, 
+  // .flag-#{$country_iso2}, 
+  .#{$country_name},
+  .#{$country_name2},  
+  .#{$country_iso},
+  .#{$country_iso2} {
+    background: url('#{$flag-path}/#{$country_iso2}.#{$flag-extension}')no-repeat; 
+    background-size: $flag-background;
+
+    @media screen and (max-width: 700px ) {
+      background-size: $flag-background-small;
+    }
+  }
+  
+}
+
+/*==========  Unknown and non ISO countries  ==========*/
+
+@each $non-iso in $non-iso {
+  .#{$non-iso} {
+    background: url('#{$flag-path}/_#{$non-iso}.#{$flag-extension}') no-repeat; 
+    background-size: $flag-background;
+
+    @media screen and (max-width: 700px ) {
+      background-size: 15px 15px;
+    }
+  } 
+}
+
+
+/*-----  End of Region Flags  ------*/
