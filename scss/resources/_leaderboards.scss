@@ -101,33 +101,33 @@
 	}
 }
 
-$divlist: 1, 2, 3, 4;
-$divclass: "Gold", "Silver", "Bronze";
+// $divlist: 1, 2, 3, 4;
+// $divclass: "Gold", "Silver", "Bronze";
 
-[class*="div-"]{
-	@media (max-width: 320px) {
-		display: none;
-	}
-}
-@each $division in $divlist {
-	.div-#{$division} {
-		background: url(http://wrs.gtplanet.net/images/badge_division_#{$division}.png) no-repeat;
-		width: 36px;
-   		height: 17px;
-   		display: inline-block;
-   		@include hide-text;
-	}
-}
+// [class*="div-"]{
+// 	@media (max-width: 320px) {
+// 		display: none;
+// 	}
+// }
+// @each $division in $divlist {
+// 	.div-#{$division} {
+// 		background: url(http://wrs.gtplanet.net/images/badge_division_#{$division}.png) no-repeat;
+// 		width: 36px;
+//    		height: 17px;
+//    		display: inline-block;
+//    		@include hide-text;
+// 	}
+// }
 
-@each $class in $divclass {
-	.div-#{$class} {
-		background: url(http://wrs.gtplanet.net/images/Trophy_#{$class}.png) no-repeat;
-		width: 14px;
-   		height: 15px;
-   		display: inline-block;
-   		@include hide-text;
-	}
-}
+// @each $class in $divclass {
+// 	.div-#{$class} {
+// 		background: url(http://wrs.gtplanet.net/images/Trophy_#{$class}.png) no-repeat;
+// 		width: 14px;
+//    		height: 15px;
+//    		display: inline-block;
+//    		@include hide-text;
+// 	}
+// }
 
 .fastest-overall{
     color: #C80C8C;

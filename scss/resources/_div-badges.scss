@@ -1,0 +1,114 @@
+@import "compass";
+
+[class*="div-"]{
+    color: white;
+    text-shadow: 0 -1px 0 lighten(black , 10%);
+    // width: 22px;
+    width: 38px;
+    height: 20px;
+    font-size: 11px;
+    line-height: 20px;
+    font-weight: bold;
+    // font: bold 12px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: left; 
+    // border-radius: 2px 0 0 2px;
+    border-radius: 2px;
+    padding: 0 4px;
+    display: inline-block;
+
+    @media screen and (max-width: 568px) {
+        font-size: 80%;
+        width: 30px;
+        height: 18px;
+        line-height: 18px;
+        // border-radius: 2px 0 0 2px;
+        border-radius: 2px;
+        padding: 0 2px;
+    }
+
+}
+[class*="div-1-"]{
+    background: #1e48b0; 
+    background-color: #4f85bb;
+    // background: linear-gradient(to bottom, #93cede 0%,#75bdd1 41%,#49a5bf 100%); /* Nice Color */
+    // background: linear-gradient(to bottom, #88bfe8 0%,#70b0e0 100%);
+}
+
+[class*="div-2-"]{
+    background: lighten(#cd8923, 2%);
+
+}
+
+[class*="div-3-"]{
+    background: #017304;
+    background: #6caf0d;
+    background: #629f0c;
+}
+
+[class*="div-4-"]{
+    background: #13b8db;
+    background: #1aa9eb;
+}
+
+[class$="-gold"], 
+[class$="-silver"], 
+[class$="-bronze"]{
+    &:before{
+        content: "";
+        width: 11px;
+        height: 11px;
+        margin-left: 18px;
+        border: 1.5px solid lighten(black, 50%);
+        margin-top: 4px;
+        display: block;
+        position: absolute;
+        border-radius: 50%;
+
+        // content: "";
+        // width: 10px;
+        // height: 20px;
+        // margin-left: 20px;
+        // display: block;
+        // position: absolute;
+        // border-radius: 0 2px 2px 0;
+
+        @media screen and (max-width: 568px) {
+            // margin-left: 19px;
+            // height: 18px;
+            // line-height: 18px;
+            margin-left: 14px;
+        }
+
+    }
+}
+
+[class$="-gold"] {
+   &:before{
+        background-color: #e6b964;
+        @include filter-gradient(#e6b964, #281809, vertical);
+        // @include background-image(linear-gradient(top,  #e6b964 5%,#f8e889 48%,#8e5b22 82%,#e8ba65 91%,#844d24 98%,#281809 100%));
+        @include background-image(linear-gradient(top, #e6b964 5%,#f8e889 48%,#8e5b22 82%,#e8ba65 100%));
+        @include background-image(linear-gradient(top, #e6b964 ,#f8e889));
+        // @include background-image(linear-gradient(top, #fdb23b ,lighten(#fdb23b, 5%)));
+        border: 1px solid darken(#e6b964, 10%);
+    } 
+}
+[class$="-silver"] {
+    &:before{
+        background-color: #b1adaf;
+        @include filter-gradient(#b1adaf, #281809, vertical);
+        // @include background-image(linear-gradient(top,  #b1adaf 5%,#fefef6 48%,#939092 82%,#fefef6 91%,#b1adaf 98%,#281809 100%));
+        @include background-image(linear-gradient(top, #b1adaf 5%,#f7f7f7 48%,#939092 82%,#e2e2e2 100%));
+        @include background-image(linear-gradient(top, #b1adaf ,#f7f7f7));
+        border: 1px solid lighten(black, 70%);
+    }
+}
+[class$="-bronze"] {
+   &:before{
+        background-color: #c16c43;
+        @include filter-gradient(#c16c43, #281809, vertical);
+        @include background-image(linear-gradient(top, #c16c43 5%,#fc9d5f 48%,#9b5236 82%,#fc9d5f 100%));
+        @include background-image(linear-gradient(top, #c16c43 ,#fc9d5f));
+        border: 1px solid darken(#c4621b, 10%);
+    }
+}

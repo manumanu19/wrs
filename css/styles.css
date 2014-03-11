@@ -412,6 +412,7 @@ th {
   width: 25px;
   height: 21px;
   display: inline-block;
+  vertical-align: text-bottom;
   background-color: transparent;
   border: 0;
   overflow: hidden;
@@ -424,10 +425,10 @@ th {
   width: 0;
   height: 150%;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .wrs-region, i[class*="flag-"] {
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
   }
 }
 
@@ -437,10 +438,10 @@ th {
   background: url("../img/flags_f/af.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .afghanistan,
   .af {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -449,10 +450,10 @@ th {
   background: url("../img/flags_f/ax.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .aland-islands,
   .ax {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -461,10 +462,10 @@ th {
   background: url("../img/flags_f/al.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .albania,
   .al {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -473,10 +474,10 @@ th {
   background: url("../img/flags_f/dz.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .algeria,
   .dz {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -485,10 +486,10 @@ th {
   background: url("../img/flags_f/as.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .american-samoa,
   .as {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -497,10 +498,10 @@ th {
   background: url("../img/flags_f/ad.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .andorra,
   .ad {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -509,10 +510,10 @@ th {
   background: url("../img/flags_f/ao.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .angola,
   .ao {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -521,10 +522,10 @@ th {
   background: url("../img/flags_f/ai.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .anguilla,
   .ai {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -533,10 +534,10 @@ th {
   background: url("../img/flags_f/aq.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .antarctica,
   .aq {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -545,10 +546,10 @@ th {
   background: url("../img/flags_f/ag.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .antigua-and-barbuda,
   .ag {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -557,10 +558,10 @@ th {
   background: url("../img/flags_f/ar.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .argentina,
   .ar {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -569,10 +570,10 @@ th {
   background: url("../img/flags_f/am.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .armenia,
   .am {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -581,10 +582,10 @@ th {
   background: url("../img/flags_f/aw.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .aruba,
   .aw {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -593,10 +594,10 @@ th {
   background: url("../img/flags_f/au.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .australia,
   .au {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -605,10 +606,10 @@ th {
   background: url("../img/flags_f/at.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .austria,
   .at {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -617,10 +618,10 @@ th {
   background: url("../img/flags_f/az.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .azerbaijan,
   .az {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -629,10 +630,10 @@ th {
   background: url("../img/flags_f/bs.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .bahamas,
   .bs {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -641,10 +642,10 @@ th {
   background: url("../img/flags_f/bh.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .bahrain,
   .bh {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -653,10 +654,10 @@ th {
   background: url("../img/flags_f/bd.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .bangladesh,
   .bd {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -665,10 +666,10 @@ th {
   background: url("../img/flags_f/bb.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .barbados,
   .bb {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -677,10 +678,10 @@ th {
   background: url("../img/flags_f/by.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .belarus,
   .by {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -689,10 +690,10 @@ th {
   background: url("../img/flags_f/be.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .belgium,
   .be {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -701,10 +702,10 @@ th {
   background: url("../img/flags_f/bz.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .belize,
   .bz {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -713,10 +714,10 @@ th {
   background: url("../img/flags_f/bj.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .benin,
   .bj {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -725,10 +726,10 @@ th {
   background: url("../img/flags_f/bm.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .bermuda,
   .bm {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -737,10 +738,10 @@ th {
   background: url("../img/flags_f/bt.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .bhutan,
   .bt {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -749,10 +750,10 @@ th {
   background: url("../img/flags_f/bo.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .bolivia,
   .bo {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -761,10 +762,10 @@ th {
   background: url("../img/flags_f/bq.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .bonaire,
   .bq {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -773,10 +774,10 @@ th {
   background: url("../img/flags_f/bw.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .botswana,
   .bw {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -785,10 +786,10 @@ th {
   background: url("../img/flags_f/bv.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .bouvet-island,
   .bv {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -797,10 +798,10 @@ th {
   background: url("../img/flags_f/br.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .brazil,
   .br {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -809,10 +810,10 @@ th {
   background: url("../img/flags_f/io.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .british-indian-ocean-territory,
   .io {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -821,10 +822,10 @@ th {
   background: url("../img/flags_f/bn.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .brunei-darussalam,
   .bn {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -833,10 +834,10 @@ th {
   background: url("../img/flags_f/bg.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .bulgaria,
   .bg {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -845,10 +846,10 @@ th {
   background: url("../img/flags_f/bf.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .burkina-faso,
   .bf {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -857,10 +858,10 @@ th {
   background: url("../img/flags_f/bi.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .burundi,
   .bi {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -869,10 +870,10 @@ th {
   background: url("../img/flags_f/kh.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .cambodia,
   .kh {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -881,10 +882,10 @@ th {
   background: url("../img/flags_f/cm.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .cameroon,
   .cm {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -893,10 +894,10 @@ th {
   background: url("../img/flags_f/ca.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .canada,
   .ca {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -905,10 +906,10 @@ th {
   background: url("../img/flags_f/cv.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .cape-verde,
   .cv {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -917,10 +918,10 @@ th {
   background: url("../img/flags_f/ky.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .cayman-islands,
   .ky {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -929,10 +930,10 @@ th {
   background: url("../img/flags_f/cf.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .central-african-republic,
   .cf {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -941,10 +942,10 @@ th {
   background: url("../img/flags_f/td.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .chad,
   .td {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -953,10 +954,10 @@ th {
   background: url("../img/flags_f/cl.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .chile,
   .cl {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -965,10 +966,10 @@ th {
   background: url("../img/flags_f/cn.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .china,
   .cn {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -977,10 +978,10 @@ th {
   background: url("../img/flags_f/cx.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .christmas-island,
   .cx {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -989,10 +990,10 @@ th {
   background: url("../img/flags_f/co.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .colombia,
   .co {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1001,10 +1002,10 @@ th {
   background: url("../img/flags_f/km.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .comoros,
   .km {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1013,10 +1014,10 @@ th {
   background: url("../img/flags_f/cg.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .congo,
   .cg {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1025,10 +1026,10 @@ th {
   background: url("../img/flags_f/cd.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .democratic-republic-congo,
   .cd {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1037,10 +1038,10 @@ th {
   background: url("../img/flags_f/ck.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .cook-islands,
   .ck {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1049,10 +1050,10 @@ th {
   background: url("../img/flags_f/cr.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .costa-rica,
   .cr {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1061,10 +1062,10 @@ th {
   background: url("../img/flags_f/hr.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .croatia,
   .hr {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1073,10 +1074,10 @@ th {
   background: url("../img/flags_f/cu.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .cuba,
   .cu {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1085,10 +1086,10 @@ th {
   background: url("../img/flags_f/cw.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .curacao,
   .cw {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1097,10 +1098,10 @@ th {
   background: url("../img/flags_f/cy.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .cyprus,
   .cy {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1109,10 +1110,10 @@ th {
   background: url("../img/flags_f/cz.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .czech-republic,
   .cz {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1121,10 +1122,10 @@ th {
   background: url("../img/flags_f/dk.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .denmark,
   .dk {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1133,10 +1134,10 @@ th {
   background: url("../img/flags_f/dj.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .djibouti,
   .dj {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1145,10 +1146,10 @@ th {
   background: url("../img/flags_f/dm.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .dominica,
   .dm {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1157,10 +1158,10 @@ th {
   background: url("../img/flags_f/do.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .dominican-republic,
   .do {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1169,10 +1170,10 @@ th {
   background: url("../img/flags_f/ec.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .ecuador,
   .ec {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1181,10 +1182,10 @@ th {
   background: url("../img/flags_f/eg.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .egypt,
   .eg {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1193,10 +1194,10 @@ th {
   background: url("../img/flags_f/sv.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .el-salvador,
   .sv {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1205,10 +1206,10 @@ th {
   background: url("../img/flags_f/gq.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .equatorial-guinea,
   .gq {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1217,10 +1218,10 @@ th {
   background: url("../img/flags_f/er.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .eritrea,
   .er {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1229,10 +1230,10 @@ th {
   background: url("../img/flags_f/ee.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .estonia,
   .ee {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1241,10 +1242,10 @@ th {
   background: url("../img/flags_f/et.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .ethiopia,
   .et {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1253,10 +1254,10 @@ th {
   background: url("../img/flags_f/fo.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .faroe-islands,
   .fo {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1265,10 +1266,10 @@ th {
   background: url("../img/flags_f/fj.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .fiji,
   .fj {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1277,10 +1278,10 @@ th {
   background: url("../img/flags_f/fi.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .finland,
   .fi {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1289,10 +1290,10 @@ th {
   background: url("../img/flags_f/fr.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .france,
   .fr {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1301,10 +1302,10 @@ th {
   background: url("../img/flags_f/gf.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .french-guiana,
   .gf {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1313,10 +1314,10 @@ th {
   background: url("../img/flags_f/pf.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .french-polynesia,
   .pf {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1325,10 +1326,10 @@ th {
   background: url("../img/flags_f/tf.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .french-southern-territories,
   .tf {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1337,10 +1338,10 @@ th {
   background: url("../img/flags_f/ga.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .gabon,
   .ga {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1349,10 +1350,10 @@ th {
   background: url("../img/flags_f/gm.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .gambia,
   .gm {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1361,10 +1362,10 @@ th {
   background: url("../img/flags_f/ge.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .georgia,
   .ge {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1373,10 +1374,10 @@ th {
   background: url("../img/flags_f/de.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .germany,
   .de {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1385,10 +1386,10 @@ th {
   background: url("../img/flags_f/gh.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .ghana,
   .gh {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1397,10 +1398,10 @@ th {
   background: url("../img/flags_f/gi.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .gibraltar,
   .gi {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1409,10 +1410,10 @@ th {
   background: url("../img/flags_f/gr.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .greece,
   .gr {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1421,10 +1422,10 @@ th {
   background: url("../img/flags_f/gl.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .greenland,
   .gl {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1433,10 +1434,10 @@ th {
   background: url("../img/flags_f/gd.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .grenada,
   .gd {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1445,10 +1446,10 @@ th {
   background: url("../img/flags_f/gp.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .guadeloupe,
   .gp {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1457,10 +1458,10 @@ th {
   background: url("../img/flags_f/gu.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .guam,
   .gu {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1469,10 +1470,10 @@ th {
   background: url("../img/flags_f/gt.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .guatemala,
   .gt {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1481,10 +1482,10 @@ th {
   background: url("../img/flags_f/gg.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .guernsey,
   .gg {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1493,10 +1494,10 @@ th {
   background: url("../img/flags_f/gn.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .guinea,
   .gn {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1505,10 +1506,10 @@ th {
   background: url("../img/flags_f/gw.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .guinea-bissau,
   .gw {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1517,10 +1518,10 @@ th {
   background: url("../img/flags_f/gy.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .guyana,
   .gy {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1529,10 +1530,10 @@ th {
   background: url("../img/flags_f/ht.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .haiti,
   .ht {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1541,10 +1542,10 @@ th {
   background: url("../img/flags_f/hm.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .heard-island-and-mcdonald-islands,
   .hm {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1553,10 +1554,10 @@ th {
   background: url("../img/flags_f/hn.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .honduras,
   .hn {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1565,10 +1566,10 @@ th {
   background: url("../img/flags_f/hk.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .hong-kong,
   .hk {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1577,10 +1578,10 @@ th {
   background: url("../img/flags_f/hu.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .hungary,
   .hu {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1589,10 +1590,10 @@ th {
   background: url("../img/flags_f/is.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .iceland,
   .is {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1601,10 +1602,10 @@ th {
   background: url("../img/flags_f/in.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .india,
   .in {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1613,10 +1614,10 @@ th {
   background: url("../img/flags_f/id.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .indonesia,
   .id {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1625,10 +1626,10 @@ th {
   background: url("../img/flags_f/ir.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .iran,
   .ir {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1637,10 +1638,10 @@ th {
   background: url("../img/flags_f/iq.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .iraq,
   .iq {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1649,10 +1650,10 @@ th {
   background: url("../img/flags_f/ie.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .ireland,
   .ie {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1661,10 +1662,10 @@ th {
   background: url("../img/flags_f/im.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .isle-of-man,
   .im {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1673,10 +1674,10 @@ th {
   background: url("../img/flags_f/il.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .israel,
   .il {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1685,10 +1686,10 @@ th {
   background: url("../img/flags_f/it.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .italy,
   .it {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1697,10 +1698,10 @@ th {
   background: url("../img/flags_f/jm.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .jamaica,
   .jm {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1709,10 +1710,10 @@ th {
   background: url("../img/flags_f/jp.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .japan,
   .jp {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1721,10 +1722,10 @@ th {
   background: url("../img/flags_f/je.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .jersey,
   .je {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1733,10 +1734,10 @@ th {
   background: url("../img/flags_f/jo.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .jordan,
   .jo {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1745,10 +1746,10 @@ th {
   background: url("../img/flags_f/kz.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .kazakhstan,
   .kz {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1757,10 +1758,10 @@ th {
   background: url("../img/flags_f/ke.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .kenya,
   .ke {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1769,10 +1770,10 @@ th {
   background: url("../img/flags_f/ki.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .kiribati,
   .ki {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1781,10 +1782,10 @@ th {
   background: url("../img/flags_f/kw.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .kuwait,
   .kw {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1793,10 +1794,10 @@ th {
   background: url("../img/flags_f/kg.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .kyrgyzstan,
   .kg {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1805,10 +1806,10 @@ th {
   background: url("../img/flags_f/la.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .lao,
   .la {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1817,10 +1818,10 @@ th {
   background: url("../img/flags_f/lv.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .latvia,
   .lv {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1829,10 +1830,10 @@ th {
   background: url("../img/flags_f/lb.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .lebanon,
   .lb {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1841,10 +1842,10 @@ th {
   background: url("../img/flags_f/ls.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .lesotho,
   .ls {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1853,10 +1854,10 @@ th {
   background: url("../img/flags_f/lr.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .liberia,
   .lr {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1865,10 +1866,10 @@ th {
   background: url("../img/flags_f/ly.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .libya,
   .ly {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1877,10 +1878,10 @@ th {
   background: url("../img/flags_f/li.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .liechtenstein,
   .li {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1889,10 +1890,10 @@ th {
   background: url("../img/flags_f/lt.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .lithuania,
   .lt {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1901,10 +1902,10 @@ th {
   background: url("../img/flags_f/lu.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .luxembourg,
   .lu {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1913,10 +1914,10 @@ th {
   background: url("../img/flags_f/mo.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .macao,
   .mo {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1925,10 +1926,10 @@ th {
   background: url("../img/flags_f/mk.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .macedonia,
   .mk {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1937,10 +1938,10 @@ th {
   background: url("../img/flags_f/mg.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .madagascar,
   .mg {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1949,10 +1950,10 @@ th {
   background: url("../img/flags_f/mw.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .malawi,
   .mw {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1961,10 +1962,10 @@ th {
   background: url("../img/flags_f/my.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .malaysia,
   .my {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1973,10 +1974,10 @@ th {
   background: url("../img/flags_f/mv.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .maldives,
   .mv {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1985,10 +1986,10 @@ th {
   background: url("../img/flags_f/ml.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .mali,
   .ml {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -1997,10 +1998,10 @@ th {
   background: url("../img/flags_f/mt.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .malta,
   .mt {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2009,10 +2010,10 @@ th {
   background: url("../img/flags_f/mh.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .marshall-islands,
   .mh {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2021,10 +2022,10 @@ th {
   background: url("../img/flags_f/mq.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .martinique,
   .mq {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2033,10 +2034,10 @@ th {
   background: url("../img/flags_f/mr.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .mauritania,
   .mr {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2045,10 +2046,10 @@ th {
   background: url("../img/flags_f/mu.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .mauritius,
   .mu {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2057,10 +2058,10 @@ th {
   background: url("../img/flags_f/yt.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .mayotte,
   .yt {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2069,10 +2070,10 @@ th {
   background: url("../img/flags_f/mx.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .mexico,
   .mx {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2081,10 +2082,10 @@ th {
   background: url("../img/flags_f/mc.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .monaco,
   .mc {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2093,10 +2094,10 @@ th {
   background: url("../img/flags_f/mn.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .mongolia,
   .mn {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2105,10 +2106,10 @@ th {
   background: url("../img/flags_f/me.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .montenegro,
   .me {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2117,10 +2118,10 @@ th {
   background: url("../img/flags_f/ms.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .montserrat,
   .ms {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2129,10 +2130,10 @@ th {
   background: url("../img/flags_f/ma.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .morocco,
   .ma {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2141,10 +2142,10 @@ th {
   background: url("../img/flags_f/mz.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .mozambique,
   .mz {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2153,10 +2154,10 @@ th {
   background: url("../img/flags_f/mm.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .myanmar,
   .mm {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2165,10 +2166,10 @@ th {
   background: url("../img/flags_f/na.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .namibia,
   .na {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2177,10 +2178,10 @@ th {
   background: url("../img/flags_f/nr.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .nauru,
   .nr {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2189,10 +2190,10 @@ th {
   background: url("../img/flags_f/np.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .nepal,
   .np {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2201,10 +2202,10 @@ th {
   background: url("../img/flags_f/nl.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .netherlands,
   .nl {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2213,10 +2214,10 @@ th {
   background: url("../img/flags_f/nc.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .new-caledonia,
   .nc {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2225,10 +2226,10 @@ th {
   background: url("../img/flags_f/nz.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .new-zealand,
   .nz {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2237,10 +2238,10 @@ th {
   background: url("../img/flags_f/ni.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .nicaragua,
   .ni {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2249,10 +2250,10 @@ th {
   background: url("../img/flags_f/ne.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .niger,
   .ne {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2261,10 +2262,10 @@ th {
   background: url("../img/flags_f/ng.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .nigeria,
   .ng {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2273,10 +2274,10 @@ th {
   background: url("../img/flags_f/nu.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .niue,
   .nu {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2285,10 +2286,10 @@ th {
   background: url("../img/flags_f/nf.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .norfolk-island,
   .nf {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2297,10 +2298,10 @@ th {
   background: url("../img/flags_f/mp.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .northern-mariana-islands,
   .mp {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2309,10 +2310,10 @@ th {
   background: url("../img/flags_f/no.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .norway,
   .no {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2321,10 +2322,10 @@ th {
   background: url("../img/flags_f/om.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .oman,
   .om {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2333,10 +2334,10 @@ th {
   background: url("../img/flags_f/pk.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .pakistan,
   .pk {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2345,10 +2346,10 @@ th {
   background: url("../img/flags_f/pw.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .palau,
   .pw {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2357,10 +2358,10 @@ th {
   background: url("../img/flags_f/ps.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .palestine,
   .ps {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2369,10 +2370,10 @@ th {
   background: url("../img/flags_f/pa.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .panama,
   .pa {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2381,10 +2382,10 @@ th {
   background: url("../img/flags_f/pg.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .papua-new-guinea,
   .pg {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2393,10 +2394,10 @@ th {
   background: url("../img/flags_f/py.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .paraguay,
   .py {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2405,10 +2406,10 @@ th {
   background: url("../img/flags_f/pe.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .peru,
   .pe {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2417,10 +2418,10 @@ th {
   background: url("../img/flags_f/ph.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .philippines,
   .ph {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2429,10 +2430,10 @@ th {
   background: url("../img/flags_f/pn.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .pitcairn,
   .pn {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2441,10 +2442,10 @@ th {
   background: url("../img/flags_f/pl.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .poland,
   .pl {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2453,10 +2454,10 @@ th {
   background: url("../img/flags_f/pt.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .portugal,
   .pt {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2465,10 +2466,10 @@ th {
   background: url("../img/flags_f/pr.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .puerto-rico,
   .pr {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2477,10 +2478,10 @@ th {
   background: url("../img/flags_f/qa.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .qatar,
   .qa {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2489,10 +2490,10 @@ th {
   background: url("../img/flags_f/re.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .reunion,
   .re {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2501,10 +2502,10 @@ th {
   background: url("../img/flags_f/ro.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .romania,
   .ro {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2513,10 +2514,10 @@ th {
   background: url("../img/flags_f/rw.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .rwanda,
   .rw {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2525,10 +2526,10 @@ th {
   background: url("../img/flags_f/bl.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .saint-barthelemy,
   .bl {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2537,10 +2538,10 @@ th {
   background: url("../img/flags_f/lc.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .saint-lucia,
   .lc {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2549,10 +2550,10 @@ th {
   background: url("../img/flags_f/mf.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .saint-martin,
   .mf {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2561,10 +2562,10 @@ th {
   background: url("../img/flags_f/ws.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .samoa,
   .ws {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2573,10 +2574,10 @@ th {
   background: url("../img/flags_f/sm.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .san-marino,
   .sm {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2585,10 +2586,10 @@ th {
   background: url("../img/flags_f/st.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .sao-tome-and-principe,
   .st {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2597,10 +2598,10 @@ th {
   background: url("../img/flags_f/sa.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .saudi-arabia,
   .sa {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2609,10 +2610,10 @@ th {
   background: url("../img/flags_f/sn.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .senegal,
   .sn {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2621,10 +2622,10 @@ th {
   background: url("../img/flags_f/rs.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .serbia,
   .rs {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2633,10 +2634,10 @@ th {
   background: url("../img/flags_f/sc.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .seychelles,
   .sc {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2645,10 +2646,10 @@ th {
   background: url("../img/flags_f/sl.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .sierra-leone,
   .sl {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2657,10 +2658,10 @@ th {
   background: url("../img/flags_f/sg.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .singapore,
   .sg {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2669,10 +2670,10 @@ th {
   background: url("../img/flags_f/sx.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .sint-maarten,
   .sx {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2681,10 +2682,10 @@ th {
   background: url("../img/flags_f/sk.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .slovakia,
   .sk {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2693,10 +2694,10 @@ th {
   background: url("../img/flags_f/si.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .slovenia,
   .si {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2705,10 +2706,10 @@ th {
   background: url("../img/flags_f/sb.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .solomon-islands,
   .sb {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2717,10 +2718,10 @@ th {
   background: url("../img/flags_f/so.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .somalia,
   .so {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2729,10 +2730,10 @@ th {
   background: url("../img/flags_f/za.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .south-africa,
   .za {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2741,10 +2742,10 @@ th {
   background: url("../img/flags_f/ss.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .south-sudan,
   .ss {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2753,10 +2754,10 @@ th {
   background: url("../img/flags_f/es.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .spain,
   .es {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2765,10 +2766,10 @@ th {
   background: url("../img/flags_f/lk.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .sri-lanka,
   .lk {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2777,10 +2778,10 @@ th {
   background: url("../img/flags_f/sd.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .sudan,
   .sd {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2789,10 +2790,10 @@ th {
   background: url("../img/flags_f/sr.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .suriname,
   .sr {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2801,10 +2802,10 @@ th {
   background: url("../img/flags_f/sj.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .svalbard-and-jan-mayen,
   .sj {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2813,10 +2814,10 @@ th {
   background: url("../img/flags_f/sz.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .swaziland,
   .sz {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2825,10 +2826,10 @@ th {
   background: url("../img/flags_f/se.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .sweden,
   .se {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2837,10 +2838,10 @@ th {
   background: url("../img/flags_f/ch.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .switzerland,
   .ch {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2849,10 +2850,10 @@ th {
   background: url("../img/flags_f/sy.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .syrian-arab-republic,
   .sy {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2861,10 +2862,10 @@ th {
   background: url("../img/flags_f/tw.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .taiwan,
   .tw {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2873,10 +2874,10 @@ th {
   background: url("../img/flags_f/tj.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .tajikistan,
   .tj {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2885,10 +2886,10 @@ th {
   background: url("../img/flags_f/tz.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .tanzania,
   .tz {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2897,10 +2898,10 @@ th {
   background: url("../img/flags_f/th.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .thailand,
   .th {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2909,10 +2910,10 @@ th {
   background: url("../img/flags_f/tl.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .timor-leste,
   .tl {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2921,10 +2922,10 @@ th {
   background: url("../img/flags_f/tg.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .togo,
   .tg {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2933,10 +2934,10 @@ th {
   background: url("../img/flags_f/tk.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .tokelau,
   .tk {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2945,10 +2946,10 @@ th {
   background: url("../img/flags_f/to.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .tonga,
   .to {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2957,10 +2958,10 @@ th {
   background: url("../img/flags_f/tt.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .trinidad-and-tobago,
   .tt {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2969,10 +2970,10 @@ th {
   background: url("../img/flags_f/tn.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .tunisia,
   .tn {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2981,10 +2982,10 @@ th {
   background: url("../img/flags_f/tr.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .turkey,
   .tr {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -2993,10 +2994,10 @@ th {
   background: url("../img/flags_f/tm.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .turkmenistan,
   .tm {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3005,10 +3006,10 @@ th {
   background: url("../img/flags_f/tv.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .tuvalu,
   .tv {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3017,10 +3018,10 @@ th {
   background: url("../img/flags_f/ug.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .uganda,
   .ug {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3029,10 +3030,10 @@ th {
   background: url("../img/flags_f/ua.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .ukraine,
   .ua {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3041,10 +3042,10 @@ th {
   background: url("../img/flags_f/us.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .united-states,
   .us {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3053,10 +3054,10 @@ th {
   background: url("../img/flags_f/um.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .united-states-minor-outlying-islands,
   .um {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3065,10 +3066,10 @@ th {
   background: url("../img/flags_f/uy.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .uruguay,
   .uy {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3077,10 +3078,10 @@ th {
   background: url("../img/flags_f/uz.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .uzbekistan,
   .uz {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3089,10 +3090,10 @@ th {
   background: url("../img/flags_f/vu.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .vanuatu,
   .vu {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3101,10 +3102,10 @@ th {
   background: url("../img/flags_f/ve.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .venezuela,
   .ve {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3113,10 +3114,10 @@ th {
   background: url("../img/flags_f/vietnam.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .viet-nam,
   .vietnam {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3125,10 +3126,10 @@ th {
   background: url("../img/flags_f/vg.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .british-virgin-islands,
   .vg {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3137,10 +3138,10 @@ th {
   background: url("../img/flags_f/vi.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .us-virgin-islands,
   .vi {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3149,10 +3150,10 @@ th {
   background: url("../img/flags_f/wf.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .wallis-and-futuna,
   .wf {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3161,10 +3162,10 @@ th {
   background: url("../img/flags_f/eh.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .western-sahara,
   .eh {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3173,10 +3174,10 @@ th {
   background: url("../img/flags_f/ye.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .yemen,
   .ye {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3185,10 +3186,10 @@ th {
   background: url("../img/flags_f/zm.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .zambia,
   .zm {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3197,10 +3198,10 @@ th {
   background: url("../img/flags_f/zw.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .zimbabwe,
   .zw {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3210,11 +3211,11 @@ th {
   background: url("../img/flags_f/cc.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .cocos-islands,
   .keeling-island,
   .cc {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3224,11 +3225,11 @@ th {
   background: url("../img/flags_f/ci.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .cote-d-ivoire,
   .ivory-coast,
   .ci {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3238,11 +3239,11 @@ th {
   background: url("../img/flags_f/fk.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .falkland-islands,
   .malvinas,
   .fk {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3252,11 +3253,11 @@ th {
   background: url("../img/flags_f/va.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .holy-see,
   .vatican-city-state,
   .va {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3266,11 +3267,11 @@ th {
   background: url("../img/flags_f/kp.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .peoples-republic-of-korea,
   .north-korea,
   .kp {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3280,11 +3281,11 @@ th {
   background: url("../img/flags_f/south-korea.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .republic-of-,
   .korea,
   .south-korea {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3294,11 +3295,11 @@ th {
   background: url("../img/flags_f/md.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .moldova,
   .republic-of-moldova,
   .md {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3308,11 +3309,11 @@ th {
   background: url("../img/flags_f/gs.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .south-georgia,
   .south-sandwich-islands,
   .gs {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3322,11 +3323,11 @@ th {
   background: url("../img/flags_f/fm.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .micronesia,
   .federated-states-of-micronesia,
   .fm {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3336,11 +3337,11 @@ th {
   background: url("../img/flags_f/caicos-islands.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .turks-and-caicos-islands,
   .turks-islands,
   .caicos-islands {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3350,11 +3351,11 @@ th {
   background: url("../img/flags_f/ae.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .united-arab-emirates,
   .uae,
   .ae {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3364,11 +3365,11 @@ th {
   background: url("../img/flags_f/ru.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .russian-federation,
   .russia,
   .ru {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3379,12 +3380,12 @@ th {
   background: url("../img/flags_f/ba.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .bosnia-and-herzegovina,
   .bosnia,
   .herzegovina,
   .ba {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3395,12 +3396,12 @@ th {
   background: url("../img/flags_f/sh.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .saint-helena,
   .ascension,
   .tristan-da-cunha,
   .sh {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3411,12 +3412,12 @@ th {
   background: url("../img/flags_f/kn.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .saint-kitts-and-nevis,
   .saint-kitts,
   .nevis,
   .kn {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3427,12 +3428,12 @@ th {
   background: url("../img/flags_f/pm.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .saint-pierre-and-miquelon,
   .saint-pierre,
   .miquelon,
   .pm {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3443,12 +3444,12 @@ th {
   background: url("../img/flags_f/grenadines.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .saint-vincent-and-the-grenadines,
   .saint-vincent,
   .the-grenadines,
   .grenadines {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3459,12 +3460,12 @@ th {
   background: url("../img/flags_f/gb.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .united-kingdom,
   .great-britain,
   .uk,
   .gb {
-    background-size: 18px 18px;
+    background-size: 16px 16px;
   }
 }
 
@@ -3473,7 +3474,7 @@ th {
   background: url("../img/flags_f/unknown.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .unknown {
     background-size: 15px 15px;
   }
@@ -3483,7 +3484,7 @@ th {
   background: url("../img/flags_f/abkhazia.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .abkhazia {
     background-size: 15px 15px;
   }
@@ -3493,7 +3494,7 @@ th {
   background: url("../img/flags_f/kosovo.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .kosovo {
     background-size: 15px 15px;
   }
@@ -3503,7 +3504,7 @@ th {
   background: url("../img/flags_f/northern-cyprus.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .northern-cyprus {
     background-size: 15px 15px;
   }
@@ -3513,7 +3514,7 @@ th {
   background: url("../img/flags_f/northern-ireland.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .northern-ireland {
     background-size: 15px 15px;
   }
@@ -3523,7 +3524,7 @@ th {
   background: url("../img/flags_f/somaliland.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .somaliland {
     background-size: 15px 15px;
   }
@@ -3533,7 +3534,7 @@ th {
   background: url("../img/flags_f/wales.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .wales {
     background-size: 15px 15px;
   }
@@ -3543,7 +3544,7 @@ th {
   background: url("../img/flags_f/scotland.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .scotland {
     background-size: 15px 15px;
   }
@@ -3553,7 +3554,7 @@ th {
   background: url("../img/flags_f/england.png") no-repeat;
   background-size: 24px 24px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 568px) {
   .england {
     background-size: 15px 15px;
   }
@@ -4012,6 +4013,116 @@ select .wrs-week-menu {
 }
 
 /*-----  End of Event Info and Regulations  ------*/
+[class*="div-"] {
+  color: white;
+  text-shadow: 0 -1px 0 #1a1a1a;
+  width: 38px;
+  height: 20px;
+  font-size: 11px;
+  line-height: 20px;
+  font-weight: bold;
+  text-align: left;
+  border-radius: 2px;
+  padding: 0 4px;
+  display: inline-block;
+}
+@media screen and (max-width: 568px) {
+  [class*="div-"] {
+    font-size: 80%;
+    width: 30px;
+    height: 18px;
+    line-height: 18px;
+    border-radius: 2px;
+    padding: 0 2px;
+  }
+}
+
+[class*="div-1-"] {
+  background: #1e48b0;
+  background-color: #4f85bb;
+}
+
+[class*="div-2-"] {
+  background: #d68f24;
+}
+
+[class*="div-3-"] {
+  background: #017304;
+  background: #6caf0d;
+  background: #629f0c;
+}
+
+[class*="div-4-"] {
+  background: #13b8db;
+  background: #1aa9eb;
+}
+
+[class$="-gold"]:before,
+[class$="-silver"]:before,
+[class$="-bronze"]:before {
+  content: "";
+  width: 11px;
+  height: 11px;
+  margin-left: 18px;
+  border: 1.5px solid gray;
+  margin-top: 4px;
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+}
+@media screen and (max-width: 568px) {
+  [class$="-gold"]:before,
+  [class$="-silver"]:before,
+  [class$="-bronze"]:before {
+    margin-left: 14px;
+  }
+}
+
+[class$="-gold"]:before {
+  background-color: #e6b964;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFE6B964', endColorstr='#FF281809');
+  background-image: -moz-linear-gradient(top, #e6b964 5%, #f8e889 48%, #8e5b22 82%, #e8ba65 100%);
+  background-image: -o-linear-gradient(top, #e6b964 5%, #f8e889 48%, #8e5b22 82%, #e8ba65 100%);
+  background-image: -webkit-linear-gradient(top, #e6b964 5%, #f8e889 48%, #8e5b22 82%, #e8ba65 100%);
+  background-image: linear-gradient(to bottom, #e6b964 5%, #f8e889 48%, #8e5b22 82%, #e8ba65 100%);
+  background-image: -moz-linear-gradient(top, #e6b964, #f8e889);
+  background-image: -o-linear-gradient(top, #e6b964, #f8e889);
+  background-image: -webkit-linear-gradient(top, #e6b964, #f8e889);
+  background-image: linear-gradient(to bottom, #e6b964, #f8e889);
+  border: 1px solid #dfa538;
+}
+
+[class$="-silver"]:before {
+  background-color: #b1adaf;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFB1ADAF', endColorstr='#FF281809');
+  background-image: -moz-linear-gradient(top, #b1adaf 5%, #f7f7f7 48%, #939092 82%, #e2e2e2 100%);
+  background-image: -o-linear-gradient(top, #b1adaf 5%, #f7f7f7 48%, #939092 82%, #e2e2e2 100%);
+  background-image: -webkit-linear-gradient(top, #b1adaf 5%, #f7f7f7 48%, #939092 82%, #e2e2e2 100%);
+  background-image: linear-gradient(to bottom, #b1adaf 5%, #f7f7f7 48%, #939092 82%, #e2e2e2 100%);
+  background-image: -moz-linear-gradient(top, #b1adaf, #f7f7f7);
+  background-image: -o-linear-gradient(top, #b1adaf, #f7f7f7);
+  background-image: -webkit-linear-gradient(top, #b1adaf, #f7f7f7);
+  background-image: linear-gradient(to bottom, #b1adaf, #f7f7f7);
+  border: 1px solid #b3b3b3;
+}
+
+[class$="-bronze"]:before {
+  background-color: #c16c43;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFC16C43', endColorstr='#FF281809');
+  background-image: -moz-linear-gradient(top, #c16c43 5%, #fc9d5f 48%, #9b5236 82%, #fc9d5f 100%);
+  background-image: -o-linear-gradient(top, #c16c43 5%, #fc9d5f 48%, #9b5236 82%, #fc9d5f 100%);
+  background-image: -webkit-linear-gradient(top, #c16c43 5%, #fc9d5f 48%, #9b5236 82%, #fc9d5f 100%);
+  background-image: linear-gradient(to bottom, #c16c43 5%, #fc9d5f 48%, #9b5236 82%, #fc9d5f 100%);
+  background-image: -moz-linear-gradient(top, #c16c43, #fc9d5f);
+  background-image: -o-linear-gradient(top, #c16c43, #fc9d5f);
+  background-image: -webkit-linear-gradient(top, #c16c43, #fc9d5f);
+  background-image: linear-gradient(to bottom, #c16c43, #fc9d5f);
+  border: 1px solid #974c15;
+}
+
 /*====================================
 =            Leaderboards            =
 ====================================*/
@@ -4084,138 +4195,6 @@ select .wrs-week-menu {
 }
 .wrs-lb table tr:nth-child(2n+1) {
   background: #e5e5e5 !important;
-}
-
-@media (max-width: 320px) {
-  [class*="div-"] {
-    display: none;
-  }
-}
-
-.div-1 {
-  background: url(http://wrs.gtplanet.net/images/badge_division_1.png) no-repeat;
-  width: 36px;
-  height: 17px;
-  display: inline-block;
-  background-color: transparent;
-  border: 0;
-  overflow: hidden;
-  /* IE 6/7 fallback */
-  *text-indent: -9999px;
-}
-.div-1:before {
-  content: "";
-  display: block;
-  width: 0;
-  height: 150%;
-}
-
-.div-2 {
-  background: url(http://wrs.gtplanet.net/images/badge_division_2.png) no-repeat;
-  width: 36px;
-  height: 17px;
-  display: inline-block;
-  background-color: transparent;
-  border: 0;
-  overflow: hidden;
-  /* IE 6/7 fallback */
-  *text-indent: -9999px;
-}
-.div-2:before {
-  content: "";
-  display: block;
-  width: 0;
-  height: 150%;
-}
-
-.div-3 {
-  background: url(http://wrs.gtplanet.net/images/badge_division_3.png) no-repeat;
-  width: 36px;
-  height: 17px;
-  display: inline-block;
-  background-color: transparent;
-  border: 0;
-  overflow: hidden;
-  /* IE 6/7 fallback */
-  *text-indent: -9999px;
-}
-.div-3:before {
-  content: "";
-  display: block;
-  width: 0;
-  height: 150%;
-}
-
-.div-4 {
-  background: url(http://wrs.gtplanet.net/images/badge_division_4.png) no-repeat;
-  width: 36px;
-  height: 17px;
-  display: inline-block;
-  background-color: transparent;
-  border: 0;
-  overflow: hidden;
-  /* IE 6/7 fallback */
-  *text-indent: -9999px;
-}
-.div-4:before {
-  content: "";
-  display: block;
-  width: 0;
-  height: 150%;
-}
-
-.div-Gold {
-  background: url(http://wrs.gtplanet.net/images/Trophy_Gold.png) no-repeat;
-  width: 14px;
-  height: 15px;
-  display: inline-block;
-  background-color: transparent;
-  border: 0;
-  overflow: hidden;
-  /* IE 6/7 fallback */
-  *text-indent: -9999px;
-}
-.div-Gold:before {
-  content: "";
-  display: block;
-  width: 0;
-  height: 150%;
-}
-
-.div-Silver {
-  background: url(http://wrs.gtplanet.net/images/Trophy_Silver.png) no-repeat;
-  width: 14px;
-  height: 15px;
-  display: inline-block;
-  background-color: transparent;
-  border: 0;
-  overflow: hidden;
-  /* IE 6/7 fallback */
-  *text-indent: -9999px;
-}
-.div-Silver:before {
-  content: "";
-  display: block;
-  width: 0;
-  height: 150%;
-}
-
-.div-Bronze {
-  background: url(http://wrs.gtplanet.net/images/Trophy_Bronze.png) no-repeat;
-  width: 14px;
-  height: 15px;
-  display: inline-block;
-  background-color: transparent;
-  border: 0;
-  overflow: hidden;
-  /* IE 6/7 fallback */
-  *text-indent: -9999px;
-}
-.div-Bronze:before {
-  content: "";
-  display: block;
-  width: 0;
-  height: 150%;
 }
 
 .fastest-overall {

@@ -5,7 +5,7 @@ $flag-extension: "png";
 $flag: "";
 $flag-path: "../img/flags_f";
 $flag-background: 24px 24px;
-$flag-background-small: 18px 18px;
+$flag-background-small: 16px 16px;
 
 /*====================================
 =            Region Flags            =
@@ -77,11 +77,12 @@ $flag-background-small: 18px 18px;
    	width: 25px;
    	height: 21px;
    	display: inline-block;
+    vertical-align: text-bottom;
    	@include hide-text;
 
-    @media screen and (max-width: 700px) {
-      width: 18px;
-      height: 18px;
+    @media screen and (max-width: 568px) {
+      width: 16px;
+      height: 16px;
     }
 }
 
@@ -114,7 +115,7 @@ $flag-background-small: 18px 18px;
     background: url('#{$flag-path}/#{$country_iso2}.#{$flag-extension}')no-repeat; 
     background-size: $flag-background;
 
-    @media screen and (max-width: 700px ) {
+    @media screen and (max-width: 568px ) {
       background-size: $flag-background-small;
     }
   }
@@ -131,7 +132,7 @@ $flag-background-small: 18px 18px;
     background: url('#{$flag-path}/#{$country_iso2}.#{$flag-extension}')no-repeat; 
     background-size: $flag-background;
 
-    @media screen and (max-width: 700px ) {
+    @media screen and (max-width: 568px ) {
       background-size: $flag-background-small;
     }
   }
@@ -150,7 +151,7 @@ $flag-background-small: 18px 18px;
     background: url('#{$flag-path}/#{$country_iso2}.#{$flag-extension}')no-repeat; 
     background-size: $flag-background;
 
-    @media screen and (max-width: 700px ) {
+    @media screen and (max-width: 568px ) {
       background-size: $flag-background-small;
     }
   }
@@ -164,7 +165,7 @@ $flag-background-small: 18px 18px;
     background: url('#{$flag-path}/#{$non-iso}.#{$flag-extension}') no-repeat; 
     background-size: $flag-background;
 
-    @media screen and (max-width: 700px ) {
+    @media screen and (max-width: 568px ) {
       background-size: 15px 15px;
     }
   } 

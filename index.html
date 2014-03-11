@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>WRS Leaderboards - GT6 week 7 splits</title>
     <link rel="stylesheet" href="css/font-awesome/font-awesome.css"/>
     <link rel="stylesheet" href="css/app.css" />
@@ -20,8 +20,8 @@
   <div>
     <!-- Top Navigation -->
     <header>
-      <nav class="top-nav">
-       <ul>
+      <nav class="top-bar">
+       <ul class="title-area">
          <li><a href="#"><img alt='Logo' border="0" src='http://wrs.gtplanet.net/images/Header_Logo.jpg'></a></li>
          <li><a href="#">Home</a></li>
          <li><a href="#">Registry</a></li>
@@ -142,7 +142,7 @@
               <th class="wrs-lb-controller-h" width="1%"><i class="icon-ds4"></i></th>
               <th class="wrs-lb-driver-h" width="35%">Driver</th>
               <th class="wrs-lb-division-h" width="10">Division</th>
-              <th class="wrs-lb-div-h-class" width="5"></th>
+              <!-- <th class="wrs-lb-div-h-class" width="5"></th> -->
               <th class="wrs-lb-split-h">Split 1</th>
               <th class="wrs-lb-split-h">Split 2</th>
               <th class="wrs-lb-total-h-split">Total Split</th>
@@ -155,7 +155,7 @@
                 <tr>
                   <td class="wrs-lb-position lb-tb-header" width="2%">{{position}}</td>
                   <td class="lb-tb-header"><i class="wrs-region {{region}}">{{region}}</i></td>
-                  <td class="wrs-lb-controller"width="20">
+                  <td class="lb-tb-header wrs-lb-controller">
                     {{#if controller}}
                       <i class="icon-{{controller}}"></i>
                     {{else}}
@@ -166,15 +166,15 @@
                       <a href='#'>{{driver}}</a></td>
                   <td class="wrs-lb-division" width="18">
                       <a href='#'>
-                          <i class="div-{{division}}">{{division}}</i>
+                          <i class="div-{{division}}-{{divClass}}">D{{division}}</i>
                       </a>
                   </td>
-                  <td class ="wrs-lb-div-class" width= "10">
+                  {{!-- <td class ="wrs-lb-div-class" width= "10">
                     <i class="div-{{divClass}}">{{divClass}}</i>
-                  </td>
+                  </td> --}}
                   <td class="wrs-lb-split {{#if fastestS1}} fastest-overall {{else}}{{#if fastestDS1}} fastest-division {{/if}}{{/if}}">{{S1}}</td>
                   <td class="wrs-lb-split {{#if fastestS2}} fastest-overall {{else}}{{#if fastestDS2}} fastest-division {{/if}}{{/if}}">{{S2}}</td>
-                  <td class="wrs-lb-total-split {{#if fastestTime}} fastest-overall {{else}}{{#if fastestDTime}} fastest-division {{/if}}{{/if}}">{{totalSplit}}</td>
+                  <td class="wrs-lb-total-split">{{totalSplit}}</td>
                   <td class="wrs-lb-gap">{{gap}}</td>
                 </tr>
                 {{/each}}
