@@ -1,3 +1,4 @@
+@import "compass";
 /*=====================================================
 =            Event Menu & Countdown Ticker            =
 =====================================================*/
@@ -5,11 +6,11 @@
 /* Event Title Bar */
 
 .#{$wrs-event-menu} {
-    background: transparent;
+    @include background-image(linear-gradient(top, #f81c1c ,#d61616));
     overflow: hidden;
     width: 100%;
-    position: relative;
-    top: 75%;
+    // position: relative;
+    // top: 75%;
 
     li{
         text-align: left;
@@ -18,7 +19,12 @@
         margin: 0 10px;
         font: normal 12px/20px $default-font;
         color: white;
+        text-shadow: 0 1px 0 #444;
         vertical-align: middle;
+
+        @media (max-width: 320px) {
+            margin: 0 5px;
+        }
     }
 
 	ul {
@@ -28,10 +34,16 @@
 	    }
 	    li:nth-child(4) {
 	        margin-left: 15px;
+            @media (min-width: 320px) {
+                margin-left: 5px; 
+            }
 	    }
 	    li:nth-child(5) {
 	        margin-left: 8px;
 	        margin-right: 8px;
+            @media (min-width: 320px) {
+                margin-left: 2px;
+            }
 	    }
 	    li:nth-child(6) {
 	        margin-right: 0px;
@@ -41,6 +53,9 @@
 	    }
 	    li:nth-child(2) {
 	        margin-left: 5px;
+            @media (min-width: 320px) {
+                margin-left: 1px;
+            }
 	    }
 	    li:last-child {
 	        margin-left: 0;
@@ -56,47 +71,51 @@
 /* Prev Next Button */
 
 .#{$wrs-prev-next} {
-    background: linear-gradient(to bottom, #525252 0%,#999 100%);
+    // background: linear-gradient(to bottom, #525252 0%,#999 100%);
     display: inline-block;
     color: white;
     text-shadow: 0 1px 0 #444;
-    width: 27px;
-    height: 27px;
+    // width: 27px;
+    // height: 27px;
     text-align: center;
-    line-height: 28px;
-    border-radius: 3px;
-    margin-top: 5px;
+    line-height: 40px;
+    // border-radius: 3px;
+    // margin-top: 5px;
 
     &:hover{
-        background: linear-gradient(to bottom, lighten(#525252, 10%), lighten(#999, 10%));
+        // background: linear-gradient(to bottom, lighten(#525252, 10%), lighten(#999, 10%));
     }
 }
 
 /* Select Box */
 
 .#{$wrs-select-menu} {
-    background: linear-gradient(to bottom, #f0f0f0 0%,#ffffff 100%);
-    background-position: -349px 0;
-    border: 1px solid #fff !important;
-    border-radius: 3px;
-    box-sizing: border-box;
-    margin-top: 5px;
+    background: transparent;
+    margin-top: 12px;
+    font: bold 12px helvetica neue;
+    text-shadow: 0 1px 0 #444;
+    // background-position: -349px 0;
+    // border: 1px solid #fff !important;
+    // border-radius: 3px;
+    // box-sizing: border-box;
+    // margin-top: 5px;
 /*    text-align: 0.01px;*/
 /*    text-overflow: "";*/
-    padding: 6px;
+    // padding: 6px;
+    // line-height: 40px;
 }
 
 	/* Game and Week Select Buttons */
 
 	select{
 		.#{$wrs-game} {
-		    width: 58px;
-		    margin-left: 5px;
+		    // width: 58px;
+		    margin-left: 20%;
 		}
 
 		.#{$wrs-week} {
-		    @extend .#{$wrs-game};
-		    width: 83px;
+		    // @extend .#{$wrs-game};
+		    // width: 83px;
 		}
 	}
 
@@ -104,14 +123,34 @@
 /* Event Title */
 
 .#{$wrs-event-title} { 
-    width: percentage(512px/960px);
+    width: percentage(674px/960px);
     margin-top: 6px !important;
+    // background: green;
+
+    @media (max-width: 320px) {
+        width: percentage(0.24);
+        // height: 20px;
+        // text-align: left;
+        
+        
+    }
+
 
     h4 {
-        font: bold 11px/26px $default-font;
+        font: bold 100%/26px $default-font;
         margin: 0;
+         text-align: center;
+
+         @media (max-width: 320px) {
+             overflow: hidden;
+            white-space: nowrap;
+             text-overflow: ellipsis;
+         }
     }
 }
+
+
+
 
 /* Splits / Results Toggle */
 
@@ -154,11 +193,13 @@
 /* Deadline Countdown Ticker */
 
 .#{$wrs-countdown} {
-    margin-right: 25px;
-
-    i{
-        font-size: 13px;
-    }
+    
+    margin:0 10px 0 10px !important;
+    // background: green;
+    margin-top: 6px !important;
+    line-height: 26px !important;
+    font-weight: bold !important;
+    font-size: 14px !important;
 }
 
 /*-----  End of Event Menu & Countdown Ticker  ------*/
