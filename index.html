@@ -183,7 +183,13 @@
                         <i class="{{#if fastestS2}} fastest-overall {{else}}{{#if fastestDS2}} fastest-division {{/if}}{{/if}}">2 {{S2}}</i>
                       </div>
                   </td>
-                  <td class="wrs-lb-gap">{{gap}}</td>
+                  <td class="wrs-lb-gap">
+                    {{#if gap}}
+                      {{gap}}
+                    {{else}}
+                      -
+                    {{/if}}
+                  </td>
                 </tr>
                 {{/each}}
               </script>  
