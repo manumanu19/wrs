@@ -9,58 +9,37 @@
     @include background-image(linear-gradient(top, #f81c1c ,#d61616));
     overflow: hidden;
     width: 100%;
-    // position: relative;
-    // top: 75%;
-
-    li{
-        text-align: left;
-        float: left;
-        list-style: none;
-        margin: 0 10px;
-        font: normal 12px/20px $default-font;
-        color: white;
-        text-shadow: 0 1px 0 #444;
-        vertical-align: middle;
-
-        @media (max-width: 320px) {
-            margin: 0 2px;
-        }
-    }
-
 	ul {
-	    li:nth-child(3), 
-	    li:nth-child(4) {
-	        margin: 0px;
-	    }
-	    li:nth-child(4) {
-	        margin-left: 15px;
-            @media (min-width: 320px) {
-                margin-left: 5px; 
+	    // background: lighten(blue, 15%);
+     //    padding-left: 30px;
+        padding: 0 2%;
+     li{
+            float: left;
+            list-style: none;
+            font: bold 12px/45px $default-font;
+            color: white;
+            text-shadow: 0 1px 0 #444;
+
+            @media (max-width: 320px) {
+                // margin: 0 2px;
             }
-	    }
-	    li:nth-child(5) {
-	        margin-left: 8px;
-	        margin-right: 8px;
-            @media (min-width: 320px) {
-                margin-left: 2px;
+
+            h4{
+                margin: 0;
+                text-align: center;
+             @media (max-width: 320px) {
+                 overflow: hidden;
+                 white-space: nowrap;
+                 text-overflow: ellipsis;
+         }
             }
-	    }
-	    li:nth-child(6) {
-	        margin-right: 0px;
-	    }
-	    li:nth-child(1) {
-	        margin-right: 0;
-	    }
-	    li:nth-child(2) {
-	        margin-left: 5px;
-            @media (min-width: 320px) {
-                margin-left: 1px;
+
+            .wrs-countdown{
+                float: right;
             }
-	    }
-	    li:last-child {
-	        margin-left: 0;
-	    }
+        }
 	}
+    
 }
 
 /*==========================================================
@@ -78,7 +57,7 @@
     // width: 27px;
     // height: 27px;
     text-align: center;
-    line-height: 40px;
+    // line-height: 40px;
     // border-radius: 3px;
     // margin-top: 5px;
 
@@ -91,7 +70,7 @@
 
 .#{$wrs-select-menu} {
     background: transparent;
-    margin-top: 12px;
+    // margin-top: 12px;
     font: bold 12px helvetica neue;
     text-shadow: 0 1px 0 #444;
     // background-position: -349px 0;
@@ -110,7 +89,7 @@
 	select{
 		.#{$wrs-game} {
 		    // width: 58px;
-		    margin-left: 20%;
+		    // margin-left: 20%;
 		}
 
 		.#{$wrs-week} {
@@ -123,8 +102,9 @@
 /* Event Title */
 
 .#{$wrs-event-title} { 
-    width: percentage(674px/960px);
-    margin-top: 6px !important;
+    width: percentage(724px/960px);
+    margin: 0 3%;
+    // margin-top: 6px !important;
     // background: green;
 
     @media (max-width: 320px) {
@@ -137,15 +117,9 @@
 
 
     h4 {
-        font: bold 100%/26px $default-font;
-        margin: 0;
-         text-align: center;
-
-         @media (max-width: 320px) {
-             overflow: hidden;
-            white-space: nowrap;
-             text-overflow: ellipsis;
-         }
+        // font: bold 100% $default-font;
+        // margin: 0;
+         
     }
 }
 
@@ -194,12 +168,21 @@
 
 .#{$wrs-countdown} {
     
-    margin:0 10px 0 10px !important;
+    // margin:0 10px 0 10px !important;
     // background: green;
-    margin-top: 6px !important;
-    line-height: 26px !important;
-    font-weight: bold !important;
-    font-size: 14px !important;
+    // margin-top: 6px !important;
+    // line-height: 26px !important;
+    // font-weight: bold !important;
+    // font-size: 14px !important;
+}
+
+[class*=fa-angle-]{
+    font-size: 30px;
+    // line-height: 45px;
+    position: relative;
+    top: 5px;
+    margin-left: 80%;
+    color: white;
 }
 
 /*-----  End of Event Menu & Countdown Ticker  ------*/

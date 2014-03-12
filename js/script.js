@@ -46,5 +46,17 @@
 		$(this).next('div.splits').fadeToggle(200);
 	});
 
+	//
+
+	var rh = $('.wrs-dropdown'),
+		rd = $('.wrs-event-info'); 
+
+		// rd.hide();
+
+		rh.on('click', function(event) {
+			event.preventDefault();
+			rd.slideToggle(400)
+		});
+
 	
 })(jQuery);
