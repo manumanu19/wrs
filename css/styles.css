@@ -3755,7 +3755,7 @@ a {
 }
 @media (max-width: 320px) {
   .wrs-event-menu li {
-    margin: 0 5px;
+    margin: 0 2px;
   }
 }
 .wrs-event-menu ul li:nth-child(3),
@@ -3899,7 +3899,6 @@ select .wrs-game-menu {
   overflow: hidden;
   background: #000;
   border: 1px solid #0d0d0d;
-  border-radius: 2px;
 }
 
 .wrs-event-regs, .wrs-event-car, .wrs-event-track {
