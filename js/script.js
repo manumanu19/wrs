@@ -55,6 +55,7 @@
 
 		rh.on('click', function(event) {
 			event.preventDefault();
+			$(this).find('i').toggleClass('fa-down-up, fa-angle-down');
 			rd.slideToggle(400)
 		});
 
