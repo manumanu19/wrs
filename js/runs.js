@@ -8,12 +8,12 @@
 			driver: "GTP_Twissy",	
 			division: "1",	
 			divClass: "gold",	
-			S1: "0'26.417", 
-			S2: "0'43.650",	
+			S1: "26.417", 
+			S2: "43.650",	
 			fastestS2: true,
 			totalSplit: "1'10.067", 
 			fastestTime: true,
-			gap: "+0'00.000"
+			gap: "+00.000"
 		},
 		{
 			position: "2", 
@@ -22,11 +22,11 @@
 			driver: "doodlemonoply",	
 			division: "1",	
 			divClass: "gold",	
-			S1: "0'26.583", 
-			S2: "0'43.650",	
+			S1: "26.583", 
+			S2: "43.650",	
 			fastestS2: true,
 			totalSplit: "1'10.233", 
-			gap: "+0'00.166"
+			gap: "+00.166"
 		},
 		{
 			position: "3", 
@@ -35,11 +35,11 @@
 			driver: "Mike_Peperni",	
 			division: "1",	
 			divClass: "gold",	
-			S1: "0'26.368", 
+			S1: "26.368", 
 			fastestS1: true,
-			S2: "0'43.916",	
+			S2: "43.916",	
 			totalSplit: "1'10.284", 
-			gap: "+0'00.217"
+			gap: "+00.217"
 		},
 		{	
 			position: "4",
@@ -48,12 +48,12 @@
 			driver: "RS__96__oO",	
 			division: "2",	
 			divClass: "gold",	
-			S1: "0'26.499", 
+			S1: "26.499", 
 			fastestDS1: true,
-			S2: "0'43.934",
+			S2: "43.934",
 			fastestDS2: true,
 			totalSplit:"1'10.433", 
- 			gap: "+0'00.366"
+ 			gap: "+00.366"
  		},
 		{
 			position: "5", 
@@ -62,10 +62,10 @@
 			driver: "GTP_PASM",	
 			division: "1",	
 			divClass: "silver",	
-			S1: "0'26.503", 
-			S2: "0'44.016",	
+			S1: "26.503", 
+			S2: "44.016",	
 			totalSplit: "1'10.519", 
-			gap: "+0'00.452"
+			gap: "+00.452"
 		},
 		{
 			position: "6", 
@@ -74,10 +74,10 @@
 			driver: "GTP_Eternal",	
 			division: "1",	
 			divClass: "bronze",	
-			S1: "0'26.510", 
-			S2: "0'44.100",	
+			S1: "26.510", 
+			S2: "44.100",	
 			totalSplit: "1'10.610", 
-			gap: "+0'00.543"
+			gap: "+00.543"
 		},
 		{
 			position: "7", 
@@ -86,10 +86,10 @@
 			driver: "GTP_gooners_17",	
 			division: "1",	
 			divClass: "silver",	
-			S1: "0'26.655", 
-			S2: "0'44.167",	
+			S1: "26.655", 
+			S2: "44.167",	
 			totalSplit: "1'10.822", 
-			gap: "+0'00.755"
+			gap: "+00.755"
 		},
 		{
 			position: "8", 
@@ -98,10 +98,10 @@
 			driver: "GTP_gmmatthew",	
 			division: "1",	
 			divClass: "bronze",	
-			S1: "0'26.683", 
-			S2: "0'44.250",	
+			S1: "26.683", 
+			S2: "44.250",	
 			totalSplit: "1'10.933", 
-			gap: "+0'00.866"
+			gap: "+00.866"
 		},
 		{
 			position: "9", 
@@ -110,10 +110,10 @@
 			driver: "GTP_Lukas",	
 			division: "2",	
 			divClass: "gold",	
-			S1: "0'26.700", 
-			S2: "0'44.383",	
+			S1: "26.700", 
+			S2: "44.383",	
 			totalSplit: "1'11.083", 
-			gap: "+0'01.016"
+			gap: "+01.016"
 		},
 		{
 			position: "10", 
@@ -122,10 +122,10 @@
 			driver: "GTP_Insatiable",	
 			division: "1",	
 			divClass: "bronze",	
-			S1: "0'26.644", 
-			S2: "0'44.484",	
+			S1: "26.644", 
+			S2: "44.484",	
 			totalSplit: "1'11.128", 
-			gap: "+0'01.061"
+			gap: "+01.061"
 		},
 		{
 			position: "11", 
@@ -134,10 +134,10 @@
 			driver: "merlinrichards",	
 			division: "2",	
 			divClass: "silver",	
-			S1: "0'26.833", 
-			S2: "0'44.400",	
+			S1: "26.833", 
+			S2: "44.400",	
 			totalSplit: "1'11.233", 
-			gap: "+0'01.166"
+			gap: "+01.166"
 		},
 		{
 			position: "12", 
@@ -146,10 +146,10 @@
 			driver: "GTP_SEMS",	
 			division: "2",	
 			divClass: "bronze",	
-			S1: "0'26.743", 
-			S2: "0'44.567",	
+			S1: "26.743", 
+			S2: "44.567",	
 			totalSplit: "1'11.310", 
-			gap: "+0'01.243"
+			gap: "+01.243"
 		},
 		{
 			position: "13", 
@@ -158,10 +158,10 @@
 			driver: "GTP_pilmat",	
 			division: "2",	
 			divClass: "silver",	
-			S1: "0'27.050", 
-			S2: "0'44.283",	
+			S1: "27.050", 
+			S2: "44.283",	
 			totalSplit: "1'11.333", 
-			gap: "+0'01.266"
+			gap: "+01.266"
 		},
 		{
 			position: "14", 
@@ -170,10 +170,10 @@
 			driver: "GTP_SKYLINE",	
 			division: "2",	
 			divClass: "gold",	
-			S1: "0'26.889", 
-			S2: "0'44.450",	
+			S1: "26.889", 
+			S2: "44.450",	
 			totalSplit: "1'11.339", 
-			gap: "+0'01.272"
+			gap: "+01.272"
 		},
 		{
 			position: "15", 
@@ -182,10 +182,10 @@
 			driver: "nyyppa",	
 			division: "2",	
 			divClass: "gold",	
-			S1: "0'26.834", 
-			S2: "0'44.633",	
+			S1: "26.834", 
+			S2: "44.633",	
 			totalSplit: "1'11.467", 
-			gap: "+0'01.400"
+			gap: "+01.400"
 		},
 		{
 			position: "16", 
@@ -194,10 +194,10 @@
 			driver: "GTP_Gravitron",	
 			division: "2",	
 			divClass: "gold",	
-			S1: "0'27.066", 
-			S2: "0'44.450",	
+			S1: "27.066", 
+			S2: "44.450",	
 			totalSplit: "1'11.516", 
-			gap: "+0'01.449"
+			gap: "+01.449"
 		},
 		{
 			position: "17", 
@@ -206,10 +206,10 @@
 			driver: "GTP_Ph7shr",	
 			division: "2",	
 			divClass: "silver",	
-			S1: "0'26.683", 
-			S2: "0'44.900",	
+			S1: "26.683", 
+			S2: "44.900",	
 			totalSplit: "1'11.583", 
-			gap: "+0'01.516"
+			gap: "+01.516"
 		},
 		{
 			position: "18", 
@@ -218,10 +218,10 @@
 			driver: "GTP_Jump_Ace",	
 			division: "2",	
 			divClass: "gold",	
-			S1: "0'26.903", 
-			S2: "0'44.730",	
+			S1: "26.903", 
+			S2: "44.730",	
 			totalSplit: "1'11.633", 
-			gap: "+0'01.566"
+			gap: "+01.566"
 		},
 		{
 			position: "19", 
@@ -230,10 +230,10 @@
 			driver: "brinomial",	
 			division: "2",	
 			divClass: "bronze",	
-			S1: "0'26.818", 
-			S2: "0'44.900",	
+			S1: "26.818", 
+			S2: "44.900",	
 			totalSplit: "1'11.718", 
-			gap: "+0'01.651"
+			gap: "+01.651"
 		},
 		{
 			position: "20", 
@@ -242,10 +242,10 @@
 			driver: "Oshawa-Joe",	
 			division: "2",	
 			divClass: "silver",	
-			S1: "0'26.800", 
-			S2: "0'44.950",	
+			S1: "26.800", 
+			S2: "44.950",	
 			totalSplit: "1'11.750", 
-			gap: "+0'01.683"
+			gap: "+01.683"
 		},
 		{
 			position: "21",
@@ -254,12 +254,12 @@
 			driver: "Klubbin__Jay",	
 			division: "3",	
 			divClass: "bronze",	
-			S1: "0'26.650",
+			S1: "26.650",
 			fastestDS1: true, 
-			S2: "0'45.150",
+			S2: "45.150",
 			totalSplit:"1'11.800", 
 			fastestDTime: true,
-			gap: "+0'01.733"
+			gap: "+01.733"
 		},
 		{
 			position: "22", 
@@ -268,10 +268,10 @@
 			driver: "GTP_RaceRyder",	
 			division: "3",	
 			divClass: "gold",	
-			S1: "0'26.972", 
-			S2: "0'44.917",	
+			S1: "26.972", 
+			S2: "44.917",	
 			totalSplit: "1'11.889", 
-			gap: "+0'01.822"
+			gap: "+01.822"
 		},
 		{
 			position: "23", 
@@ -280,11 +280,11 @@
 			driver: "couttsy21",	
 			division: "3",	
 			divClass: "gold",	
-			S1: "0'27.146", 
-			S2: "0'44.767",	
+			S1: "27.146", 
+			S2: "44.767",	
 			fastestDS2: true,
 			totalSplit: "1'11.913", 
-			gap: "+0'01.846"
+			gap: "+01.846"
 		},
 		{
 			position: "24", 
@@ -293,10 +293,10 @@
 			driver: "GTP_Racingworld",	
 			division: "2",	
 			divClass: "silver",	
-			S1: "0'26.971", 
-			S2: "0'44.967",	
+			S1: "26.971", 
+			S2: "44.967",	
 			totalSplit: "1'11.938", 
-			gap: "+0'01.871"
+			gap: "+01.871"
 		},
 		{
 			position: "25", 
@@ -305,10 +305,10 @@
 			driver: "GTP_Allibubba99",	
 			division: "2",	
 			divClass: "bronze",	
-			S1: "0'27.206", 
-			S2: "0'44.750",	
+			S1: "27.206", 
+			S2: "44.750",	
 			totalSplit: "1'11.956", 
-			gap: "+0'01.889"
+			gap: "+01.889"
 		},
 		{
 			position: "26", 
@@ -317,10 +317,10 @@
 			driver: "GTP_AspecBob",	
 			division: "2",	
 			divClass: "silver",	
-			S1: "0'26.982", 
-			S2: "0'45.034",	
+			S1: "26.982", 
+			S2: "45.034",	
 			totalSplit: "1'12.016", 
-			gap: "+0'01.949"
+			gap: "+01.949"
 		},
 		{
 			position: "27", 
@@ -329,10 +329,10 @@
 			driver: "GTP_Wins",	
 			division: "2",	
 			divClass: "silver",	
-			S1: "0'26.894", 
-			S2: "0'45.122",	
+			S1: "26.894", 
+			S2: "45.122",	
 			totalSplit: "1'12.016", 
-			gap: "+0'01.949"
+			gap: "+01.949"
 		},
 		{
 			position: "28", 
@@ -341,10 +341,10 @@
 			driver: "GTP_oink",	
 			division: "1",	
 			divClass: "bronze",	
-			S1: "0'27.416", 
-			S2: "0'44.700",	
+			S1: "27.416", 
+			S2: "44.700",	
 			totalSplit: "1'12.116", 
-			gap: "+0'02.049"
+			gap: "+02.049"
 		},
 		{
 			position: "29", 
@@ -353,10 +353,10 @@
 			driver: "Teamsreth",	
 			division: "3",	
 			divClass: "gold",	
-			S1: "0'26.884", 
-			S2: "0'45.266",	
+			S1: "26.884", 
+			S2: "45.266",	
 			totalSplit: "1'12.150", 
-			gap: "+0'02.083"
+			gap: "+02.083"
 		},
 		{
 			position: "29",
@@ -365,10 +365,10 @@
 			driver: "GTP_LeftyWright",	
 			division: "2",	
 			divClass: "silver",	
-			S1: "0'26.935", 
-			S2: "0'45.216",
+			S1: "26.935", 
+			S2: "45.216",
  			totalSplit:"1'12.151", 
- 			gap: "+0'02.084"
+ 			gap: "+02.084"
  		},
 		{
 			position: "31", 
@@ -377,10 +377,10 @@
 			driver: "GT_COL",	
 			division: "3",	
 			divClass: "gold",	
-			S1: "0'27.098", 
-			S2: "0'45.083",	
+			S1: "27.098", 
+			S2: "45.083",	
 			totalSplit: "1'12.181", 
-			gap: "+0'02.114"
+			gap: "+02.114"
 		},
 		{
 			position: "32", 
@@ -389,10 +389,10 @@
 			driver: "GTP_Vipond",	
 			division: "2",	
 			divClass: "silver",	
-			S1: "0'27.284", 
-			S2: "0'44.916",	
+			S1: "27.284", 
+			S2: "44.916",	
 			totalSplit: "1'12.200", 
-			gap: "+0'02.133"
+			gap: "+02.133"
 		},
 		{
 			position: "33", 
@@ -401,10 +401,10 @@
 			driver: "nursemorph",	
 			division: "3",	
 			divClass: "bronze",	
-			S1: "0'26.829", 
-			S2: "0'45.400",	
+			S1: "26.829", 
+			S2: "45.400",	
 			totalSplit: "1'12.229", 
-			gap: "+0'02.162"
+			gap: "+02.162"
 		},
 		{
 			position: "34", 
@@ -413,10 +413,10 @@
 			driver: "akz24",	
 			division: "3",	
 			divClass: "silver",	
-			S1: "0'27.050", 
-			S2: "0'45.233",	
+			S1: "27.050", 
+			S2: "45.233",	
 			totalSplit: "1'12.283", 
-			gap: "+0'02.216"
+			gap: "+02.216"
 		},
 		{	
 			position: "35",
@@ -425,10 +425,10 @@
 			driver: "BionicDerp",	
 			division: "2",	
 			divClass: "bronze",	
-			S1: "0'27.214", 
-			S2: "0'45.079",
+			S1: "27.214", 
+			S2: "45.079",
  			totalSplit:"1'12.293", 
- 			gap: "+0'02.226"
+ 			gap: "+02.226"
  		},
 		{
 			position: "36", 
@@ -437,10 +437,10 @@
 			driver: "GTP_MisterWeary",	
 			division: "3",	
 			divClass: "gold",	
-			S1: "0'27.116", 
-			S2: "0'45.184",	
+			S1: "27.116", 
+			S2: "45.184",	
 			totalSplit: "1'12.300", 
-			gap: "+0'02.233"
+			gap: "+02.233"
 		},
 		{
 			position: "37", 
@@ -449,10 +449,10 @@
 			driver: "GTP_iainoflo",	
 			division: "2",	
 			divClass: "bronze",	
-			S1: "0'27.050", 
-			S2: "0'45.267",	
+			S1: "27.050", 
+			S2: "45.267",	
 			totalSplit: "1'12.317", 
-			gap: "+0'02.250"
+			gap: "+02.250"
 		},
 		{
 			position: "38", 
@@ -461,10 +461,10 @@
 			driver: "Stevious",	
 			division: "3",	
 			divClass: "gold",	
-			S1: "0'26.842", 
-			S2: "0'45.533",	
+			S1: "26.842", 
+			S2: "45.533",	
 			totalSplit: "1'12.375", 
-			gap: "+0'02.308"
+			gap: "+02.308"
 		},
 		{
 			position: "39", 
@@ -473,12 +473,12 @@
 			driver: "stevetuffers",	
 			division: "4",	
 			divClass: "silver",	
-			S1: "0'27.400", 
-			S2: "0'45.050",
+			S1: "27.400", 
+			S2: "45.050",
 			fastestDS2: true,	
 			totalSplit: "1'12.450", 
 			fastestDTime: true,
-			gap: "+0'02.383"
+			gap: "+02.383"
 		},
 		{
 			position: "40", 
@@ -487,10 +487,10 @@
 			driver: "IRT_MrG",	
 			division: "3",	
 			divClass: "silver",	
-			S1: "0'27.345", 
-			S2: "0'45.200",	
+			S1: "27.345", 
+			S2: "45.200",	
 			totalSplit: "1'12.545", 
-			gap: "+0'02.478"
+			gap: "+02.478"
 		},
 		{
 			position: "41",
@@ -499,10 +499,10 @@
 			driver: "mr_lab_rat",	
 			division: "3",	
 			divClass: "gold",	
-			S1: "0'27.566", 
-			S2: "0'45.034",
+			S1: "27.566", 
+			S2: "45.034",
 			totalSplit:"1'12.600", 
-			gap: "+0'02.533"
+			gap: "+02.533"
 		},
 		{	
 			position: "42",
@@ -511,11 +511,11 @@
 			driver: "atongo619",	
 			division: "4",	
 			divClass: "gold",	
-			S1: "0'27.267", 
+			S1: "27.267", 
 			fastestDS1: true,
-			S2: "0'45.350",
+			S2: "45.350",
 			totalSplit:"1'12.617", 
-			gap: "+0'02.550"
+			gap: "+02.550"
 		},
 		{	
 			position: "43",
@@ -524,10 +524,10 @@
 			driver: "jfro222",	
 			division: "3",	
 			divClass: "bronze",	
-			S1: "0'27.000", 
-			S2: "0'45.633",
+			S1: "27.000", 
+			S2: "45.633",
 			totalSplit:"1'12.633", 
-			gap: "+0'02.566"
+			gap: "+02.566"
 		},
 		{	
 			position: "44",
@@ -536,10 +536,10 @@
 			driver: "SINY999",	
 			division: "3",	
 			divClass: "silver",	
-			S1: "0'27.233", 
-			S2: "0'45.500",
+			S1: "27.233", 
+			S2: "45.500",
 			totalSplit:"1'12.733", 
-			gap: "+0'02.666"
+			gap: "+02.666"
 		},
 		{
 			position: "45", 
@@ -548,10 +548,10 @@
 			driver: "GTP_Deadbrah",	
 			division: "3",	
 			divClass: "gold",	
-			S1: "0'27.314", 
-			S2: "0'45.500",	
+			S1: "27.314", 
+			S2: "45.500",	
 			totalSplit: "1'12.814", 
-			gap: "+0'02.747"
+			gap: "+02.747"
 		},
 		{
 			position: "46", 
@@ -560,10 +560,10 @@
 			driver: "GTP_NielsG2",	
 			division: "3",	
 			divClass: "gold",	
-			S1: "0'27.367", 
-			S2: "0'45.616",	
+			S1: "27.367", 
+			S2: "45.616",	
 			totalSplit: "1'12.983", 
-			gap: "+0'02.916"
+			gap: "+02.916"
 		},
 		{
 			position: "47", 
@@ -572,10 +572,10 @@
 			driver: "RacingOtaku86",	
 			division: "3",	
 			divClass: "silver",	
-			S1: "0'27.412", 
-			S2: "0'45.684",	
+			S1: "27.412", 
+			S2: "45.684",	
 			totalSplit: "1'13.096", 
-			gap: "+0'03.029"
+			gap: "+03.029"
 		},
 		{
 			position: "48", 
@@ -584,10 +584,10 @@
 			driver: "GTP_hessi",	
 			division: "3",	
 			divClass: "gold",	
-			S1: "0'27.575", 
-			S2: "0'45.600",	
+			S1: "27.575", 
+			S2: "45.600",	
 			totalSplit: "1'13.175", 
-			gap: "+0'03.108"
+			gap: "+03.108"
 		},
 		{
 			position: "49",
@@ -596,10 +596,10 @@
 			driver: "GTP_ollie57",	
 			division: "3",	
 			divClass: "silver",	
-			S1: "0'27.350", 
-			S2: "0'45.883",
+			S1: "27.350", 
+			S2: "45.883",
  			totalSplit:"1'13.233", 
- 			gap: "+0'03.166"
+ 			gap: "+03.166"
  		},
 		{
 			position: "50", 
@@ -608,10 +608,10 @@
 			driver: "GTP_crowhop",	
 			division: "3",	
 			divClass: "silver",	
-			S1: "0'27.550", 
-			S2: "0'45.984",	
+			S1: "27.550", 
+			S2: "45.984",	
 			totalSplit: "1'13.534", 
-			gap: "+0'03.467"
+			gap: "+03.467"
 		},
 		{
 			position: "51", 
@@ -620,10 +620,10 @@
 			driver: "GTP_the_wilco",	
 			division: "3",	
 			divClass: "gold",	
-			S1: "0'27.445", 
-			S2: "0'46.100",	
+			S1: "27.445", 
+			S2: "46.100",	
 			totalSplit: "1'13.545", 
-			gap: "+0'03.478"
+			gap: "+03.478"
 		},
 		{
 			position: "52", 
@@ -632,10 +632,10 @@
 			driver: "dpinho1975",	
 			division: "3",	
 			divClass: "bronze",	
-			S1: "0'27.396", 
-			S2: "0'46.200",	
+			S1: "27.396", 
+			S2: "46.200",	
 			totalSplit: "1'13.596", 
-			gap: "+0'03.529"
+			gap: "+03.529"
 		},
 		{
 			position: "53", 
@@ -644,10 +644,10 @@
 			driver: "SERIALF",	
 			division: "4",	
 			divClass: "gold",	
-			S1: "0'27.833", 
-			S2: "0'46.050",	
+			S1: "27.833", 
+			S2: "46.050",	
 			totalSplit: "1'13.883", 
-			gap: "+0'03.816"
+			gap: "+03.816"
 		},
 		{
 			position: "54", 
@@ -656,10 +656,10 @@
 			driver: "cheba88",	
 			division: "2",	
 			divClass: "bronze",	
-			S1: "0'27.750", 
-			S2: "0'46.316",	
+			S1: "27.750", 
+			S2: "46.316",	
 			totalSplit: "1'14.066", 
-			gap: "+0'03.999"
+			gap: "+03.999"
 		},
 		{
 			position: "55", 
@@ -668,10 +668,10 @@
 			driver: "Mark_Sebo",	
 			division: "4",	
 			divClass: "gold",	
-			S1: "0'27.987", 
-			S2: "0'46.517",	
+			S1: "27.987", 
+			S2: "46.517",	
 			totalSplit: "1'14.504", 
-			gap: "+0'04.437"
+			gap: "+04.437"
 		},
 		{
 			position: "56", 
@@ -680,10 +680,10 @@
 			driver: "Bochawa72",	
 			division: "3",	
 			divClass: "silver",	
-			S1: "0'27.784", 
-			S2: "0'46.916",	
+			S1: "27.784", 
+			S2: "46.916",	
 			totalSplit: "1'14.700", 
-			gap: "+0'04.633"
+			gap: "+04.633"
 		},
 		{
 			position: "57", 
@@ -692,10 +692,10 @@
 			driver: "deacon-blues082",	
 			division: "3",	
 			divClass: "bronze",	
-			S1: "0'28.333", 
-			S2: "0'47.050",	
+			S1: "28.333", 
+			S2: "47.050",	
 			totalSplit: "1'15.383", 
-			gap: "+0'05.316"
+			gap: "+05.316"
 		},
 		{
 			position: "58", 
@@ -704,10 +704,10 @@
 			driver: "thematic604",	
 			division: "4",	
 			divClass: "silver",	
-			S1: "0'28.198", 
-			S2: "0'48.150",	
+			S1: "28.198", 
+			S2: "48.150",	
 			totalSplit: "1'16.348", 
-			gap: "+0'06.281"
+			gap: "+06.281"
 		},
 		{
 			position: "59", 
@@ -716,10 +716,10 @@
 			driver: "NemoNiente",	
 			division: "4",	
 			divClass: "silver",	
-			S1: "0'28.200", 
-			S2: "0'48.650",	
+			S1: "28.200", 
+			S2: "48.650",	
 			totalSplit: "1'16.850", 
-			gap: "+0'06.783"
+			gap: "+06.783"
 		},
 		{
 			position: "60 ",
@@ -728,10 +728,10 @@
 			driver: "mtbmik50",	
 			division: "4",	
 			divClass: "silver",	
-			S1: "0'29.082", 
-			S2: "0'48.284",	
+			S1: "29.082", 
+			S2: "48.284",	
 			totalSplit: "1'17.366", 
-			gap: "+0'07.299"
+			gap: "+07.299"
 		}
 	];
 	

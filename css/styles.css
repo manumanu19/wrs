@@ -4218,6 +4218,27 @@ select .wrs-game-menu {
   background: #e5e5e5 !important;
 }
 
+.wrs-lb-total-split {
+  position: relative;
+  float: left;
+}
+.wrs-lb-total-split .time {
+  cursor: pointer;
+  margin: 0 !important;
+}
+.wrs-lb-total-split .splits {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: none;
+  line-height: 12px;
+  position: relative;
+  bottom: 8px;
+}
+.wrs-lb-total-split .splits i {
+  font-size: 10px;
+  font-weight: normal;
+}
+
 .fastest-overall {
   color: #C80C8C;
 }

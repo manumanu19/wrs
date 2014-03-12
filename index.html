@@ -175,7 +175,13 @@
                   </td> --}}
                   <td class="wrs-lb-split {{#if fastestS1}} fastest-overall {{else}}{{#if fastestDS1}} fastest-division {{/if}}{{/if}}">{{S1}}</td>
                   <td class="wrs-lb-split {{#if fastestS2}} fastest-overall {{else}}{{#if fastestDS2}} fastest-division {{/if}}{{/if}}">{{S2}}</td>
-                  <td class="wrs-lb-total-split">{{totalSplit}}</td>
+                  <td class="wrs-lb-total-split">
+                      <span class="time">{{totalSplit}}</span>
+                      <div class="splits">
+                        <i class="{{#if fastestS1}} fastest-overall {{else}}{{#if fastestDS1}} fastest-division {{/if}}{{/if}}">1 {{S1}}</i> <br>
+                        <i class="{{#if fastestS2}} fastest-overall {{else}}{{#if fastestDS2}} fastest-division {{/if}}{{/if}}">2 {{S2}}</i>
+                      </div>
+                  </td>
                   <td class="wrs-lb-gap">{{gap}}</td>
                 </tr>
                 {{/each}}
@@ -186,7 +192,8 @@
       <!-- Footer -->
       <footer>
           <div id='footer_text'>
-              <span class='left' style='text-align: left'>©
+              <span class='left' style='text-align: left'>
+                &copy;
               2009-2014 <strong>GTPlanet Weekly Race Series
               Leaderboards</strong>. All rights reserved.<br>
               GTP_WRS by <a href=
@@ -199,7 +206,7 @@
               feedback is appreciated, <a href=
               'http://www.gtplanet.net/forum/threads/123953/'
               target='_blank'>comments and bugs</a>.<br>
-              <span style='color: #aaa'>40 drivers, last update
+              <span style='color: #aaa'>60 drivers, last update
               04-03-2014 07:00 GMT</span></span>
           </div><br>
           </div>

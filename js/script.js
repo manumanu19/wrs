@@ -1,4 +1,4 @@
-(function($){
+;(function($){
 	$.localtime.setFormat("MMM d, yyyy h:mmtt");
 	// Countdown Initiation and Settings
 
@@ -29,6 +29,11 @@
 	});
 
 
+	// Hide and show splits on click
+
+	$('.time').on('click', function(){
+		$(this).next('div.splits').fadeToggle(200);
+	});
 
 	
 })(jQuery);
