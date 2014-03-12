@@ -146,7 +146,7 @@
               <!-- <th class="wrs-lb-div-h-class" width="5"></th> -->
               <th class="wrs-lb-split-h">Split 1</th>
               <th class="wrs-lb-split-h">Split 2</th>
-              <th class="wrs-lb-total-h-split">Total Split</th>
+              <th class="wrs-lb-total-h-split">Total / Gap</th>
               <th class="wrs-lb-gap-h">Gap</th>
             </tr>
           </thead>
@@ -177,6 +177,7 @@
                   <td class="wrs-lb-split {{#if fastestS2}} fastest-overall {{else}}{{#if fastestDS2}} fastest-division {{/if}}{{/if}}">{{S2}}</td>
                   <td class="wrs-lb-total-split">
                       <span class="time">{{totalSplit}}</span>
+                      <span class="gap hide">{{gap}}</span>
                       <div class="splits">
                         <i class="{{#if fastestS1}} fastest-overall {{else}}{{#if fastestDS1}} fastest-division {{/if}}{{/if}}">1 {{S1}}</i> <br>
                         <i class="{{#if fastestS2}} fastest-overall {{else}}{{#if fastestDS2}} fastest-division {{/if}}{{/if}}">2 {{S2}}</i>

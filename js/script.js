@@ -35,5 +35,14 @@
 		$(this).next('div.splits').fadeToggle(200);
 	});
 
+	// toggle splits / gap
+
+	var h = $('.wrs-lb-total-h-split');
+
+	h.on('click', function(){
+		var t = $('.wrs-lb-total-split span').not(':first');
+		t.toggleClass('hide');
+	});
+
 	
 })(jQuery);

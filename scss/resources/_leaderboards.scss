@@ -123,6 +123,16 @@
 	margin: 0 !important;
 	}
 
+	.gap{
+		position: absolute;
+		// bottom: 6%;
+		color: darken(red, 10%);
+	}
+
+	.hide{
+		display: none;
+	}
+
 	.splits{
 		margin: 0 !important;
 		padding: 0 !important;

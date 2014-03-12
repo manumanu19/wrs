@@ -12,8 +12,7 @@
 			S2: "43.650",	
 			fastestS2: true,
 			totalSplit: "1'10.067", 
-			fastestTime: true,
-			gap: "+00.000"
+			fastestTime: true
 		},
 		{
 			position: "2", 

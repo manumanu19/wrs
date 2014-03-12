@@ -4226,6 +4226,13 @@ select .wrs-game-menu {
   cursor: pointer;
   margin: 0 !important;
 }
+.wrs-lb-total-split .gap {
+  position: absolute;
+  color: #cc0000;
+}
+.wrs-lb-total-split .hide {
+  display: none;
+}
 .wrs-lb-total-split .splits {
   margin: 0 !important;
   padding: 0 !important;
